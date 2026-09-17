@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HeatPlan · Recipe chat</title>
+<style>
+__STYLES__
+</style></head><body><main>
+<header><a class="brand" href="#">Heat<span>Plan</span></a><span class="edition">SUMMER TABLE · v0.4 EN</span></header>
+<div class="hero"><p class="eyebrow">YOUR SUMMER RECIPE COMPANION</p><h1>What would you like to eat?</h1><p>Tell me what you have in mind. We will start with one recipe.</p></div>
+<div id="chat-root"></div>
+<footer>Suggestions use our recipe collection. This local preview understands common requests; optional Groq support handles broader phrasing.</footer>
+</main><script type="module">
+__RULES__
+__ENGINE__
+__UI__
+const records=__RECIPES__;
+mountChat(document.getElementById('chat-root'),{records});
+</script></body></html>

@@ -1,0 +1,43 @@
+PASS both requested deletions plus Banh chung absent from active data
+PASS no outstanding calibration questions
+PASS screenshot request resolves directly to a cold Chinese recipe
+PASS next recipe keeps allergy cuisine and temperature
+PASS changing to room temperature retains mango restriction
+PASS ingredient preference in follow-up uses prior constraints
+PASS Chinese custom mango allergy excludes English mango recipe
+PASS multiple known and custom allergies accumulate across turns
+PASS switching cuisines never clears allergy history
+PASS explicit allergy correction removes only that term
+PASS unknown ingredient remains pending through ordinary follow-ups
+PASS allergen clarification is completed in same conversation
+PASS mixed recognized and unknown allergy is not silently ignored
+PASS hot weather alone does not request a hot meal
+PASS single hot token and explicit Cao lau work
+PASS do not want hot food is a negative temperature constraint
+PASS no peanut is recognized as an exclusion in chat
+PASS more recipes exhausted does not relax existing allergies
+PASS three retired titles never return a different silent recommendation
+PASS new conversation explicitly clears state
+PASS why follow-up explains the actual previous recipe
+PASS unsupported reformulation is acknowledged, not silently faked
+PASS all replies carry an allergen reminder
+PASS English mango allergy parsed without a separate field
+PASS blank and overlong messages rejected
+PASS strict temperature tier precedes heat score
+PASS boil and grill weights aggregate without duplicate counting
+PASS fish sauce source wording is still unchanged
+PASS chat preview has a single composer and no select elements
+PASS malformed Groq structured intents rejected
+PASS Groq adapter sends structured request and validates returned data
+PASS Groq reply uses canonical selected facts
+PASS model-added allergy and local allergy both survive merge
+PASS conversation state validation rejects unknown food identifiers
+PASS real local HTTP chat endpoint carries a multi-turn conversation
+PASS Groq failure falls back to local processing without dropping constraints
+PASS configured Groq path executes both intent and reply adapters with mocks
+{
+  "passed": 37,
+  "failed": 0,
+  "failures": []
+}
+PASS English multi-turn flow, allergy retention, hot-weather distinction and all 58 English recipe displays

@@ -1,0 +1,21 @@
+{
+  "recipes": 58,
+  "translated_ingredient_or_step_blocks": 55,
+  "baseline_regressions_passed": 37,
+  "english_flow_and_display_checks_passed": true,
+  "recipe_ids_screening_weights_and_source_preserved": true,
+  "rebuild_files_byte_identical": [
+    "data/recipes.json",
+    "data/recipes.jsonl",
+    "ui/recipes.json",
+    "ui/preview.html",
+    "ui/chat-ui.mjs",
+    "ui/chat-engine.mjs",
+    "ui/recommendation.mjs",
+    "ui/RecipeChatbox.vue",
+    "pipeline/groq.mjs",
+    "pipeline/server.mjs",
+    "STANDARD_RECIPES.md",
+    "README.md"
+  ]
+}
