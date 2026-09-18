@@ -4,7 +4,8 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {handleTurn,newConversation} from './chat-engine.mjs';
 import {CUISINES,FOOD_TERMS} from './recommendation.mjs';
-import {extractIntent,composeReply} from './groq.mjs';
+import {createTurnRouter} from './provider-router.mjs';
+import {milliseconds} from './llm.mjs';
 const packageRoot=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export function validateState(value){
   if(!value)return newConversation();
@@ -26,7 +27,11 @@ export function validateState(value){
   if(!Number.isInteger(value.turn)||value.turn<0||value.turn>1000)throw Error('Invalid turn');
   state.turn=value.turn;return state;
 }
-export function createServer({root=packageRoot,records,key=process.env.GROQ_API_KEY,fetcher=fetch}){
+export function createServer({root=packageRoot,records,key=process.env.GROQ_API_KEY,
+  groqKey=key,nvidiaKey=process.env.NVIDIA_API_KEY,nvidiaModel=process.env.NVIDIA_MODEL,groqModel=process.env.GROQ_MODEL,
+  timeoutMs=process.env.LLM_TIMEOUT_MS,budgetMs=process.env.LLM_BUDGET_MS,fetcher=fetch}){
+  timeoutMs=milliseconds(timeoutMs,12000);budgetMs=milliseconds(budgetMs,45000);
+  const configured=[nvidiaKey?.trim()?'nvidia':null,groqKey?.trim()?'groq':null].filter(Boolean);
   return http.createServer(async(req,res)=>{
     function json(status,data){res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));}
     try{
@@ -34,17 +39,23 @@ export function createServer({root=packageRoot,records,key=process.env.GROQ_API_
       if(req.headers.origin&&req.headers.origin!==expected)return json(403,{error:'Cross-origin request denied'});
       if(!/^127\.0\.0\.1:\d+$|^localhost:\d+$/.test(req.headers.host||''))return json(403,{error:'Local host required'});
       const url=new URL(req.url,expected);
-      if(req.method==='GET'&&url.pathname==='/api/status')return json(200,{app:'heatplan-chat-en',groq_configured:Boolean(key)});
+      if(req.method==='GET'&&url.pathname==='/api/status')return json(200,{app:'heatplan-chat-en',groq_configured:configured.includes('groq'),nvidia_configured:configured.includes('nvidia'),provider_order:configured,primary_provider:configured[0]||'local'});
       if(req.method==='POST'&&url.pathname==='/api/chat'){
         if(!req.headers['content-type']?.startsWith('application/json'))return json(415,{error:'JSON required'});
         let body='';for await(const chunk of req){body+=chunk;if(Buffer.byteLength(body)>32000)return json(413,{error:'Message too large'});}
         let input,state;
         try{input=JSON.parse(body);state=validateState(input.state);if(typeof input.message!=='string'||!input.message.trim()||input.message.length>4000)throw Error();}catch{return json(400,{error:'Invalid message or state'});}
-        let intent=null,fallback=false,mode='local';
-        if(key)try{intent=await extractIntent(input.message,state,{key},fetcher);mode='groq';}catch{fallback=true;}
-        const result=handleTurn(input.message,state,records,intent);
-        if(mode==='groq')try{result.reply=await composeReply(input.message,result,{key},fetcher);}catch{fallback=true;mode='local';}
-        return json(200,{...result,mode,fallback});
+        const router=createTurnRouter({nvidiaKey,groqKey,nvidiaModel,groqModel,timeoutMs,budgetMs,fetcher});
+        const intent=await router.run('intent',input.message,state);
+        const result=handleTurn(input.message,state,records,intent.value);
+        // Never rerun parsing or rebuild state after a reply service fails.
+        // Keep canonical clarification/explanation messages intact.
+        let reply={provider:'local',value:null};
+        if(intent.provider!=='local'&&result.status==='ok')reply=await router.run('reply',input.message,result);
+        if(reply.value!==null)result.reply=reply.value;
+        const fallback=router.attempts.some(a=>a.status==='failed');
+        return json(200,{...result,mode:reply.provider,fallback,
+          llm:{intent_provider:intent.provider,reply_provider:reply.provider,attempts:router.attempts}});
       }
       if(req.method!=='GET')return json(405,{error:'Method not allowed'});
       // Serve only the preview UI. Source inputs and server environment are not web assets.
@@ -64,5 +75,5 @@ if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.ur
   const port=Number(process.env.PORT||8880);
   if(!Number.isInteger(port)||port<1||port>65535)throw Error('Invalid PORT');
   const server=createServer({records});
-  server.listen(port,'127.0.0.1',()=>console.log('HeatPlan chat: http://127.0.0.1:'+port+' (Groq '+(process.env.GROQ_API_KEY?'configured':'not configured')+')'));
+  server.listen(port,'127.0.0.1',()=>console.log('HeatPlan chat: http://127.0.0.1:'+port+' (NVIDIA '+(process.env.NVIDIA_API_KEY?'configured':'not configured')+', Groq '+(process.env.GROQ_API_KEY?'configured':'not configured')+')'));
 }

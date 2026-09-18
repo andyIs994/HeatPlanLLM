@@ -41,3 +41,5 @@ PASS configured Groq path executes both intent and reply adapters with mocks
   "failures": []
 }
 PASS English multi-turn flow, allergy retention, hot-weather distinction and all 58 English recipe displays
+
+2026-09-18 provider update: 37 existing regressions PASS; English flow/display PASS; 23 injected provider tests PASS; current adapter/UI/data rebuild text comparison PASS; three browser mock scenarios PASS. No live NVIDIA/Groq calls.

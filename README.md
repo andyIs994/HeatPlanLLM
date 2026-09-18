@@ -20,7 +20,7 @@ The chat keeps allergy restrictions when changing dishes or temperature. Use New
 
 The 58 records, recipe quantities, heat weights and removed recipes match v0.4. Cold dishes rank before room-temperature dishes and hot dishes unless a temperature is explicitly requested. Within each group, more cooking heat lowers the score.
 
-This is still a local rule-based prototype, with optional Groq intent parsing and a short generated introduction. Set GROQ_API_KEY on the server to enable that adapter. Free-form recipe rewriting is not implemented. No real Groq request was needed for this language edition. The English package is separate from the original Chinese version and has not been integrated into the Desktop HeatPlan project.
+The server supports **NVIDIA first, Groq backup, then local rules** for intent parsing and a short generated introduction. Recipe filtering and ranking remain local and transparent. Copy `.env.example` to `.env`, fill your own keys locally, then run `node --env-file=.env pipeline/server.mjs` with Node.js 22 or later. See [provider setup and failure behaviour](docs/LLM_PROVIDERS.md). Without keys, the local prototype still works. Provider integration has been tested with mocks; live API performance has not been verified. Free-form recipe rewriting is not implemented. This standalone prototype has not been integrated into the Desktop HeatPlan project.
 
 Files:
 
@@ -30,9 +30,22 @@ Files:
 - STANDARD_RECIPES.md: readable English catalogue.
 - input/base_v4: frozen source material for this translation; not the live recommendation data.
 - pipeline/build_english.py and translations_en.py: reproducible localization.
+- pipeline/llm.mjs and provider-router.mjs: server-only adapters and per-turn failover.
+- docs/LLM_PROVIDERS.md: API setup, request routing, verification and limitations.
+- docs/LAPTOP_HANDOFF.md: clone and synchronize the Staging branch on another laptop.
 
-To rebuild, with Python 3.10+:
+To rebuild the dataset and current application into a separate folder, with Python 3.10+:
 
     python -B pipeline/build_english.py --output ../heatplan_recipe_data_v4_en_rebuilt
 
+After changing UI modules or templates, regenerate the embedded preview with `python -B pipeline/build_preview.py`.
+
+Checks (no live API requests):
+
+    node pipeline/test_v4.mjs
+    node pipeline/check_english.mjs .
+    node --test pipeline/test_providers.mjs
+
 Code uses MIT. Recipe text, translations and annotations use CC BY-SA 4.0; see ATTRIBUTION_AND_LICENSE.md.
+
+SHA256SUMS.txt records canonical Git file bytes for this snapshot; working-copy line endings may differ on Windows.

@@ -22,7 +22,9 @@ def localize_code(code):
     return code
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--source',type=Path);ap.add_argument('--output',required=True,type=Path);args=ap.parse_args()
-    out=args.output.resolve();out.mkdir(parents=True,exist_ok=True)
+    out=args.output.resolve()
+    if out==ROOT.parent.resolve():raise ValueError('Rebuild into a separate directory, not the current project.')
+    out.mkdir(parents=True,exist_ok=True)
     inputs=ROOT/'input' if (ROOT/'input').exists() or args.source else ROOT.parent/'input'
     files=['data/recipes.json','templates/preview.html','ui/chat.css','ui/RecipeChatbox.vue','pipeline/LICENSE','pipeline/test_v4.mjs',
            'pipeline/chat-engine.mjs','pipeline/chat-ui.mjs','pipeline/recommendation.mjs','pipeline/groq.mjs','pipeline/server.mjs',
@@ -149,5 +151,16 @@ To rebuild, with Python 3.10+:
 
 Code uses MIT. Recipe text, translations and annotations use CC BY-SA 4.0; see ATTRIBUTION_AND_LICENSE.md.
 """,encoding='utf-8')
+    # Dataset localization still uses frozen v0.4 inputs. Preserve the current
+    # application adapters and UI instead of silently restoring the old server.
+    if (ROOT/'llm.mjs').exists():
+        from build_preview import build_preview
+        current=ROOT.parent
+        for file in ROOT.glob('*.mjs'):shutil.copy2(file,out/'pipeline'/file.name)
+        shutil.copy2(ROOT/'build_preview.py',out/'pipeline/build_preview.py')
+        for name in ['README.md','RESPONSE_CONTRACT.md','.env.example','.gitignore','templates/preview.html']:
+            shutil.copy2(current/name,out/name)
+        if (current/'docs').exists():shutil.copytree(current/'docs',out/'docs',dirs_exist_ok=True)
+        build_preview(out)
     print(json.dumps({'recipes':len(rows),'display_language':'en','output':str(out)},ensure_ascii=False))
 if __name__=='__main__':main()

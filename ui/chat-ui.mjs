@@ -53,7 +53,7 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
           const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:text,state}),signal:controller.signal});
           if(!response.ok)throw Error('Service unavailable');
           result=await response.json();
-          label.textContent=result.mode==='groq'?"Groq-assisted chat":result.fallback?"Local chat · model unavailable":"Local chat preview";
+          label.textContent=result.mode==='nvidia'?"NVIDIA-assisted chat":result.mode==='groq'?(result.fallback?"Groq-assisted chat · backup":"Groq-assisted chat"):result.llm?.intent_provider!=='local'&&result.llm?.intent_provider?"AI-assisted preferences · standard reply":result.fallback?"Local chat · model unavailable":"Local chat preview";
         }catch(error){
           if(disposed)return;
           result=handleTurn(text,state,records);label.textContent="Local chat · service unavailable";
@@ -68,9 +68,9 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
   form.addEventListener('submit',submit);
   input.addEventListener('keydown',event=>{if(event.key==='Enter'&&!event.shiftKey&&!event.isComposing){event.preventDefault();form.requestSubmit();}});
   reset.addEventListener('click',()=>{if(busy)return;state=newConversation();messages.replaceChildren();context.replaceChildren();input.value='';welcome();input.focus();});
-  // Only a same-origin server can offer Groq; local-file preview stays entirely offline.
+  // Only a same-origin server can offer model services; local-file preview stays entirely offline.
   if(/^https?:$/.test(location.protocol))fetch('/api/status',{signal:controller.signal}).then(r=>r.ok?r.json():null).then(status=>{
-    if(!disposed&&status?.app==='heatplan-chat-en'){apiAvailable=true;label.textContent=status.groq_configured?"Groq-assisted chat":"Local chat preview";}
+    if(!disposed&&status?.app==='heatplan-chat-en'){apiAvailable=true;label.textContent=status.nvidia_configured?"NVIDIA configured" : status.groq_configured?"Groq configured":"Local chat preview";}
   }).catch(()=>{});
   return ()=>{disposed=true;controller.abort();host.replaceChildren();};
 }

@@ -11,3 +11,5 @@ Always include an allergen reminder, including source ingredients and uncertain 
 Cold drinks and frozen desserts may be described as refreshing; do not claim medical efficacy. Do not interrupt for ordinary rice/noodle/prepared-ingredient state. Preserve the source link, Wikibooks attribution, CC BY-SA licence and modification notice.
 
 This contract does not itself implement or evaluate an LLM, verify every commercial product, or authorize a claim of clinical safety.
+
+The current implementation supports NVIDIA as the primary provider and Groq as backup. Model requests interpret preferences and generate a short introduction; application code still selects and displays the canonical recipe. Failed reply generation cannot discard previously validated intent or alter selected recipe facts. Clarification and unsupported-adaptation responses retain local wording. See docs/LLM_PROVIDERS.md for configuration and per-stage response metadata. Requested recipe modifications remain unimplemented; the modification rules above describe requirements for future work.

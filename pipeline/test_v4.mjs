@@ -112,7 +112,7 @@ await test('model-added allergy and local allergy both survive merge',()=>{
 });
 await test('conversation state validation rejects unknown food identifiers',()=>{assert.throws(()=>validateState({...newConversation(),allergens:['__proto__']}));});
 async function withServer(key,fetcher,fn){
-  const server=createServer({root:pkg,records:rows,key,fetcher});
+  const server=createServer({root:pkg,records:rows,key,nvidiaKey:'',fetcher});
   await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
   const base='http://127.0.0.1:'+server.address().port;
   try{await fn(base);}finally{await new Promise(resolve=>server.close(resolve));}

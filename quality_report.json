@@ -4,7 +4,7 @@
   "baseline_regressions_passed": 37,
   "english_flow_and_display_checks_passed": true,
   "recipe_ids_screening_weights_and_source_preserved": true,
-  "rebuild_files_byte_identical": [
+  "historical_v04_rebuild_files_byte_identical": [
     "data/recipes.json",
     "data/recipes.jsonl",
     "ui/recipes.json",
@@ -17,5 +17,26 @@
     "pipeline/server.mjs",
     "STANDARD_RECIPES.md",
     "README.md"
-  ]
+  ],
+  "provider_update": {
+    "date": "2026-09-18",
+    "primary": "nvidia",
+    "backup": "groq",
+    "last_resort": "local",
+    "provider_mock_tests_passed": 23,
+    "live_api_verified": false,
+    "browser_mock_scenarios_verified": [
+      "nvidia_primary",
+      "groq_backup",
+      "both_failed_local"
+    ],
+    "rebuild_selected_files_text_identical": [
+      "pipeline/server.mjs",
+      "pipeline/llm.mjs",
+      "pipeline/provider-router.mjs",
+      "ui/preview.html",
+      "ui/chat-ui.mjs",
+      "data/recipes.json"
+    ]
+  }
 }
