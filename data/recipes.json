@@ -448,6 +448,33 @@
       "source_recipe_id": "wb-001",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-001-heat-1",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Mix equal parts of water, vinegar with sugar. Bring to a boil, cool, and pour over vegetables."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -911,6 +938,139 @@
       "source_recipe_id": "wb-003",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "dry_toast",
+          "minutes": [
+            2,
+            2.5,
+            3
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-003-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Roast the small dried shrimps without any oil in a pan by stirring constantly on medium heat for 2 to 3 minutes until fragrant."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-003-heat-2",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Bring a pan of water to a boil. Cook all 3 Chinese sweet sausages until cooked through, then let cool and slice thinly on a diagonal."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            5,
+            10,
+            20
+          ],
+          "basis": "assumed",
+          "note": "Sausage cooking duration not supplied.",
+          "id": "wb-003-heat-3",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Bring a pan of water to a boil. Cook all 3 Chinese sweet sausages until cooked through, then let cool and slice thinly on a diagonal."
+            }
+          ]
+        },
+        {
+          "method": "pan_fry",
+          "minutes": [
+            3,
+            6,
+            12
+          ],
+          "basis": "assumed",
+          "note": "Two omelette batches; combined duration not supplied.",
+          "id": "wb-003-heat-4",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Use a little of the 1 tbsp filling oil in a non-stick pan. Pour in half the beaten egg mixture, spread thinly and cook both sides until set. Repeat with the remaining egg."
+            }
+          ]
+        },
+        {
+          "method": "pan_fry",
+          "minutes": [
+            1,
+            3,
+            6
+          ],
+          "basis": "assumed",
+          "note": "Combined garlic frying stages; duration not supplied.",
+          "id": "wb-003-heat-5",
+          "evidence": [
+            {
+              "step_index": 5,
+              "text": "Use the remaining filling oil to sauté the 1 tsp minced garlic until fragrant."
+            },
+            {
+              "step_index": 7,
+              "text": "Heat 1 tbsp vegetable oil in a small sauce pan on medium-high heat, then fry 1 tbsp minced garlic till golden brown."
+            }
+          ]
+        },
+        {
+          "method": "pan_fry",
+          "minutes": [
+            10,
+            12.5,
+            15
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-003-heat-6",
+          "evidence": [
+            {
+              "step_index": 6,
+              "text": "Add in the jicama strips and stir-fry with some salt for about 10 to 15 minutes until it turns quite translucent and tastes naturally sweet."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            1,
+            1.5,
+            2
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-003-heat-7",
+          "evidence": [
+            {
+              "step_index": 8,
+              "text": "Add the hoisin sauce, 5 tbsps pork broth, peanut butter and sauce sugar. Stir and simmer for 1–2 minutes until thickened."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -1130,6 +1290,54 @@
       "source_recipe_id": "wb-004",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-004-heat-1",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Bring water to the boil. Add the sour bamboo and pineapple slices. Boil for 5 minutes."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            15,
+            15.0,
+            15
+          ],
+          "basis": "source",
+          "note": "Five minutes before fish, then ten minutes with fish.",
+          "id": "wb-004-heat-2",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Bring water to the boil. Add the sour bamboo and pineapple slices. Boil for 5 minutes."
+            },
+            {
+              "step_index": 2,
+              "text": "Add marinated fish and continue to boil for a total of 10 minutes. While the fish is boiling, add Nước mắm, and salt."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -1425,6 +1633,92 @@
       "source_recipe_id": "wb-005",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            5,
+            10,
+            20
+          ],
+          "basis": "assumed",
+          "note": "Includes the stated final two minutes; initial cooking duration absent.",
+          "id": "wb-005-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Heat oil and paprika in a pan."
+            },
+            {
+              "step_index": 1,
+              "text": "Add sliced pork, smashed garlic, soy sauce, chicken stock powder and spices. Stir-fry until the pork is cooked through."
+            },
+            {
+              "step_index": 2,
+              "text": "Add 1 tbsp water and fry for a further 2 minutes."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-005-heat-2",
+          "evidence": [
+            {
+              "step_index": 4,
+              "text": "Bring a pot of water to a boil. Add sprouts, and cook for 1–2 minutes until soft."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            1,
+            1.5,
+            2
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-005-heat-3",
+          "evidence": [
+            {
+              "step_index": 4,
+              "text": "Bring a pot of water to a boil. Add sprouts, and cook for 1–2 minutes until soft."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            3,
+            6,
+            12
+          ],
+          "basis": "assumed",
+          "note": "Noodle packet duration unavailable.",
+          "id": "wb-005-heat-4",
+          "evidence": [
+            {
+              "step_index": 5,
+              "text": "Remove sprouts, add noodles and cook according to their packet directions, then drain."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -1663,6 +1957,45 @@
       "source_recipe_id": "wb-006",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            5,
+            10,
+            20
+          ],
+          "basis": "assumed",
+          "note": "Only initial garlic time is given; remaining frying unspecified.",
+          "id": "wb-006-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Heat the oil in a non-stick pan, and stir-fry the garlic, red chile, and leeks for about 1 minute."
+            },
+            {
+              "step_index": 1,
+              "text": "Add the prawn, carrot, and peas, and then add the beaten eggs. Mix until combined."
+            },
+            {
+              "step_index": 2,
+              "text": "Add the rice, salt, pepper, and chicken powder. Stir until well-mixed."
+            },
+            {
+              "step_index": 3,
+              "text": "Serves with a fried egg."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -1824,6 +2157,15 @@
       "source_recipe_id": "wb-007",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -2103,6 +2445,50 @@
       "source_recipe_id": "wb-008",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "bake",
+          "minutes": [
+            5,
+            10,
+            15
+          ],
+          "basis": "assumed",
+          "note": "Preheated oven: warm-up duration assumed.",
+          "id": "wb-008-heat-1",
+          "evidence": [
+            {
+              "step_index": 4,
+              "text": "Place in a preheated 350 °F oven, and bake for 20 minutes."
+            }
+          ]
+        },
+        {
+          "method": "bake",
+          "minutes": [
+            20,
+            20.0,
+            20
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-008-heat-2",
+          "evidence": [
+            {
+              "step_index": 4,
+              "text": "Place in a preheated 350 °F oven, and bake for 20 minutes."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -2250,6 +2636,41 @@
       "source_recipe_id": "wb-010",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "simmer",
+          "minutes": [
+            5,
+            12,
+            25
+          ],
+          "basis": "assumed",
+          "note": "Low-heat caramel preparation; two heating periods, duration unspecified.",
+          "id": "wb-010-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Combine sugar and the ¼ cup water in a small saucepan over low heat."
+            },
+            {
+              "step_index": 1,
+              "text": "Swirl the pan frequently to avoid burning. When the sugar turns light brown, remove from the heat."
+            },
+            {
+              "step_index": 3,
+              "text": "Let cool a little and return the sauce to the stove. Cook on low heat until all the sugar has dissolved."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -2573,6 +2994,88 @@
       "source_recipe_id": "wb-011",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-011-heat-1",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "In a large stock pot, boil soup ingredients together with seasoning pouch until the chicken is thoroughly cooked"
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            30,
+            60,
+            120
+          ],
+          "basis": "assumed",
+          "note": "Chicken broth cooking and additional simmering have no durations.",
+          "id": "wb-011-heat-2",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "In a large stock pot, boil soup ingredients together with seasoning pouch until the chicken is thoroughly cooked"
+            },
+            {
+              "step_index": 2,
+              "text": "Remove the chicken and strain broth back into the pot for additional simmering. Once the chicken is cool, pull apart the meat into bite sized pieces and discard bones."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-011-heat-3",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "In a separate pot, boil the pho noodles in sufficient water. Stop when they're no longer chewy (basically the way you'd boil spaghetti). Make sure you don't overdo it or the noodles will fall apart and you'll end up with porridge. When done, pour the noodles into a colander and rinse them with lukewarm water. Then, leave them to drain."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            3,
+            6,
+            12
+          ],
+          "basis": "assumed",
+          "note": "Separate noodle cooking has no duration.",
+          "id": "wb-011-heat-4",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "In a separate pot, boil the pho noodles in sufficient water. Stop when they're no longer chewy (basically the way you'd boil spaghetti). Make sure you don't overdo it or the noodles will fall apart and you'll end up with porridge. When done, pour the noodles into a colander and rinse them with lukewarm water. Then, leave them to drain."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -2888,6 +3391,105 @@
       "source_recipe_id": "wb-012",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            3,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Onion frying time absent.",
+          "id": "wb-012-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Fry onions in oil until lightly browned. Remove and drain."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-012-heat-2",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Rinse the beef bones, place in a stockpot, cover with cold water, and bring slowly to a boil. Reduce heat and simmer, uncovered, for 10–15 minutes. For a clear broth skim off foam."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            10,
+            12.5,
+            15
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-012-heat-3",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Rinse the beef bones, place in a stockpot, cover with cold water, and bring slowly to a boil. Reduce heat and simmer, uncovered, for 10–15 minutes. For a clear broth skim off foam."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            360,
+            540.0,
+            720
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-012-heat-4",
+          "evidence": [
+            {
+              "step_index": 2,
+              "text": "After this initial cooking, add cooked onions, ginger, cinnamon, cardamom, star anise, cloves, garlic and peppercorns. Bring to a boil again and gently simmer the stock, partially covered, for a minimum of 6 hours but up to 12 hours if you can, skimming regularly. If necessary, add more water to keep the bones covered."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            3,
+            8,
+            20
+          ],
+          "basis": "assumed",
+          "note": "Reheating and finishing beef; duration absent.",
+          "id": "wb-012-heat-5",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Strain stock to remove the vegetable and spices and discard them. Return the broth to the stove to keep it boiling hot."
+            },
+            {
+              "step_index": 4,
+              "text": "Cook the thinly sliced beef in the boiling broth until cooked through. Put cooked phở noodles in a bowl, add beef and hot broth, then garnish with the listed onions, herbs and condiments. Serve hot."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -3095,6 +3697,15 @@
       "source_recipe_id": "wb-013",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -3240,6 +3851,15 @@
       "source_recipe_id": "wb-014",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -3579,6 +4199,92 @@
       "source_recipe_id": "wb-015",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            5,
+            10,
+            20
+          ],
+          "basis": "assumed",
+          "note": "Onion and seasoning-oil stages combined; durations absent.",
+          "id": "wb-015-heat-1",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Sauté the small onion in 3 tbsp oil until golden brown."
+            },
+            {
+              "step_index": 8,
+              "text": "While the broth is cooking, heat some oil in a pan and add the red pigment. Cook until the pigment is blended with the oil. Add to the stock. Repeat the process with the chilli powder."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-015-heat-2",
+          "evidence": [
+            {
+              "step_index": 2,
+              "text": "In a stockpot, combine the cooked onion and pig feet with 2 L water. Slowly bring it to the boil over medium heat."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            40,
+            40.0,
+            40
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-015-heat-3",
+          "evidence": [
+            {
+              "step_index": 5,
+              "text": "Simmer the stock for 20 minutes."
+            },
+            {
+              "step_index": 6,
+              "text": "Add the beef and occasionally skim the broth to ensure you get a nice clear liquid. Cook for another 20 minutes, checking the beef to be sure it’s not overcooked."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Heating water for noodles; packet/soaking time excluded.",
+          "id": "wb-015-heat-4",
+          "evidence": [
+            {
+              "step_index": 10,
+              "text": "If you are using fresh noodles, simply add boiling water to heat them up. If you’re using dried noodles, soak them in boiling water until they are soft then dip in cold water to stop the cooking process. Do not over cook them or you’ll have mush. Dried noodles have already been cooked."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -3775,6 +4481,15 @@
       "source_recipe_id": "wb-016",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -3998,6 +4713,33 @@
       "source_recipe_id": "wb-017",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "bake",
+          "minutes": [
+            3,
+            6,
+            12
+          ],
+          "basis": "assumed",
+          "note": "Toaster oven operation, including warm-up; no stated duration.",
+          "id": "wb-017-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Toast the bread slices in a toaster oven until golden."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -4239,6 +4981,33 @@
       "source_recipe_id": "wb-018",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "bake",
+          "minutes": [
+            5,
+            10,
+            20
+          ],
+          "basis": "assumed",
+          "note": "Oven toast including warm-up; duration absent.",
+          "id": "wb-018-heat-1",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Lightly toast bread in the oven on both sides."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -4374,6 +5143,15 @@
       "source_recipe_id": "wb-020",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -4591,6 +5369,67 @@
       "source_recipe_id": "wb-021",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "bake",
+          "minutes": [
+            5,
+            10,
+            15
+          ],
+          "basis": "assumed",
+          "note": "Oven warm-up unspecified.",
+          "id": "wb-021-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Preheat the oven to 425 °F (220 °C)."
+            }
+          ]
+        },
+        {
+          "method": "bake",
+          "minutes": [
+            10,
+            12.5,
+            15
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-021-heat-2",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Toast the pine nuts in an ovenproof pan for 10–15 minutes, checking regularly to prevent burning."
+            }
+          ]
+        },
+        {
+          "method": "pan_fry",
+          "minutes": [
+            2,
+            2.5,
+            3
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-021-heat-3",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Crush the garlic and sauté in the oil until soft, about 2–3 minutes."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -4794,6 +5633,15 @@
       "source_recipe_id": "wb-022",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -4995,6 +5843,58 @@
       "source_recipe_id": "wb-023",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            2,
+            4,
+            8
+          ],
+          "basis": "assumed",
+          "note": "Oil/garlic stage duration absent.",
+          "id": "wb-023-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Heat oil in a large skillet."
+            },
+            {
+              "step_index": 1,
+              "text": "Add garlic and sauté over medium heat until garlic starts to brown lightly."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            17,
+            17.0,
+            17
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-023-heat-2",
+          "evidence": [
+            {
+              "step_index": 2,
+              "text": "Add oregano, pepper, olives, capers, and tomatoes. Simmer for about 15 minutes."
+            },
+            {
+              "step_index": 3,
+              "text": "Add parsley and cook for another 2 minutes."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -5241,6 +6141,88 @@
       "source_recipe_id": "wb-024",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            2,
+            4,
+            8
+          ],
+          "basis": "assumed",
+          "note": "Garlic/anchovy initial heating unspecified.",
+          "id": "wb-024-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Put the olive oil, garlic, and anchovy paste in a skillet over medium heat."
+            },
+            {
+              "step_index": 1,
+              "text": "Before the garlic browns, add the olives, capers, tomato sauce, and chile peppers."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            15,
+            17.5,
+            20
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-024-heat-2",
+          "evidence": [
+            {
+              "step_index": 2,
+              "text": "Add 2–3 pinches of salt, mixing over high heat. Then lower the heat and allow to simmer for 15 to 20 minutes."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-024-heat-3",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Meanwhile, cook the spaghetti in salted water (at least 4 quarts of water per pound of spaghetti being cooked). Strain it when it's al dente."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            6,
+            10,
+            15
+          ],
+          "basis": "assumed",
+          "note": "Pasta duration not specified.",
+          "id": "wb-024-heat-4",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Meanwhile, cook the spaghetti in salted water (at least 4 quarts of water per pound of spaghetti being cooked). Strain it when it's al dente."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -5506,6 +6488,75 @@
       "source_recipe_id": "wb-025",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-025-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "On a stovetop, bring the water to a boil on high heat after adding salt and vegetable oil."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            6,
+            10,
+            15
+          ],
+          "basis": "assumed",
+          "note": "Packet cooking duration unavailable.",
+          "id": "wb-025-heat-2",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Reduce heat to medium and add the pasta."
+            },
+            {
+              "step_index": 3,
+              "text": "Cook the spaghetti until al dente, following the packet directions and checking a strand for doneness."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            3,
+            7,
+            15
+          ],
+          "basis": "assumed",
+          "note": "Separate sauce pan heating duration absent.",
+          "id": "wb-025-heat-3",
+          "evidence": [
+            {
+              "step_index": 2,
+              "text": "While the spaghetti is cooking, pour desired amount of sauce into pan and set stove to medium."
+            },
+            {
+              "step_index": 4,
+              "text": "When the sauce begins to bubble, reduce the heat to its lowest setting and cover."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -5804,6 +6855,88 @@
       "source_recipe_id": "wb-026",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            1,
+            1.0,
+            1
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-026-heat-1",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Add garlic, and sauté until it just begins to brown (about 1 minute). Be careful not to burn it."
+            }
+          ]
+        },
+        {
+          "method": "pan_fry",
+          "minutes": [
+            1,
+            3,
+            6
+          ],
+          "basis": "assumed",
+          "note": "Oil warm-up and vegetables duration absent.",
+          "id": "wb-026-heat-2",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Heat oil in a sauté pan over high heat."
+            },
+            {
+              "step_index": 2,
+              "text": "Stir in red peppers, sun-dried tomatoes, olives, and artichoke heart."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-026-heat-3",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Add white wine, chicken broth, oregano and basil, and bring to a boil."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            1,
+            1.5,
+            2
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-026-heat-4",
+          "evidence": [
+            {
+              "step_index": 5,
+              "text": "Add broccoli and cook just until bright green and tender (1–2 minutes)."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -6118,6 +7251,71 @@
       "source_recipe_id": "wb-028",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            13,
+            14.0,
+            15
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-028-heat-1",
+          "evidence": [
+            {
+              "step_index": 4,
+              "text": "Cook stirring occasionally, until meat begins to separate and brown (3–5 minutes)."
+            },
+            {
+              "step_index": 6,
+              "text": "Cook until softened (about 10 minutes)."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-028-heat-2",
+          "evidence": [
+            {
+              "step_index": 8,
+              "text": "Bring to boil."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            60,
+            65.0,
+            70
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-028-heat-3",
+          "evidence": [
+            {
+              "step_index": 11,
+              "text": "Simmer mixture for 60–70 minutes, until beans are tender; if soup is too thick, add chicken stock."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -6346,6 +7544,88 @@
       "source_recipe_id": "wb-029",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-029-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Combine paste, juice, cream, broth, 2 tsp salt, 2 tsp pepper, and diced tomatoes in a large saucepan. Bring to a boil over medium high heat."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            10,
+            25,
+            60
+          ],
+          "basis": "assumed",
+          "note": "Reduction and holding time not specified.",
+          "id": "wb-029-heat-2",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Reduce heat to medium low and cook, stirring occasionally, until liquid has reduced by ⅓."
+            },
+            {
+              "step_index": 2,
+              "text": "Using an immersion blender, purée soup until smooth. Keep warm over low heat."
+            }
+          ]
+        },
+        {
+          "method": "bake",
+          "minutes": [
+            3,
+            6,
+            12
+          ],
+          "basis": "assumed",
+          "note": "Toaster oven operation duration absent.",
+          "id": "wb-029-heat-3",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Toast bread slices in the toaster oven. The second they come out, brush slices with olive oil and sprinkle with garlic and remaining salt and pepper. Set aside."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            5,
+            5.0,
+            5
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-029-heat-4",
+          "evidence": [
+            {
+              "step_index": 4,
+              "text": "Add basil leaves to tomato purée and let steep for 5 minutes over low heat. Remove leaves."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -6580,6 +7860,62 @@
       "source_recipe_id": "wb-030",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            5,
+            10,
+            20
+          ],
+          "basis": "assumed",
+          "note": "Combined blanching/warm-up; tomato blanching duration not supplied.",
+          "id": "wb-030-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Strip the filaments from the celery sticks and blanch in lightly salted water for five minutes. Drain and cut the celery into bite-size pieces, sauté them in a little oil, and set aside."
+            },
+            {
+              "step_index": 1,
+              "text": "Wash and dice the eggplant, strain, and sprinkle liberally with salt, and let sit for several hours to draw out the bitterness. In the meantime, blanch, peel, seed and chop the tomatoes."
+            }
+          ]
+        },
+        {
+          "method": "pan_fry",
+          "minutes": [
+            20,
+            35,
+            60
+          ],
+          "basis": "assumed",
+          "note": "Includes celery, onion, tomato, aubergine batches and final reduction; batch count absent.",
+          "id": "wb-030-heat-2",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Strip the filaments from the celery sticks and blanch in lightly salted water for five minutes. Drain and cut the celery into bite-size pieces, sauté them in a little oil, and set aside."
+            },
+            {
+              "step_index": 2,
+              "text": "Once the eggplant has sat, rinse away the salt and pat the pieces dry. Finely slice the onion and sauté them in olive oil; once they have turned translucent, add the capers, pine nuts, olives, and tomatoes. Continue cooking, stirring with a wooden spoon, until the tomatoes are done, about 15 minutes, and then remove the pot from the heat."
+            },
+            {
+              "step_index": 3,
+              "text": "While the tomatoes are cooking, heat another pan of oil and fry the eggplant, in batches, to prevent lowering of the frying temperature. When the last batch is done, return the tomato pot to the heat and stir in the eggplant together with the previously sautéed celery. Cook for several minutes over low flame, stirring gently, then stir in the vinegar and the sugar; when the vinegar has almost completely evaporated, remove the pot from the fire and let it cool."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -6767,6 +8103,50 @@
       "source_recipe_id": "wb-031",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-031-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Bring the water to a boil in a heavy pot."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            45,
+            45.0,
+            45
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-031-heat-2",
+          "evidence": [
+            {
+              "step_index": 2,
+              "text": "Cover pot and turn to low heat, checking on it occasionally. Add more liquid if necessary. The polenta will be finished in approximately 45 minutes."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -6941,6 +8321,33 @@
       "source_recipe_id": "wb-032",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-032-heat-1",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "In a pot, place the milk, cream, sugar, and soaked gelatin. Heat the pot to a gentle boil (stirring regularly to prevent scorching) and remove from heat."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -7085,6 +8492,15 @@
       "source_recipe_id": "wb-033",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -7296,6 +8712,84 @@
       "source_recipe_id": "wb-034",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-034-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Bring water to a boil, then add rice, salt, and butter."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            20,
+            20.0,
+            20
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-034-heat-2",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Cover, lower heat to simmer, and cook for 20 minutes."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-034-heat-3",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Bring to boil over direct heat."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            45,
+            45.0,
+            45
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-034-heat-4",
+          "evidence": [
+            {
+              "step_index": 4,
+              "text": "Place over simmering water in double boiler and cook for 45 minutes."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -7400,6 +8894,37 @@
       "source_recipe_id": "wb-035",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            15,
+            25,
+            45
+          ],
+          "basis": "assumed",
+          "note": "Rice and pea pots, including warm-up; packet durations unavailable.",
+          "id": "wb-035-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Cook the rice per the cooking instructions on the packet."
+            },
+            {
+              "step_index": 1,
+              "text": "Boil the peas with their pods. Mash them."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -7629,6 +9154,58 @@
       "source_recipe_id": "wb-036",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            3,
+            6,
+            12
+          ],
+          "basis": "assumed",
+          "note": "Onion/rice/wine stages before stock; unspecified duration.",
+          "id": "wb-036-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Gently cook the chopped onion in a little of the listed butter over medium heat without browning it."
+            },
+            {
+              "step_index": 1,
+              "text": "Add the rice and cook until it has a transparent look (this shouldn't take long). Add some salt and pepper."
+            },
+            {
+              "step_index": 2,
+              "text": "Add the wine. A hot pan will cause the alcohol to evaporate more quickly (and create a nice dramatic effect), but make sure you don't burn the rice or the soffritto."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            15,
+            17.5,
+            20
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-036-heat-2",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "As the wine cooks away you will see the remaining liquid getting thicker as it's absorbing the starch from the rice. When it's more or less gone, add some stock. Do not add too much stock. The rice should never be submerged in stock. Keep stirring it and keep adding more stock as it cooks away. This should take about 15–20 minutes."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -7975,6 +9552,50 @@
       "source_recipe_id": "wb-037",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-037-heat-1",
+          "evidence": [
+            {
+              "step_index": 15,
+              "text": "Cook fresh pasta in 6–8 litres of water for 5–10 minutes or until al dente."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            5,
+            7.5,
+            10
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-037-heat-2",
+          "evidence": [
+            {
+              "step_index": 15,
+              "text": "Cook fresh pasta in 6–8 litres of water for 5–10 minutes or until al dente."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -8149,6 +9770,50 @@
       "source_recipe_id": "wb-038",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "bake",
+          "minutes": [
+            5,
+            10,
+            15
+          ],
+          "basis": "assumed",
+          "note": "Oven preheat only; dough rising is excluded.",
+          "id": "wb-038-heat-1",
+          "evidence": [
+            {
+              "step_index": 5,
+              "text": "Preheat oven to 425 °F (220 °C). Remove towel and press indentations into the dough with your fingertips, then drizzle with the remaining 2 tablespoons of olive oil, sprinkle with sea salt and place pan in oven. Bake 20 to 25 minutes, or until the top is golden."
+            }
+          ]
+        },
+        {
+          "method": "bake",
+          "minutes": [
+            20,
+            22.5,
+            25
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-038-heat-2",
+          "evidence": [
+            {
+              "step_index": 5,
+              "text": "Preheat oven to 425 °F (220 °C). Remove towel and press indentations into the dough with your fingertips, then drizzle with the remaining 2 tablespoons of olive oil, sprinkle with sea salt and place pan in oven. Bake 20 to 25 minutes, or until the top is golden."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -8265,6 +9930,15 @@
       "source_recipe_id": "wb-039",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -8551,6 +10225,58 @@
       "source_recipe_id": "wb-040",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            5,
+            10,
+            20
+          ],
+          "basis": "assumed",
+          "note": "Garlic and two salmon batches, duration absent.",
+          "id": "wb-040-heat-1",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "In a skillet large enough to hold all the salmon, heat 1 tbsp oil over medium high heat. Add garlic and cook until golden."
+            },
+            {
+              "step_index": 4,
+              "text": "Heat a nonstick skillet over high heat. Add 2 filets, skin side up, and cook until browned on all sides. Repeat with remaining salmon."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            5,
+            10,
+            20
+          ],
+          "basis": "assumed",
+          "note": "Sauce warming/poaching duration absent.",
+          "id": "wb-040-heat-2",
+          "evidence": [
+            {
+              "step_index": 2,
+              "text": "Add the wine mixture to the garlic and bring the sauce to a gentle simmer."
+            },
+            {
+              "step_index": 5,
+              "text": "Transfer the browned salmon to the gently simmering sauce and poach until cooked through. Serve hot."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -8786,6 +10512,15 @@
       "source_recipe_id": "wb-041",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -9055,6 +10790,37 @@
       "source_recipe_id": "wb-042",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            5,
+            12,
+            25
+          ],
+          "basis": "assumed",
+          "note": "Jelly water and custard preparation; packet durations unknown. Chilling excluded.",
+          "id": "wb-042-heat-1",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Prepare the jelly using the packet instructions. Pour it over the cake and fruit, and refrigerate until set."
+            },
+            {
+              "step_index": 4,
+              "text": "Prepare the custard according to its recipe or packet. Cool, spread it over the set jelly and refrigerate."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -9376,6 +11142,33 @@
       "source_recipe_id": "wb-043",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "simmer",
+          "minutes": [
+            6,
+            6.0,
+            6
+          ],
+          "basis": "source",
+          "note": "Five minutes plus one further minute. Refrigeration excluded.",
+          "id": "wb-043-heat-1",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Combine the blackcurrants, redcurrants, mint leaves, lime zest, sugar, and about 3 tbsp water. Poach them for about 5 minutes on the lowest possible heat setting of your stove. Add the strawberries and poach for another minute."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -9671,6 +11464,50 @@
       "source_recipe_id": "wb-044",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            3,
+            3.0,
+            3
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-044-heat-1",
+          "evidence": [
+            {
+              "step_index": 2,
+              "text": "Add the onion to the pan and cook gently until soft (about 3 minutes)."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            10,
+            10.0,
+            10
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-044-heat-2",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Add the curry paste, tomato puree, wine, bay leaf and lemon juice. Simmer uncovered for about 10 minutes until well-reduced. Strain and leave to cool."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -9873,6 +11710,15 @@
       "source_recipe_id": "wb-045",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -10052,6 +11898,15 @@
       "source_recipe_id": "wb-046",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -10216,6 +12071,15 @@
       "source_recipe_id": "wb-047",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -10369,6 +12233,15 @@
       "source_recipe_id": "wb-048",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -10512,6 +12385,15 @@
       "source_recipe_id": "wb-049",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -10702,6 +12584,15 @@
       "source_recipe_id": "wb-050",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -10893,6 +12784,50 @@
       "source_recipe_id": "wb-051",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-051-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Put the milk into a wide, heavy pan, and bring to boil over high heat, stirring constantly."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            40,
+            42.5,
+            45
+          ],
+          "basis": "source",
+          "note": "Six hours of freezing excluded.",
+          "id": "wb-051-heat-2",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Lower the heat and cook the milk, stirring constantly until it has thickened and reduced to ¾ cup—this will take about 40–45 minutes. Stir the sides of the pan constantly to avoid scorching."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -11084,6 +13019,54 @@
       "source_recipe_id": "wb-052",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-052-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Bring the milk to a boil. Stir regularly to prevent scorching."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            25,
+            25.0,
+            25
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-052-heat-2",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Add rice and simmer slowly until thick (about 20 minutes)."
+            },
+            {
+              "step_index": 2,
+              "text": "Stir in the sugar, sultanas, and the ground cardamom seeds. Cook for 5 minutes."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -11259,6 +13242,33 @@
       "source_recipe_id": "wb-053",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "dry_toast",
+          "minutes": [
+            2,
+            2.5,
+            3
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-053-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Dry-roast cumin seeds by cooking them over low heat in a small pan until you can smell the seasoning (about 2–3 minutes). Cool and grind."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -11520,6 +13530,37 @@
       "source_recipe_id": "wb-054",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "simmer",
+          "minutes": [
+            10,
+            20,
+            30
+          ],
+          "basis": "assumed",
+          "note": "Melting and thickening duration unknown; total 30-minute cooking label is not per-stage evidence.",
+          "id": "wb-054-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Melt the butter in a saucepan over low heat. Whisk in the Milo chocolate powder, cocoa powder, and condensed milk."
+            },
+            {
+              "step_index": 1,
+              "text": "Mix in the eggs and water. Cook, stirring, until thickened."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -11717,6 +13758,50 @@
       "source_recipe_id": "wb-055",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-055-heat-1",
+          "evidence": [
+            {
+              "step_index": 7,
+              "text": "Bring 2 L water to a boil in a deep pot."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            5,
+            12,
+            25
+          ],
+          "basis": "assumed",
+          "note": "Batch count and time until floating are not specified.",
+          "id": "wb-055-heat-2",
+          "evidence": [
+            {
+              "step_index": 8,
+              "text": "Add the dumplings to the pot, working in batches if needed to avoid crowding the pan. Boil until the dumplings rise to the surface—don't boil too hard, as you don't want to burst the dumplings."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -11998,6 +14083,84 @@
       "source_recipe_id": "wb-056",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-056-heat-1",
+          "evidence": [
+            {
+              "step_index": 1,
+              "text": "Bring several inches of water to a boil in the bottom of a steamer pot."
+            }
+          ]
+        },
+        {
+          "method": "steam",
+          "minutes": [
+            15,
+            25,
+            45
+          ],
+          "basis": "assumed",
+          "note": "Initial rice steaming has no duration; 6–12 hour soaking excluded.",
+          "id": "wb-056-heat-2",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Place the pan in the steamer, and steam until the rice has absorbed the liquid and is cooked through."
+            }
+          ]
+        },
+        {
+          "method": "steam",
+          "minutes": [
+            5,
+            5.0,
+            5
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-056-heat-3",
+          "evidence": [
+            {
+              "step_index": 7,
+              "text": "Steam the pan of rice for 5 minutes, then remove from the steamer."
+            }
+          ]
+        },
+        {
+          "method": "steam",
+          "minutes": [
+            15,
+            17.5,
+            20
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-056-heat-4",
+          "evidence": [
+            {
+              "step_index": 10,
+              "text": "Steam for 15–20 minutes, or until the custard is firm and a skewer inserted into it comes out clean."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -12177,6 +14340,58 @@
       "source_recipe_id": "wb-057",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "steam",
+          "minutes": [
+            3,
+            6,
+            12
+          ],
+          "basis": "assumed",
+          "note": "Steamer/pan preheat duration absent.",
+          "id": "wb-057-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Preheat a baking pan in a steamer over a pot of simmering water."
+            }
+          ]
+        },
+        {
+          "method": "steam",
+          "minutes": [
+            12,
+            24,
+            36
+          ],
+          "basis": "assumed",
+          "note": "Three minutes per layer; assumed 4/8/12 layers because layer count is absent.",
+          "id": "wb-057-heat-2",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Pour a thin layer of one batter into the baking pan in the steamer, making sure it's evenly distributed. Cover and let steam for 3 minutes."
+            },
+            {
+              "step_index": 4,
+              "text": "Uncover the steamer, and pour an equally thin layer of the other batter on top of the first layer. Cover and let steam for 3 minutes."
+            },
+            {
+              "step_index": 5,
+              "text": "Repeat the layering and steaming process, alternating colors, until you have used up all your batter."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -12390,6 +14605,15 @@
       "source_recipe_id": "wb-058",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -12547,6 +14771,41 @@
       "source_recipe_id": "wb-059",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            4,
+            10,
+            20
+          ],
+          "basis": "assumed",
+          "note": "Two bring-to-boil cycles; both 30-minute heat-off rests excluded.",
+          "id": "wb-059-heat-1",
+          "evidence": [
+            {
+              "step_index": 2,
+              "text": "There is no need to pre-soak the mung beans and Job's tears. Cover the pot and bring to the boil over high heat."
+            },
+            {
+              "step_index": 3,
+              "text": "Once the water boils, turn off the heat and leave covered for 30 minutes."
+            },
+            {
+              "step_index": 4,
+              "text": "Repeat steps 3 and 4 once."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -12908,6 +15167,33 @@
       "source_recipe_id": "wb-060",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "pan_fry",
+          "minutes": [
+            4,
+            8,
+            15
+          ],
+          "basis": "assumed",
+          "note": "Chicken frying duration unspecified; food preparation instructions unchanged.",
+          "id": "wb-060-heat-1",
+          "evidence": [
+            {
+              "step_index": 3,
+              "text": "Stir-fry the chicken strips in a little oil until cooked, with the thickest part reaching 75°C; do not judge by colour alone. Transfer out of the pan and cool slightly before mixing with the other ingredients."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -13060,6 +15346,67 @@
       "source_recipe_id": "wb-061",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            5,
+            10
+          ],
+          "basis": "assumed",
+          "note": "Warm-up duration is absent; scenario assumption, not a cooking instruction.",
+          "id": "wb-061-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Remove the bitter centres from the lotus seeds. Wash and soak the lotus seeds and lily bulbs separately until softened. Boil the lotus seeds in water for 15 minutes, then simmer for about 30 minutes. Add the lily bulbs and rock sugar and cook for about 5 more minutes, until soft."
+            }
+          ]
+        },
+        {
+          "method": "boil",
+          "minutes": [
+            15,
+            15.0,
+            15
+          ],
+          "basis": "source",
+          "note": "",
+          "id": "wb-061-heat-2",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Remove the bitter centres from the lotus seeds. Wash and soak the lotus seeds and lily bulbs separately until softened. Boil the lotus seeds in water for 15 minutes, then simmer for about 30 minutes. Add the lily bulbs and rock sugar and cook for about 5 more minutes, until soft."
+            }
+          ]
+        },
+        {
+          "method": "simmer",
+          "minutes": [
+            35,
+            35.0,
+            35
+          ],
+          "basis": "source",
+          "note": "Thirty minutes plus five minutes; soaking excluded.",
+          "id": "wb-061-heat-3",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Remove the bitter centres from the lotus seeds. Wash and soak the lotus seeds and lily bulbs separately until softened. Boil the lotus seeds in water for 15 minutes, then simmer for about 30 minutes. Add the lily bulbs and rock sugar and cook for about 5 more minutes, until soft."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   },
   {
@@ -13219,6 +15566,33 @@
       "source_recipe_id": "wb-062",
       "recipe_reformulated": false,
       "review_status": "English presentation checked; not a new food-safety review"
+    },
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "annotation_method": "assistant_source_reading_with_explicit_scenario_assumptions",
+      "no_active_heat_confirmed": false,
+      "stages": [
+        {
+          "method": "boil",
+          "minutes": [
+            2,
+            4,
+            8
+          ],
+          "basis": "assumed",
+          "note": "Hot-water preparation only; ten-minute standing and refrigeration excluded.",
+          "id": "wb-062-heat-1",
+          "evidence": [
+            {
+              "step_index": 0,
+              "text": "Place the goji berries and yellow rock sugar in a bowl. Add the hot boiled water, reserving a little for the next step. Stir gently, then leave to stand or continue stirring for about 10 minutes."
+            }
+          ]
+        }
+      ],
+      "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
+      "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
     }
   }
 ]

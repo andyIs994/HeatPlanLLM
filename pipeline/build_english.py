@@ -53,6 +53,9 @@ def main():
         r['food_notes']=[translated(n) for n in r['food_notes']]
         r['localization']={'language':'en','method':'assistant_translation_of_existing_standard_recipe','source_recipe_id':r['recipe_id'],'recipe_reformulated':False,'review_status':'English presentation checked; not a new food-safety review'}
         r['licence']['changes']+=' English display labels, Chinese recipe text and notes translated; quantities, preparation, provenance and screening annotations retained.'
+    if (ROOT/'annotate_heat.py').exists():
+        from annotate_heat import annotate
+        annotate(rows)
     for folder in ['data','ui','pipeline','templates']: (out/folder).mkdir(exist_ok=True)
     dump(out/'data/recipes.json',rows);dump(out/'ui/recipes.json',rows)
     (out/'data/recipes.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in rows),encoding='utf-8')
@@ -157,10 +160,12 @@ Code uses MIT. Recipe text, translations and annotations use CC BY-SA 4.0; see A
         from build_preview import build_preview
         current=ROOT.parent
         for file in ROOT.glob('*.mjs'):shutil.copy2(file,out/'pipeline'/file.name)
+        for file in ROOT.glob('*.py'):shutil.copy2(file,out/'pipeline'/file.name)
         shutil.copy2(ROOT/'build_preview.py',out/'pipeline/build_preview.py')
-        for name in ['README.md','RESPONSE_CONTRACT.md','.env.example','.gitignore','templates/preview.html']:
+        for name in ['README.md','RESPONSE_CONTRACT.md','ATTRIBUTION_AND_LICENSE.md','.env.example','.gitignore','templates/preview.html']:
             shutil.copy2(current/name,out/name)
         if (current/'docs').exists():shutil.copytree(current/'docs',out/'docs',dirs_exist_ok=True)
+        if (current/'data/candidates').exists():shutil.copytree(current/'data/candidates',out/'data/candidates',dirs_exist_ok=True)
         build_preview(out)
     print(json.dumps({'recipes':len(rows),'display_language':'en','output':str(out)},ensure_ascii=False))
 if __name__=='__main__':main()

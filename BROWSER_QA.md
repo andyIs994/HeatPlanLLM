@@ -14,3 +14,19 @@ This remains the local prototype. Real Groq generation and free-form recipe adap
 ## 2026-09-18 provider failover check
 
 The real UI and HTTP server were exercised in the in-app browser with injected fake provider responses (no live API requests). The DOM showed NVIDIA-assisted chat on primary success, Groq-assisted chat with a backup label after a simulated NVIDIA 503, and Local chat with model unavailable after both failed. Each case returned the standard mung-bean recipe for "Chinese food, mango allergy, cold" and retained the mango restriction and canonical allergen reminder. Configuration labels were separate from actual response-provider labels. No claim of live model quality is made.
+# Cooking heat v2 verification — 2026-09-27
+
+Local server, no live model keys: submitted `Chinese food, mango allergy, cold`,
+opened `Why this recipe?`, then asked the same question in chat. Both explanations
+showed Goji Berry Jelly at 6.3/100, estimated scenario range 3.2–11.8, with the
+four-minute hot-water assumption. Mango restriction and allergen notices remained
+visible. Direct file-URL browser testing was blocked by the browser URL policy;
+no workaround was used. The embedded preview loaded successfully through the
+local server, and local recommendation logic is covered by automated tests.
+
+37 existing regressions, 23 provider tests using mocks, 9 heat-model tests and 7
+candidate-selection tests passed, plus the English display check. Rebuilding
+into a separate directory reproduced current data, runtime, embedded preview,
+candidate manifest and documentation (comparing text independent of line endings).
+These checks do not establish empirical heat-score accuracy or approve candidate
+recipe safety/rights. Historical checks below concern earlier versions.

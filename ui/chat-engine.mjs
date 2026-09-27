@@ -1,4 +1,4 @@
-import {recommend,norm,CUISINES,FOOD_TERMS,extractTerms,contains,foodLabel,RETIRED} from './recommendation.mjs';
+import {recommend,norm,CUISINES,FOOD_TERMS,extractTerms,contains,foodLabel,RETIRED,cookingHeat,heatExplanation} from './recommendation.mjs';
 export const newConversation=()=>({cuisine:null,temperature:null,dishType:null,allergens:[],excludedIngredients:[],preferredIngredients:[],unrecognizedAllergens:[],shownIds:[],recipeId:null,lastRecipeId:null,avoidHot:false,turn:0});
 const uniq=a=>[...new Set(a)];
 const TEMP={cold:"Cold / chilled",room:"Room temperature",hot:"Hot"};
@@ -118,7 +118,7 @@ export function handleTurn(text,previous,records,modelPatch=null){
   if(p.reformulation)return {...base,status:'reformulation',reply:"I have noted your request to adapt the recipe. This preview uses standard recipes from the source collection; free-form adaptations have not been validated. Say \"Another one\" or name an ingredient to find a different recipe while keeping your allergy restrictions."};
   if(p.why&&state.lastRecipeId){
     const r=records.find(r=>r.recipe_id===state.lastRecipeId);
-    if(r)return {...base,status:'explanation',reply:"The previous recommendation used "+conditions.join('; ')+", then serving temperature and cooking heat. "+r.standard_recipe_label+" is served "+r.temperature_label+", with cooking heat "+r.heat_level+" and a score within its temperature group of "+r.heat_score_at_full_relevance+'.'};
+    if(r)return {...base,status:'explanation',reply:"The previous recommendation used "+conditions.join('; ')+", then serving temperature and cooking heat. "+r.standard_recipe_label+" is served "+r.temperature_label+'. '+heatExplanation(cookingHeat(r))};
   }
   if(state.turn===1&&!p.cuisine&&!p.temperature&&!p.dishType&&!p.recipeId&&!p.allergensAdd.length&&!p.preferred.length&&!p.unknown.length&&!p.excludedAdd.length&&!modelPatch){
     return {...base,status:'clarification',reply:"Tell me what you would like, for example: \"Chinese food, mango allergy, cold.\" You can ask for another recipe or add preferences here."};

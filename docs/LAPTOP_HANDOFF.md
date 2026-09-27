@@ -34,3 +34,5 @@ git push origin Staging
 If a pull cannot fast-forward, inspect the divergent commits and resolve them before pushing. Do not force-push to synchronize laptops. GitHub only contains committed and successfully pushed files; it does not automatically synchronize edits.
 
 Current scope: 58 recipe records, English chat, ingredient-based allergy screening, transparent heat ranking, and NVIDIA/Groq adapters with tested failover using mocks. Free-form recipe rewriting and unrestricted multilingual support remain future work.
+
+The current ranking uses cooking heat v2; see COOKING_HEAT.md for annotations and checks. A separate 150-entry Kaggle candidate manifest is synced through Git, but its full source text remains local and is not active in chat. Follow KAGGLE_CANDIDATES.md to download the audited source archive and reconstruct the local candidate data on another laptop.

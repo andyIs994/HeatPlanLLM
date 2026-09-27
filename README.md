@@ -18,7 +18,9 @@ Try:
 
 The chat keeps allergy restrictions when changing dishes or temperature. Use New chat to start over.
 
-The 58 records, recipe quantities, heat weights and removed recipes match v0.4. Cold dishes rank before room-temperature dishes and hot dishes unless a temperature is explicitly requested. Within each group, more cooking heat lowers the score.
+The 58 active recipes, quantities and removed recipes are retained. Cold dishes rank before room-temperature dishes and hot dishes unless a temperature is explicitly requested. Within each group, the new [cooking heat v2 score](docs/COOKING_HEAT.md) uses method intensity and active heating duration. Explanations disclose assumed timings and scenario ranges; chilling and resting are excluded. This is a product heuristic, not measured heat or a health rating.
+
+A separate [150-recipe Kaggle candidate batch](data/candidates/kaggle_summer_manifest.md) is ready for review. It contains 67 salads, 66 drinks and 17 desserts; it is **not loaded into chat**. See [source handling and reconstruction](docs/KAGGLE_CANDIDATES.md). Full candidate source text is generated locally and is not stored in Git.
 
 The server supports **NVIDIA first, Groq backup, then local rules** for intent parsing and a short generated introduction. Recipe filtering and ranking remain local and transparent. Copy `.env.example` to `.env`, fill your own keys locally, then run `node --env-file=.env pipeline/server.mjs` with Node.js 22 or later. See [provider setup and failure behaviour](docs/LLM_PROVIDERS.md). Without keys, the local prototype still works. Provider integration has been tested with mocks; live API performance has not been verified. Free-form recipe rewriting is not implemented. This standalone prototype has not been integrated into the Desktop HeatPlan project.
 
@@ -45,7 +47,9 @@ Checks (no live API requests):
     node pipeline/test_v4.mjs
     node pipeline/check_english.mjs .
     node --test pipeline/test_providers.mjs
+    node --test pipeline/test_heat.mjs
+    python -B pipeline/test_kaggle.py
 
-Code uses MIT. Recipe text, translations and annotations use CC BY-SA 4.0; see ATTRIBUTION_AND_LICENSE.md.
+Code uses MIT. The 58 Wikibooks recipes, translations and annotations use CC BY-SA 4.0; see ATTRIBUTION_AND_LICENSE.md. Kaggle candidate source rights are tracked separately and are not covered by that statement.
 
 SHA256SUMS.txt records canonical Git file bytes for this snapshot; working-copy line endings may differ on Windows.

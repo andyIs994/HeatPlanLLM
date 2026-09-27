@@ -1,4 +1,5 @@
 import {handleTurn,newConversation} from './chat-engine.mjs';
+import {heatExplanation} from './recommendation.mjs';
 function node(tag,text,cls){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;}
 export function mountChat(host,{records,endpoint='/api/chat'}){
   let state=newConversation(),busy=false,disposed=false,apiAvailable=false;
@@ -20,7 +21,7 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
     const row=node('section',undefined,'message assistant');row.dataset.status=result.status;
     row.append(node('span','HeatPlan','speaker'),node('p',result.reply,'reply'));
     if(result.selected){
-      const {recipe:r,score,heat}=result.selected;
+      const {recipe:r,heatAssessment}=result.selected;
       const card=node('article',undefined,'recipe-card');card.dataset.recipeId=r.recipe_id;
       card.append(node('h2',r.standard_recipe_label),node('p',r.cuisine_label+' · '+r.temperature_label+' · '+r.dish_type_label,'recipe-meta'));
       const grid=node('div',undefined,'recipe-grid'),ing=node('section'),steps=node('section');
@@ -34,7 +35,7 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
       source.append(link,document.createTextNode(" · Wikibooks contributors · CC BY-SA 4.0 · Standard recipes and annotations have been adapted; changes are recorded in the dataset."));card.append(source);
       const explain=node('details',undefined,'explanation');explain.append(node('summary',"Why this recipe?"));
       explain.append(node('p',"Preferences: "+result.conditions.join('; ')+'.'));
-      explain.append(node('p',r.temperature_label+" group; "+(r.heat_breakdown.map(m=>m.label+' +'+m.weight).join(', ')||"No active cooking heat +0")+"; cooking heat "+heat+", score within this temperature group "+score+'.'));
+      explain.append(node('p',r.temperature_label+' group. '+heatExplanation(heatAssessment)));
       explain.append(node('p',"Allergy and ingredient restrictions are applied first, followed by cold, room-temperature and hot groups, then cooking heat."));
       card.append(explain);row.append(card);
     }

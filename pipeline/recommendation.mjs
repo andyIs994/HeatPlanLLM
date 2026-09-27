@@ -42,6 +42,54 @@ export function contains(text,word){
 export const foodLabel=id=>({mung_bean:'mung beans',lotus_seed:'lotus seeds',lily:'lily bulbs',goji:'goji berries',crustacean:'crustaceans',mollusc:'molluscs'}[id]||id.replaceAll('_',' '));
 export const extractTerms=text=>Object.entries(FOOD_TERMS).filter(([,a])=>a.some(w=>contains(text,w))).map(([id])=>id);
 export function heatLevel(methods){return [...new Set(methods)].reduce((n,m)=>{if(!(m in HEAT_WEIGHTS))throw Error('Unknown heat method');return n+HEAT_WEIGHTS[m];},0);}
+// v1 heatLevel is retained only for historical data compatibility.
+// These are tunable product weights, not watts, calories or clinical evidence.
+export const COOKING_HEAT_POLICY=Object.freeze({version:'cooking-heat-v2',scale:60,
+  weights:Object.freeze({boil:1,simmer:0.7,steam:1,pan_fry:2,dry_toast:0.8,bake:2.5,grill:3,microwave:0.4}),
+  // [minimum, central, maximum] minutes, used ONLY when the duration is unknown.
+  defaults:Object.freeze({boil:[5,20,60],simmer:[5,20,60],steam:[5,20,60],pan_fry:[2,10,30],dry_toast:[1,3,8],bake:[10,25,60],grill:[5,15,45],microwave:[1,3,10]})});
+export function cookingHeat(recipe){
+  const p=recipe.cooking_heat_profile;
+  let stages,coverage;
+  if(p){
+    if(p.version!==COOKING_HEAT_POLICY.version||!Array.isArray(p.stages))throw Error('Invalid cooking heat profile');
+    if(!p.stages.length&&p.no_active_heat_confirmed!==true)throw Error('Unconfirmed no-heat recipe');
+    if(p.stages.length&&p.no_active_heat_confirmed===true)throw Error('Contradictory no-heat annotation');
+    stages=p.stages;coverage=p.coverage||'annotated';
+  }else{
+    // Missing data is never silently interpreted as zero heat.
+    if(!Array.isArray(recipe.heating_methods))throw Error('Missing heating methods');
+    if(!recipe.heating_methods.length)throw Error('No-heat recipes require an explicit profile');
+    stages=[...new Set(recipe.heating_methods)].map((method,i)=>({id:'legacy-'+i,method,basis:'assumed',note:'Method-only fallback; duration and stage coverage are unverified.'}));
+    coverage='method_only';
+  }
+  let energy=0,low=0,high=0;
+  const seen=new Set(),breakdown=[];
+  for(const s of stages){
+    if(typeof s.id!=='string'||!s.id||seen.has(s.id))throw Error('Missing or duplicate heat stage ID');
+    seen.add(s.id);
+    if(!Object.hasOwn(COOKING_HEAT_POLICY.weights,s.method))throw Error('Unknown cooking heat method');
+    if(!['source','assumed'].includes(s.basis))throw Error('Unknown heat duration basis');
+    let minutes=s.minutes;
+    if(minutes===undefined&&s.basis==='assumed')minutes=COOKING_HEAT_POLICY.defaults[s.method];
+    if(!Array.isArray(minutes)||minutes.length!==3||minutes.some(t=>!Number.isFinite(t)||t<=0)||minutes[0]>minutes[1]||minutes[1]>minutes[2])throw Error('Invalid active heating duration');
+    if(s.basis==='source'&&(!Array.isArray(s.evidence)||!s.evidence.length))throw Error('Source duration requires evidence');
+    const w=COOKING_HEAT_POLICY.weights[s.method];
+    low+=w*minutes[0];energy+=w*minutes[1];high+=w*minutes[2];
+    breakdown.push({...s,minutes:[...minutes],weight:w,weighted_minutes:w*minutes[1]});
+  }
+  const transform=e=>100*e/(e+COOKING_HEAT_POLICY.scale),round=n=>Math.round(n*10)/10;
+  const estimated=coverage==='method_only'||breakdown.some(s=>s.basis==='assumed');
+  return {version:COOKING_HEAT_POLICY.version,value:round(transform(energy)),
+    ranking_value:transform(energy),range:[round(transform(low)),round(transform(high))],
+    weighted_minutes:round(energy),estimated,coverage,breakdown,
+    scope:'Active heating in the listed preparation, including annotated warm-up; excludes chilling, resting and manufacture of prepared ingredients.'};
+}
+export function heatExplanation(h){
+  return 'Cooking heat '+h.value+'/100'+(h.estimated?' (estimated; scenario range '+h.range[0]+'–'+h.range[1]+')':h.range[0]!==h.range[1]?' (recipe duration range '+h.range[0]+'–'+h.range[1]+')':'')+
+    '. '+(h.breakdown.length?'Based on '+h.breakdown.map(s=>s.method.replaceAll('_',' ')+' '+s.minutes[1]+' min'+(s.basis==='assumed'?' (assumed)':'')+' × '+s.weight).join('; ')+'.':'No active heating in the listed preparation.')+
+    ' This is a relative preparation score, not a measured temperature or health rating.';
+}
 const STANDARD=Object.keys(FOOD_TERMS).slice(0,Object.keys(FOOD_TERMS).indexOf('mango'));
 export function recipeContains(recipe,id){
   if(recipe.allergen_ids.includes(id))return true;
@@ -72,9 +120,10 @@ export function recommend(records,request={}){
     if(reason){out.excluded.push({recipe_id:recipe.recipe_id,reason});continue;}
     const relevance=request.relevanceById?.[recipe.recipe_id]??100;
     if(!Number.isFinite(relevance))throw Error('Invalid relevance');
-    const heat=heatLevel(recipe.heating_methods);
-    out.candidates.push({recipe,relevance,heat,score:relevance-heat,temperatureRank:TEMPERATURE_ORDER[recipe.product_temperature]});
+    const heatAssessment=cookingHeat(recipe),heat=heatAssessment.value;
+    out.candidates.push({recipe,relevance,heat,heatAssessment,score:Math.round((relevance-heat)*10)/10,
+      rankingScore:relevance-heatAssessment.ranking_value,temperatureRank:TEMPERATURE_ORDER[recipe.product_temperature]});
   }
-  out.candidates.sort((a,b)=>a.temperatureRank-b.temperatureRank||b.score-a.score||a.heat-b.heat||a.recipe.recipe_id.localeCompare(b.recipe.recipe_id));
+  out.candidates.sort((a,b)=>a.temperatureRank-b.temperatureRank||b.rankingScore-a.rankingScore||a.heat-b.heat||a.recipe.recipe_id.localeCompare(b.recipe.recipe_id));
   out.selected=out.candidates[0]||null;out.status=out.selected?'ok':'no_match';return out;
 }
