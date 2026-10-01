@@ -11,7 +11,7 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
   const messages=node('div',undefined,'messages');messages.setAttribute('role','log');messages.setAttribute('aria-live','polite');messages.setAttribute('aria-label',"Recipe conversation");
   const context=node('div',undefined,'context');context.setAttribute('aria-label',"Current preferences");
   const form=node('form',undefined,'composer');
-  const input=node('textarea');input.rows=2;input.maxLength=4000;input.placeholder="今天想吃点什么";input.setAttribute('aria-label',"Message HeatPlan");input.id='chat-message';
+  const input=node('textarea');input.rows=4;input.maxLength=4000;input.placeholder="今天想吃点什么？\nWhat would you like to eat today?\nHôm nay bạn muốn ăn gì?";input.setAttribute('aria-label',"Message HeatPlan · 今天想吃点什么 · Hôm nay bạn muốn ăn gì?");input.id='chat-message';
   const send=node('button',"Send",'send');send.type='submit';
   const help=node('section',undefined,'help-panel');help.id='chat-help';help.hidden=true;help.setAttribute('aria-label','How to use HeatPlan');help.append(node('h2','How to use HeatPlan'),node('p',usageHelp()),node('p','You can also ask “How do I use this?” in the chat.'));
   helpButton.addEventListener('click',()=>{help.hidden=!help.hidden;helpButton.setAttribute('aria-expanded',String(!help.hidden));});
