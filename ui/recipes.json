@@ -475,7 +475,22 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "bread",
+      "carrot",
+      "chili",
+      "coriander",
+      "cucumber",
+      "egg",
+      "pork",
+      "salt",
+      "sugar",
+      "sulphites",
+      "vinegar",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-003",
@@ -1071,7 +1086,26 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "carrot",
+      "chili",
+      "crustacean",
+      "egg",
+      "garlic",
+      "lettuce",
+      "peanut",
+      "peanut_butter",
+      "pork",
+      "rice",
+      "salt",
+      "shallot",
+      "soy",
+      "sugar",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-004",
@@ -1318,7 +1352,7 @@
           "method": "boil",
           "minutes": [
             15,
-            15.0,
+            15,
             15
           ],
           "basis": "source",
@@ -1338,7 +1372,15 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "black_pepper",
+      "coriander",
+      "fish",
+      "pineapple",
+      "salt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-005",
@@ -1719,7 +1761,21 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "chicken",
+      "coriander",
+      "garlic",
+      "lettuce",
+      "onion",
+      "pork",
+      "rice",
+      "soy",
+      "sugar",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-006",
@@ -1996,7 +2052,17 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "carrot",
+      "chicken",
+      "crustacean",
+      "egg",
+      "garlic",
+      "rice",
+      "salt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-007",
@@ -2166,7 +2232,12 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "egg",
+      "milk"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-008",
@@ -2473,7 +2544,7 @@
           "method": "bake",
           "minutes": [
             20,
-            20.0,
+            20,
             20
           ],
           "basis": "source",
@@ -2489,7 +2560,19 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "carrot",
+      "chicken",
+      "fish",
+      "garlic",
+      "mollusc",
+      "onion",
+      "pork",
+      "salt",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-010",
@@ -2671,7 +2754,11 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-011",
@@ -3076,7 +3163,23 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "chicken",
+      "chili",
+      "cinnamon",
+      "coriander",
+      "fish",
+      "ginger",
+      "lime",
+      "onion",
+      "rice",
+      "salt",
+      "soy",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-012",
@@ -3453,7 +3556,7 @@
           "method": "simmer",
           "minutes": [
             360,
-            540.0,
+            540,
             720
           ],
           "basis": "source",
@@ -3490,7 +3593,24 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "beef",
+      "black_pepper",
+      "chili",
+      "cinnamon",
+      "coriander",
+      "fish",
+      "garlic",
+      "ginger",
+      "lime",
+      "onion",
+      "rice",
+      "soy",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-013",
@@ -3706,7 +3826,19 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "cabbage",
+      "coriander",
+      "crustacean",
+      "cucumber",
+      "lettuce",
+      "mint",
+      "pork",
+      "rice"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-014",
@@ -3860,7 +3992,15 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "chili",
+      "fish",
+      "garlic",
+      "lemon",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-015",
@@ -4248,7 +4388,7 @@
           "method": "simmer",
           "minutes": [
             40,
-            40.0,
+            40,
             40
           ],
           "basis": "source",
@@ -4285,7 +4425,21 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "banana",
+      "beef",
+      "chili",
+      "coriander",
+      "crustacean",
+      "fish",
+      "lime",
+      "onion",
+      "parsley",
+      "rice",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-016",
@@ -4490,7 +4644,18 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "black_pepper",
+      "cheese",
+      "milk",
+      "olive_oil",
+      "sulphites",
+      "tomato",
+      "vinegar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-017",
@@ -4740,7 +4905,18 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "black_pepper",
+      "bread",
+      "garlic",
+      "olive_oil",
+      "salt",
+      "tomato",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-018",
@@ -5008,7 +5184,21 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "black_pepper",
+      "bread",
+      "cheese",
+      "milk",
+      "olive_oil",
+      "salt",
+      "sulphites",
+      "tomato",
+      "vinegar",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-020",
@@ -5152,7 +5342,15 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "black_pepper",
+      "olive_oil",
+      "salt",
+      "sulphites",
+      "vinegar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-021",
@@ -5430,7 +5628,16 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "garlic",
+      "milk",
+      "olive_oil",
+      "pine_nut",
+      "salt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-022",
@@ -5642,7 +5849,16 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "cheese",
+      "garlic",
+      "milk",
+      "olive_oil",
+      "pine_nut"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-023",
@@ -5875,7 +6091,7 @@
           "method": "simmer",
           "minutes": [
             17,
-            17.0,
+            17,
             17
           ],
           "basis": "source",
@@ -5895,7 +6111,17 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "egg",
+      "garlic",
+      "olive_oil",
+      "parsley",
+      "salt",
+      "tomato",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-024",
@@ -6223,7 +6449,21 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "chili",
+      "egg",
+      "fish",
+      "garlic",
+      "olive_oil",
+      "parsley",
+      "pasta",
+      "plum",
+      "salt",
+      "tomato",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-025",
@@ -6557,7 +6797,15 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "egg",
+      "pasta",
+      "salt",
+      "tomato",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-026",
@@ -6866,7 +7114,7 @@
           "method": "pan_fry",
           "minutes": [
             1,
-            1.0,
+            1,
             1
           ],
           "basis": "source",
@@ -6937,7 +7185,22 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "cheese",
+      "chicken",
+      "egg",
+      "garlic",
+      "milk",
+      "olive_oil",
+      "parsley",
+      "salt",
+      "sulphites",
+      "tomato",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-028",
@@ -7262,7 +7525,7 @@
           "method": "pan_fry",
           "minutes": [
             13,
-            14.0,
+            14,
             15
           ],
           "basis": "source",
@@ -7300,7 +7563,7 @@
           "method": "simmer",
           "minutes": [
             60,
-            65.0,
+            65,
             70
           ],
           "basis": "source",
@@ -7316,7 +7579,22 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "carrot",
+      "celery",
+      "cheese",
+      "chicken",
+      "garlic",
+      "kale",
+      "milk",
+      "olive_oil",
+      "onion",
+      "pork",
+      "salt",
+      "tomato"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-029",
@@ -7610,7 +7888,7 @@
           "method": "simmer",
           "minutes": [
             5,
-            5.0,
+            5,
             5
           ],
           "basis": "source",
@@ -7626,7 +7904,21 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "black_pepper",
+      "bread",
+      "chicken",
+      "cream",
+      "garlic",
+      "milk",
+      "olive_oil",
+      "salt",
+      "tomato",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-030",
@@ -7916,7 +8208,20 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "celery",
+      "olive_oil",
+      "onion",
+      "pine_nut",
+      "salt",
+      "sugar",
+      "sulphites",
+      "tomato",
+      "vinegar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-031",
@@ -8131,7 +8436,7 @@
           "method": "simmer",
           "minutes": [
             45,
-            45.0,
+            45,
             45
           ],
           "basis": "source",
@@ -8147,7 +8452,13 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "cheese",
+      "milk",
+      "salt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-032",
@@ -8348,7 +8659,15 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "blueberry",
+      "cream",
+      "milk",
+      "strawberry",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-033",
@@ -8501,7 +8820,13 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "egg",
+      "milk",
+      "vanilla"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-034",
@@ -8740,7 +9065,7 @@
           "method": "simmer",
           "minutes": [
             20,
-            20.0,
+            20,
             20
           ],
           "basis": "source",
@@ -8774,7 +9099,7 @@
           "method": "simmer",
           "minutes": [
             45,
-            45.0,
+            45,
             45
           ],
           "basis": "source",
@@ -8790,7 +9115,16 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "cinnamon",
+      "lemon",
+      "milk",
+      "rice",
+      "salt",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-035",
@@ -8925,7 +9259,11 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "rice"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-036",
@@ -9206,7 +9544,16 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "black_pepper",
+      "milk",
+      "onion",
+      "rice",
+      "salt",
+      "sulphites"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-037",
@@ -9596,7 +9943,14 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "egg",
+      "olive_oil",
+      "salt",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-038",
@@ -9814,7 +10168,13 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "olive_oil",
+      "salt",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-039",
@@ -9939,7 +10299,15 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "basil",
+      "black_pepper",
+      "garlic",
+      "salt",
+      "tomato"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-040",
@@ -10277,7 +10645,20 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "black_pepper",
+      "fish",
+      "garlic",
+      "lemon",
+      "olive_oil",
+      "salt",
+      "sulphites",
+      "thyme",
+      "tomato",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-041",
@@ -10521,7 +10902,17 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "cream",
+      "egg",
+      "milk",
+      "strawberry",
+      "sugar",
+      "vanilla",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-042",
@@ -10821,7 +11212,14 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "cream",
+      "egg",
+      "milk",
+      "peach"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-043",
@@ -11153,7 +11551,7 @@
           "method": "simmer",
           "minutes": [
             6,
-            6.0,
+            6,
             6
           ],
           "basis": "source",
@@ -11169,7 +11567,18 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "bread",
+      "cream",
+      "lime",
+      "milk",
+      "mint",
+      "strawberry",
+      "sugar",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-044",
@@ -11475,7 +11884,7 @@
           "method": "pan_fry",
           "minutes": [
             3,
-            3.0,
+            3,
             3
           ],
           "basis": "source",
@@ -11492,7 +11901,7 @@
           "method": "simmer",
           "minutes": [
             10,
-            10.0,
+            10,
             10
           ],
           "basis": "source",
@@ -11508,7 +11917,19 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "chicken",
+      "cream",
+      "egg",
+      "lemon",
+      "milk",
+      "onion",
+      "salt",
+      "sulphites",
+      "tomato"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-045",
@@ -11719,7 +12140,19 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "bell_pepper",
+      "cheese",
+      "cucumber",
+      "lemon",
+      "milk",
+      "olive_oil",
+      "onion",
+      "salt",
+      "tomato"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-046",
@@ -11907,7 +12340,17 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "cucumber",
+      "garlic",
+      "lemon",
+      "milk",
+      "olive_oil",
+      "salt",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-047",
@@ -12080,7 +12523,19 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "black_pepper",
+      "garlic",
+      "lemon",
+      "milk",
+      "olive_oil",
+      "onion",
+      "parsley",
+      "salt",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-048",
@@ -12242,7 +12697,11 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-049",
@@ -12394,7 +12853,14 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "mango",
+      "milk",
+      "sugar",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-050",
@@ -12593,7 +13059,18 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "chili",
+      "coriander",
+      "cucumber",
+      "cumin",
+      "milk",
+      "mint",
+      "salt",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-051",
@@ -12828,7 +13305,14 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "almond",
+      "milk",
+      "pistachio",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-052",
@@ -13047,7 +13531,7 @@
           "method": "simmer",
           "minutes": [
             25,
-            25.0,
+            25,
             25
           ],
           "basis": "source",
@@ -13067,7 +13551,15 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "almond",
+      "milk",
+      "raisin",
+      "rice",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-053",
@@ -13269,7 +13761,15 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "cumin",
+      "lime",
+      "milk",
+      "salt",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-054",
@@ -13561,7 +14061,13 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "egg",
+      "milk",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-055",
@@ -13802,7 +14308,15 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "coconut",
+      "rice",
+      "salt",
+      "sugar",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-056",
@@ -14128,7 +14642,7 @@
           "method": "steam",
           "minutes": [
             5,
-            5.0,
+            5,
             5
           ],
           "basis": "source",
@@ -14161,7 +14675,17 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "coconut",
+      "coconut_milk",
+      "egg",
+      "milk",
+      "rice",
+      "salt",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-057",
@@ -14392,7 +14916,15 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "coconut",
+      "coconut_milk",
+      "salt",
+      "sugar",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-058",
@@ -14614,7 +15146,16 @@
       "stages": [],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "cucumber",
+      "garlic",
+      "salt",
+      "sesame",
+      "sulphites",
+      "vinegar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-059",
@@ -14806,7 +15347,12 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "mung_bean",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-060",
@@ -15194,7 +15740,22 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "cabbage",
+      "carrot",
+      "chicken",
+      "cucumber",
+      "rice",
+      "salt",
+      "sesame",
+      "soy",
+      "sugar",
+      "sulphites",
+      "vinegar",
+      "wheat"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-061",
@@ -15374,7 +15935,7 @@
           "method": "boil",
           "minutes": [
             15,
-            15.0,
+            15,
             15
           ],
           "basis": "source",
@@ -15391,7 +15952,7 @@
           "method": "simmer",
           "minutes": [
             35,
-            35.0,
+            35,
             35
           ],
           "basis": "source",
@@ -15407,7 +15968,13 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "lily",
+      "lotus_seed",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   },
   {
     "recipe_id": "wb-062",
@@ -15593,6 +16160,3152 @@
       ],
       "scope_note": "Prepared ingredients are accepted as supplied. No upstream manufacturing heat, chilling or resting time is counted.",
       "legacy_fields": "heat_level, heat_breakdown and heat_score_at_full_relevance retain v1 archival values; runtime uses cookingHeat()."
-    }
+    },
+    "ingredient_ids": [
+      "fish",
+      "goji",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-0d61e0d52620",
+    "title": "Apple pear cashew salad",
+    "standard_recipe_label": "Apple pear cashew salad · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "salad",
+    "dish_type_label": "Salad",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "½ cup white sugar",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "½ cup lemon juice",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "2 teaspoons diced onion",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 teaspoon Dijon-style prepared mustard",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "½ teaspoon salt",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "⅔ cup vegetable oil",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "1 tablespoon poppy seeds",
+        "source_index": 6,
+        "changed": true
+      },
+      {
+        "text": "1 head romaine lettuce, torn into bite-size pieces",
+        "source_index": 7,
+        "changed": true
+      },
+      {
+        "text": "4 ounces shredded Swiss cheese",
+        "source_index": 8,
+        "changed": true
+      },
+      {
+        "text": "1 cup cashews",
+        "source_index": 9,
+        "changed": true
+      },
+      {
+        "text": "¼ cup dried cranberries",
+        "source_index": 10,
+        "changed": true
+      },
+      {
+        "text": "1 apple - peeled, cored and diced",
+        "source_index": 11,
+        "changed": true
+      },
+      {
+        "text": "1 pear - peeled, cored and sliced",
+        "source_index": 12,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the sugar, lemon juice, onion, mustard and salt. Gradually incorporate the oil, then briefly mix in the poppy seeds.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Put the lettuce, cheese, nuts, cranberries, apple and pear in a bowl. Add the dressing just before serving and turn the salad together.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk",
+      "cashew",
+      "mustard"
+    ],
+    "allergen_labels": [
+      "milk",
+      "cashew",
+      "mustard"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [
+      "1 teaspoon Dijon-style prepared mustard"
+    ],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/13482/winter-fruit-salad-with-lemon-poppyseed-dressing/",
+      "revision_url": "https://www.allrecipes.com/recipe/13482/winter-fruit-salad-with-lemon-poppyseed-dressing/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 445
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 34,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "apple",
+      "cashew",
+      "cheese",
+      "cranberry",
+      "lemon",
+      "lettuce",
+      "milk",
+      "mustard",
+      "onion",
+      "pear",
+      "salt",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-2fa5d74610e0",
+    "title": "Pear cranberry nut salad",
+    "standard_recipe_label": "Pear cranberry nut salad · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "salad",
+    "dish_type_label": "Salad",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "¾ cup olive oil",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "¼ cup balsamic vinegar",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 tablespoon dark brown sugar",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "2 ½ teaspoons minced garlic",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "½ teaspoon salt",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "½ teaspoon freshly ground black pepper",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "6 cups mixed baby greens",
+        "source_index": 6,
+        "changed": true
+      },
+      {
+        "text": "3 pears, thinly sliced",
+        "source_index": 7,
+        "changed": true
+      },
+      {
+        "text": "1 cup dried cranberries",
+        "source_index": 8,
+        "changed": true
+      },
+      {
+        "text": "1 cup toasted pecans",
+        "source_index": 9,
+        "changed": true
+      },
+      {
+        "text": "¾ cup cubed Havarti cheese",
+        "source_index": 10,
+        "changed": true
+      },
+      {
+        "text": "½ cup toasted sliced almonds",
+        "source_index": 11,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Use already toasted nuts as listed. Mix the oil, vinegar, sugar, garlic, salt and pepper to make a dressing.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Put the greens, pears, cranberries, pecans and cheese in a bowl. Add the dressing, turn gently, and finish with the almonds.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk",
+      "pecan",
+      "almond"
+    ],
+    "allergen_labels": [
+      "milk",
+      "pecan",
+      "almond"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/229399/cranberry-pear-salad/",
+      "revision_url": "https://www.allrecipes.com/recipe/229399/cranberry-pear-salad/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 451
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 98,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "almond",
+      "black_pepper",
+      "cheese",
+      "cranberry",
+      "garlic",
+      "milk",
+      "olive_oil",
+      "pear",
+      "pecan",
+      "salt",
+      "sugar",
+      "vinegar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-3714b052f088",
+    "title": "Pear fig pecan bowl",
+    "standard_recipe_label": "Pear fig pecan bowl · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "salad",
+    "dish_type_label": "Salad",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "2 cups torn romaine lettuce",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "6 fresh figs, quartered",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 large ripe but firm pear, peeled and thinly sliced",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "¼ cup toasted pecans, chopped",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "¼ cup shredded Gruyere cheese",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "1 small red onion, thinly sliced",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "3 tablespoons extra-virgin olive oil",
+        "source_index": 6,
+        "changed": true
+      },
+      {
+        "text": "3 tablespoons balsamic vinegar,  salt and freshly ground black pepper to taste",
+        "source_index": 7,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Use already toasted pecans as listed. Put the prepared lettuce, figs, pear, pecans, cheese and onion into a bowl.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Pour over the oil and vinegar, season with salt and pepper, and turn gently before serving.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk",
+      "pecan"
+    ],
+    "allergen_labels": [
+      "milk",
+      "pecan"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/263850/pear-fig-salad/",
+      "revision_url": "https://www.allrecipes.com/recipe/263850/pear-fig-salad/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 223
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 136,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "black_pepper",
+      "cheese",
+      "fig",
+      "lettuce",
+      "milk",
+      "olive_oil",
+      "onion",
+      "pear",
+      "pecan",
+      "salt",
+      "vinegar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-3033f40289b7",
+    "title": "Apple, nectarine and celery yogurt salad",
+    "standard_recipe_label": "Apple, nectarine and celery yogurt salad · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "salad",
+    "dish_type_label": "Salad",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 red apple, cored and chopped",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "1 Granny Smith apple, cored and chopped",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 nectarine, pitted and sliced",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "2 stalks celery, chopped",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "½ cup dried cranberries",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "½ cup chopped walnuts",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "1 (8 ounce) container nonfat lemon yogurt",
+        "source_index": 6,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dice the apples, nectarine and celery. Put them in a bowl with the cranberries and walnuts.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Fold the yogurt through the fruit mixture. Refrigerate until serving.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk",
+      "walnut"
+    ],
+    "allergen_labels": [
+      "milk",
+      "walnut"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [
+      "1 (8 ounce) container nonfat lemon yogurt"
+    ],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/14187/fabulous-fruit-salad/",
+      "revision_url": "https://www.allrecipes.com/recipe/14187/fabulous-fruit-salad/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 917
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 1,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "apple",
+      "celery",
+      "cranberry",
+      "lemon",
+      "milk",
+      "nectarine",
+      "walnut",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-f6960a282516",
+    "title": "Mixed berry yogurt smoothie",
+    "standard_recipe_label": "Mixed berry yogurt smoothie · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 banana",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "1 cup frozen strawberries",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 cup frozen blueberries",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 cup frozen cherries",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "4 ice cubes",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "½ cup orange juice",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "¾ cup vanilla yogurt",
+        "source_index": 6,
+        "changed": true
+      },
+      {
+        "text": "½ teaspoon honey (Optional)",
+        "source_index": 7,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Load the prepared fruit and ice into a blender, then add the juice and yogurt. Add honey if using.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Process to an even consistency and pour into glasses.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk"
+    ],
+    "allergen_labels": [
+      "milk"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [
+      "¾ cup vanilla yogurt",
+      "Frozen produce: confirm package permits uncooked use"
+    ],
+    "food_notes": [
+      "Uses prepared ingredients as listed. Frozen produce must be suitable for uncooked use; follow package preparation instructions."
+    ],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/172463/simple-summer-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/172463/simple-summer-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 168
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 8,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "banana",
+      "blueberry",
+      "cherry",
+      "honey",
+      "milk",
+      "orange",
+      "strawberry",
+      "vanilla",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-5c5aeee1366e",
+    "title": "Pineapple banana ice smoothie",
+    "standard_recipe_label": "Pineapple banana ice smoothie · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "4 ice cubes",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "¼ fresh pineapple - peeled, cored and cubed",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 large banana, cut into chunks",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 cup pineapple juice",
+        "source_index": 3,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Add the prepared pineapple, banana, juice and ice to a blender jug.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Process until no large pieces remain, then pour into a glass.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/138159/pineapple-and-banana-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/138159/pineapple-and-banana-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 607
+        },
+        {
+          "file": "recipes.csv",
+          "csv_line": 734
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 20,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "banana",
+      "pineapple"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-301b590ab4a0",
+    "title": "Nectarine cucumber tomato bowl",
+    "standard_recipe_label": "Nectarine cucumber tomato bowl · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "salad",
+    "dish_type_label": "Salad",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "2 tomatoes, cut into chunks",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "½ cucumber - peeled, seeded, and diced",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 large ripe nectarine, diced",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "3 tablespoons chopped fresh cilantro",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "1 tablespoon olive oil",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "3 tablespoons crumbled goat cheese",
+        "source_index": 5,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the chopped tomatoes, cucumber and nectarine in a serving bowl.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Fold through the coriander and olive oil, then scatter the goat cheese over the top.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk"
+    ],
+    "allergen_labels": [
+      "milk"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/258418/summer-nectarine-tomato-and-cucumber-salad/",
+      "revision_url": "https://www.allrecipes.com/recipe/258418/summer-nectarine-tomato-and-cucumber-salad/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 931
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 22,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "cheese",
+      "coriander",
+      "cucumber",
+      "milk",
+      "nectarine",
+      "olive_oil",
+      "tomato"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-ea58fc79baaf",
+    "title": "Papaya yogurt ice smoothie",
+    "standard_recipe_label": "Papaya yogurt ice smoothie · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "2 cups papaya - peeled, seeded and cubed",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "2 cups milk",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "¼ cup white sugar",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "¼ cup sweetened condensed milk",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "1 cup vanilla yogurt",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "2 tablespoons cream cheese",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "2 cups ice",
+        "source_index": 6,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Measure the milk, condensed milk, yogurt, cream cheese and sugar into a blender.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Add the prepared papaya and ice, process to an even texture, and pour into glasses.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk"
+    ],
+    "allergen_labels": [
+      "milk"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [
+      "1 cup vanilla yogurt"
+    ],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/139660/papaya-passion-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/139660/papaya-passion-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 797
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 26,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "cheese",
+      "cream",
+      "milk",
+      "papaya",
+      "sugar",
+      "vanilla",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-4f47d41c0065",
+    "title": "Watermelon lime ice blend",
+    "standard_recipe_label": "Watermelon lime ice blend · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "4 cups cubed seedless watermelon",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "10 ice cubes",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "⅓ cup fresh lime juice",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "¼ cup white sugar",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "⅛ teaspoon salt",
+        "source_index": 4,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the watermelon, ice, lime juice, sugar and salt into a blender jug.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Blend to a slushy consistency and divide between glasses.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/141371/watermelon-cooler-slushy/",
+      "revision_url": "https://www.allrecipes.com/recipe/141371/watermelon-cooler-slushy/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 279
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 29,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "lime",
+      "salt",
+      "sugar",
+      "watermelon"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-7ebcf2f46b59",
+    "title": "Fig and frozen banana smoothie",
+    "standard_recipe_label": "Fig and frozen banana smoothie · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "2 frozen bananas, peeled and chopped",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "6 fresh figs, halved",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "¾ cup milk",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "¾ cup orange juice",
+        "source_index": 3,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the prepared frozen banana and figs into a blender with the milk and orange juice.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Process until the mixture is even, then divide into glasses.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk"
+    ],
+    "allergen_labels": [
+      "milk"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [
+      "Uses prepared ingredients as listed. Frozen produce must be suitable for uncooked use; follow package preparation instructions."
+    ],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/190893/fig-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/190893/fig-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 210
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 38,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "banana",
+      "fig",
+      "milk",
+      "orange"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-e9735e585b5f",
+    "title": "Kiwi macadamia yogurt cup",
+    "standard_recipe_label": "Kiwi macadamia yogurt cup · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "dessert",
+    "dish_type_label": "Dessert",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 (5.3 ounce) container low-fat vanilla Greek yogurt",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "½ cup chopped kiwi",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "2 tablespoons chopped macadamia nuts",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 teaspoon agave nectar",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "1 teaspoon chopped fresh mint",
+        "source_index": 4,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Divide the yogurt, kiwi, nuts and agave between two layers in a serving glass.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Finish with the chopped mint and serve.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk",
+      "macadamia"
+    ],
+    "allergen_labels": [
+      "milk",
+      "macadamia"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/285020/tart-tropical-parfait/",
+      "revision_url": "https://www.allrecipes.com/recipe/285020/tart-tropical-parfait/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 668
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 39,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "agave",
+      "kiwi",
+      "macadamia",
+      "milk",
+      "mint",
+      "vanilla",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-e7466fc5d17b",
+    "title": "Strawberry banana orange ice blend",
+    "standard_recipe_label": "Strawberry banana orange ice blend · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 cup fresh strawberries",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "¾ cup orange juice",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 ripe banana",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 cup ice cubes, or as needed",
+        "source_index": 3,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Add the strawberries, peeled banana, orange juice and ice to a blender.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Process to the texture you prefer and pour into glasses.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/215163/strawberry-orange-banana-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/215163/strawberry-orange-banana-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 631
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 53,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "banana",
+      "orange",
+      "strawberry"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-7ade603e39fa",
+    "title": "Blueberry nutmeg yogurt smoothie",
+    "standard_recipe_label": "Blueberry nutmeg yogurt smoothie · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 cup blueberries (frozen or fresh)",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "1 (8 ounce) container plain yogurt",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "¾ cup 2% reduced-fat milk",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "2 tablespoons white sugar",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "½ teaspoon vanilla extract",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "⅛ teaspoon ground nutmeg",
+        "source_index": 5,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Measure the yogurt, milk, sugar, vanilla and nutmeg into a blender, then add the blueberries.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Blend evenly, stopping to scrape the jug if necessary. Divide between two glasses.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk"
+    ],
+    "allergen_labels": [
+      "milk"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [
+      "½ teaspoon vanilla extract"
+    ],
+    "food_notes": [
+      "Uses prepared ingredients as listed. Frozen produce must be suitable for uncooked use; follow package preparation instructions."
+    ],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/215184/blueberry-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/215184/blueberry-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 1009
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 57,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "blueberry",
+      "milk",
+      "nutmeg",
+      "sugar",
+      "vanilla",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-229176525cb0",
+    "title": "Cantaloupe drink over ice",
+    "standard_recipe_label": "Cantaloupe drink over ice · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 ½ cups water",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "3 slices cantaloupe, peeled and seeded",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "6 tablespoons white sugar",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 cup ice cubes",
+        "source_index": 3,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Process the prepared melon with the water and sugar in a blender.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Put ice in two glasses and divide the melon drink between them.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/230153/agua-fresca/",
+      "revision_url": "https://www.allrecipes.com/recipe/230153/agua-fresca/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 282
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 67,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "cantaloupe",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-32a4db95afc2",
+    "title": "Avocado pepper tomato bowl",
+    "standard_recipe_label": "Avocado pepper tomato bowl · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "salad",
+    "dish_type_label": "Salad",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "2 avocados - peeled, pitted and diced",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "1 sweet onion, chopped",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 green bell pepper, chopped",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 large ripe tomato, chopped",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "¼ cup chopped fresh cilantro",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "½ lime, juiced",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "salt and pepper to taste",
+        "source_index": 6,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the diced avocado, onion, pepper and tomato in a bowl.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Add the coriander and lime juice, gently turn the mixture together, and season with salt and pepper.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/19960/avocado-salad/",
+      "revision_url": "https://www.allrecipes.com/recipe/19960/avocado-salad/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 804
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 74,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "avocado",
+      "bell_pepper",
+      "coriander",
+      "lime",
+      "onion",
+      "salt",
+      "tomato"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-c31c2ddbdea7",
+    "title": "Strawberry soy oat smoothie",
+    "standard_recipe_label": "Strawberry soy oat smoothie · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 cup soy milk",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "½ cup rolled oats",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "14 frozen strawberries",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 banana, broken into chunks",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "1 ½ teaspoons white sugar (Optional)",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "½ teaspoon vanilla extract (Optional)",
+        "source_index": 5,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Add the soy milk, oats, prepared strawberries and banana to a blender.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Process evenly. If using sugar or vanilla, add them and briefly blend again.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "soy",
+      "oats"
+    ],
+    "allergen_labels": [
+      "soy",
+      "oats"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [
+      "1 cup soy milk",
+      "½ teaspoon vanilla extract (Optional)",
+      "Frozen produce: confirm package permits uncooked use"
+    ],
+    "food_notes": [
+      "Uses prepared ingredients as listed. Frozen produce must be suitable for uncooked use; follow package preparation instructions."
+    ],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/23539/strawberry-oatmeal-breakfast-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/23539/strawberry-oatmeal-breakfast-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 598
+        },
+        {
+          "file": "recipes.csv",
+          "csv_line": 1024
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 79,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "banana",
+      "oats",
+      "soy",
+      "soy_milk",
+      "strawberry",
+      "sugar",
+      "vanilla"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-13208b820438",
+    "title": "Pineapple cucumber ginger blend",
+    "standard_recipe_label": "Pineapple cucumber ginger blend · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 cup coconut water, or to taste",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "1 cup chopped fresh pineapple",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 stalk celery",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "½ cucumber, peeled",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "½ lemon, peeled",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "⅓ bunch fresh parsley",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "1 (1 inch) piece fresh ginger root",
+        "source_index": 6,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Place the prepared pineapple, celery, cucumber, lemon, parsley and ginger in a blender jug.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Add coconut water and process until evenly blended.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/236413/pineapple-cleanser-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/236413/pineapple-cleanser-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 743
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 83,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "celery",
+      "coconut",
+      "coconut_water",
+      "cucumber",
+      "ginger",
+      "lemon",
+      "parsley",
+      "pineapple"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-1c15d0848f28",
+    "title": "Cantaloupe orange yogurt smoothie",
+    "standard_recipe_label": "Cantaloupe orange yogurt smoothie · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 cup vanilla yogurt ",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "½ cup orange juice",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "½ cup sliced cantaloupe",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "4 ice cubes, crushed, or as needed",
+        "source_index": 3,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Add the yogurt, orange juice, prepared cantaloupe and ice to a blender.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Process until the ice and fruit are evenly incorporated, then pour into glasses.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk"
+    ],
+    "allergen_labels": [
+      "milk"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [
+      "1 cup vanilla yogurt "
+    ],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/238339/simple-cantaloupe-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/238339/simple-cantaloupe-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 248
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 89,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "cantaloupe",
+      "milk",
+      "orange",
+      "vanilla",
+      "yogurt"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-430b6fb0bec0",
+    "title": "Cherry mango ice smoothie",
+    "standard_recipe_label": "Cherry mango ice smoothie · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "2 cups pitted cherries",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "1 cup chopped mango",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 cup water",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 cup ice cubes",
+        "source_index": 3,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Check that all cherry stones have been removed. Put the cherries, prepared mango, water and ice in a blender.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Process evenly and divide between glasses.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/238484/mango-cherry-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/238484/mango-cherry-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 712
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 91,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "cherry",
+      "mango"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-4c22a1f7ef34",
+    "title": "Spinach banana soy blend",
+    "standard_recipe_label": "Spinach banana soy blend · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 cup plain soy milk",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "¾ cup packed fresh spinach leaves",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 large banana, sliced",
+        "source_index": 2,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the soy milk with the washed spinach first.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Add the peeled banana, process again until evenly mixed, and pour into a glass.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "soy"
+    ],
+    "allergen_labels": [
+      "soy"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [
+      "1 cup plain soy milk"
+    ],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/241019/spinach-and-banana-power-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/241019/spinach-and-banana-power-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 602
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 97,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "banana",
+      "soy",
+      "soy_milk",
+      "spinach"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-b42f9347b733",
+    "title": "Apple kiwi chia smoothie",
+    "standard_recipe_label": "Apple kiwi chia smoothie · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 apple, roughly chopped",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "1 banana, broken into chunks",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "2 kiwifruit, peeled",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 ¼ cups milk",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "¼ cup ice, or as desired",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "2 teaspoons chia seeds",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "1 teaspoon maca powder",
+        "source_index": 6,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Core the apple and peel the banana and kiwi. Put the prepared fruit in a blender.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Add the milk, ice, chia and maca powder, then process to an even consistency.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "milk"
+    ],
+    "allergen_labels": [
+      "milk"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/241259/kiwi-banana-apple-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/241259/kiwi-banana-apple-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 641
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 101,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "apple",
+      "banana",
+      "chia",
+      "kiwi",
+      "maca",
+      "milk"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-07d4a163f73b",
+    "title": "Spiced watermelon with lime",
+    "standard_recipe_label": "Spiced watermelon with lime · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "salad",
+    "dish_type_label": "Salad",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "¼ teaspoon ground cumin",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "¼ teaspoon ground coriander",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "¼ teaspoon chili powder",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "¼ teaspoon salt",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "⅛ teaspoon cayenne pepper",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "2 cups cubed seeded watermelon",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "½ lime, juiced",
+        "source_index": 6,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Combine the cumin, ground coriander, chili powder, salt and cayenne in a small dish.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Divide the watermelon into serving bowls. Add the spice mixture and squeeze the lime over the fruit.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/233285/spicy-watermelon/",
+      "revision_url": "https://www.allrecipes.com/recipe/233285/spicy-watermelon/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 258
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 104,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "chili",
+      "coriander",
+      "cumin",
+      "lime",
+      "salt",
+      "watermelon"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-0c61bb6694ae",
+    "title": "Grape kale pineapple blend",
+    "standard_recipe_label": "Grape kale pineapple blend · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "2 cups honey-flavoured almond milk",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "1 cup green grapes",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "2 cups packed baby kale",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "1 large kiwi fruit, peeled and chopped",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "1 (10 ounce) package frozen pineapple chunks",
+        "source_index": 4,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the almond drink, grapes, washed kale, peeled kiwi and prepared pineapple into a blender.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Process until evenly blended, then divide into glasses.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [
+      "almond"
+    ],
+    "allergen_labels": [
+      "almond"
+    ],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [
+      "2 cups honey-flavoured almond milk",
+      "Frozen produce: confirm package permits uncooked use"
+    ],
+    "food_notes": [
+      "Uses prepared ingredients as listed. Frozen produce must be suitable for uncooked use; follow package preparation instructions."
+    ],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/269576/supreme-green-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/269576/supreme-green-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 647
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 111,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "almond",
+      "almond_milk",
+      "grape",
+      "honey",
+      "kale",
+      "kiwi",
+      "pineapple"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-6626264ec983",
+    "title": "Two-melon lime drink",
+    "standard_recipe_label": "Two-melon lime drink · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "¼ cantaloupe - peeled, seeded and cubed",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "¼ honeydew melon - peeled, seeded and cubed",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 lime, juiced",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "2 tablespoons sugar",
+        "source_index": 3,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Remove the peel and seeds from both melons. Put their flesh in a blender with the lime juice and sugar.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Process evenly and pour into glasses.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/32450/melon-smoothie/",
+      "revision_url": "https://www.allrecipes.com/recipe/32450/melon-smoothie/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 252
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 117,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "cantaloupe",
+      "honeydew",
+      "lime",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-5d928d2afcf3",
+    "title": "Honeydew ice drink",
+    "standard_recipe_label": "Honeydew ice drink · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "1 (5 pound) honeydew melon, quartered and seeded",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "2 cups ice cubes",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 cup water",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "3 tablespoons white sugar",
+        "source_index": 3,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Remove the rind and seeds from the melon and transfer the flesh to a blender.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Add the water, ice and sugar. Blend until the fruit is fully broken down and serve.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "cold",
+    "temperature_label": "Cold / chilled",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/232448/heavenly-honeydew-juice/",
+      "revision_url": "https://www.allrecipes.com/recipe/232448/heavenly-honeydew-juice/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 274
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 137,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "Existing confirmed label",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "honeydew",
+      "sugar"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-27028d1aa3b0",
+    "title": "Freshly squeezed orange drink",
+    "standard_recipe_label": "Freshly squeezed orange drink · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "beverage",
+    "dish_type_label": "Drink",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "4 oranges",
+        "source_index": 0,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Wash the oranges and cut them across the middle.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Use a citrus juicer to extract the juice, remove any seeds, and pour into a glass.",
+        "source_index": 1,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/89229/fresh-orange-juice/",
+      "revision_url": "https://www.allrecipes.com/recipe/89229/fresh-orange-juice/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 322
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 149,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "orange"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
+  },
+  {
+    "recipe_id": "ar-c7e976e2f42d",
+    "title": "Apple kale pomegranate bowl",
+    "standard_recipe_label": "Apple kale pomegranate bowl · Reviewed preparation",
+    "dataset_version": "ingredient-expansion-1",
+    "cuisine_id": "international",
+    "cuisine_label": "International",
+    "source_language": "en",
+    "display_language": "en",
+    "dish_type": "salad",
+    "dish_type_label": "Salad",
+    "standalone_dish": true,
+    "ingredients": [
+      {
+        "text": "10 ounces kale, shredded",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "2 Honeycrisp apples, thinly sliced",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "1 pomegranate, seeds only",
+        "source_index": 2,
+        "changed": true
+      },
+      {
+        "text": "½ teaspoon ground cinnamon,  Dressing:",
+        "source_index": 3,
+        "changed": true
+      },
+      {
+        "text": "2 tablespoons extra-virgin olive oil",
+        "source_index": 4,
+        "changed": true
+      },
+      {
+        "text": "2 tablespoons lemon juice",
+        "source_index": 5,
+        "changed": true
+      },
+      {
+        "text": "1 shallot, thinly sliced",
+        "source_index": 6,
+        "changed": true
+      },
+      {
+        "text": "1 tablespoon chopped fresh thyme,  ground black pepper to taste",
+        "source_index": 7,
+        "changed": true
+      },
+      {
+        "text": "1 pinch crushed red pepper flakes",
+        "source_index": 8,
+        "changed": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Wash and shred the kale, then rub the leaves together for about two minutes to soften them.",
+        "source_index": 0,
+        "changed": true
+      },
+      {
+        "text": "Toss the kale with the sliced apples, pomegranate seeds and cinnamon.",
+        "source_index": 1,
+        "changed": true
+      },
+      {
+        "text": "Mix the oil, lemon juice, shallot, thyme, pepper and chili flakes separately, then fold this dressing through the salad.",
+        "source_index": 2,
+        "changed": true
+      }
+    ],
+    "product_temperature": "room",
+    "temperature_label": "Room temperature",
+    "eligible_for_product_prototype": true,
+    "allergen_ids": [],
+    "allergen_labels": [],
+    "allergen_reminder": "Check ingredient labels, compound ingredients and cross-contact. This recipe is not certified allergy-safe.",
+    "unresolved_compound_ingredients": [],
+    "food_notes": [],
+    "heating_methods": [],
+    "heat_level": 0,
+    "heat_breakdown": [],
+    "cooking_heat_profile": {
+      "version": "cooking-heat-v2",
+      "coverage": "listed_preparation",
+      "no_active_heat_confirmed": true,
+      "stages": [],
+      "annotation_method": "individual_cached_source_review"
+    },
+    "source": {
+      "source_url": "https://www.allrecipes.com/recipe/276587/healthy-apple-and-kale-salad/",
+      "revision_url": "https://www.allrecipes.com/recipe/276587/healthy-apple-and-kale-salad/",
+      "source_rows": [
+        {
+          "file": "recipes.csv",
+          "csv_line": 537
+        }
+      ],
+      "dataset_url": "https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
+    },
+    "licence": {
+      "id": "source-rights-not-relicensed",
+      "attribution": "Preparation facts: Allrecipes via Kaggle. Display title and directions rewritten for HeatPlan.",
+      "changes": "New wording, ingredient list segmentation, explicit preparation annotations. Upstream text and images are not included or relicensed."
+    },
+    "review": {
+      "date": "2026-10-01",
+      "candidate_number": 150,
+      "method": "assistant_read_cached_ingredients_and_full_steps",
+      "not_claimed": [
+        "live_page_verification",
+        "kitchen_test",
+        "clinical_validation"
+      ],
+      "temperature_basis": "No explicit chilling or heating in the reviewed steps; default room-temperature serving",
+      "source_snapshot_sha256": "96447a0bafb1d0bceccefc1e8e3ab22927cb83b0398eb281d2b9efb60f720cd5"
+    },
+    "ingredient_ids": [
+      "apple",
+      "black_pepper",
+      "cinnamon",
+      "kale",
+      "lemon",
+      "olive_oil",
+      "pomegranate",
+      "shallot",
+      "thyme"
+    ],
+    "ingredient_index_basis": "ingredient_list_and_curated_allergen_annotations_only"
   }
 ]

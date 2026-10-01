@@ -13,7 +13,7 @@ const get=id=>rows.find(r=>r.recipe_id===id);
 let passed=0;const failures=[];
 async function test(name,fn){try{await fn();passed++;console.log('PASS '+name);}catch(e){failures.push({name,message:e.message});console.error('FAIL '+name+': '+e.message);}}
 let first,second,third;
-await test('both requested deletions plus Banh chung absent from active data',()=>{assert.equal(rows.length,58);for(const id of ['wb-002','wb-019','wb-027'])assert.equal(get(id),undefined);});
+await test('both requested deletions plus Banh chung absent from active data',()=>{assert.equal(rows.filter(r=>r.recipe_id.startsWith('wb-')).length,58);for(const id of ['wb-002','wb-019','wb-027'])assert.equal(get(id),undefined);});
 await test('no outstanding calibration questions',()=>assert.deepEqual(JSON.parse(fs.readFileSync(path.join(pkg,'data/calibration_questions.json'),'utf8')),[]));
 await test('screenshot request resolves directly to a cold Chinese recipe',()=>{
   first=handleTurn('中国菜，芒果过敏，冷',newConversation(),rows);
@@ -95,7 +95,7 @@ await test('fish sauce source wording is still unchanged',()=>{
   for(const section of ['ingredients','steps'])assert.deepEqual(get('wb-014')[section].map(x=>x.text),original[section].map(x=>x.text));
 });
 await test('chat preview has a single composer and no select elements',()=>{
-  const html=fs.readFileSync(path.join(pkg,'ui/preview.html'),'utf8');assert.doesNotMatch(html,/<select\b/);assert.ok(html.includes('Tell me your preferred cuisine, hot or cold, and any allergies'));assert.ok(html.includes("node('textarea')"));assert.ok(!/__RULES__|__ENGINE__|__UI__|__RECIPES__/.test(html));
+  const html=fs.readFileSync(path.join(pkg,'ui/preview.html'),'utf8');assert.doesNotMatch(html,/<select\b/);assert.ok(html.includes('Tell me which ingredients you have, hot or cold, and any allergies'));assert.ok(html.includes("node('textarea')"));assert.ok(!/__RULES__|__ENGINE__|__UI__|__RECIPES__/.test(html));
 });
 const goodIntent={cuisine:'chinese',temperature:'cold',dishType:null,allergy_terms:['mango'],exclude_terms:[],prefer_terms:[],wants_another:false};
 await test('malformed Groq structured intents rejected',()=>{assert.throws(()=>validateIntent({...goodIntent,cuisine:'random'}));assert.throws(()=>validateIntent({...goodIntent,allergy_terms:'mango'}));assert.throws(()=>validateIntent({...goodIntent,unsafe_extra:true}));});

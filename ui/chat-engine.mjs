@@ -1,8 +1,8 @@
 import {recommend,norm,CUISINES,FOOD_TERMS,extractTerms,contains,foodLabel,RETIRED,cookingHeat,heatExplanation} from './recommendation.mjs';
-export const newConversation=()=>({cuisine:null,temperature:null,dishType:null,allergens:[],excludedIngredients:[],preferredIngredients:[],unrecognizedAllergens:[],shownIds:[],recipeId:null,lastRecipeId:null,avoidHot:false,turn:0});
+export const newConversation=()=>({cuisine:null,temperature:null,dishType:null,allergens:[],excludedIngredients:[],preferredIngredients:[],unrecognizedAllergens:[],shownIds:[],recipeId:null,lastRecipeId:null,avoidHot:false,noActiveHeat:false,turn:0});
 const uniq=a=>[...new Set(a)];
 const TEMP={cold:"Cold / chilled",room:"Room temperature",hot:"Hot"};
-const CUISINE_LABEL={vietnamese:"Vietnamese",italian:"Italian",english:"English",indian:"Indian",chinese:"Chinese",malaysian:"Malaysian",greek:"Greek"};
+const CUISINE_LABEL={vietnamese:"Vietnamese",italian:"Italian",english:"English",indian:"Indian",chinese:"Chinese",malaysian:"Malaysian",greek:"Greek",international:"International"};
 const TYPE_LABEL={main:"Main dish",side:"Side dish",salad:"Salad",dessert:"Dessert",beverage:"Drink",sauce:"Sauce",base:"Base ingredient"};
 const TREE_NUTS=['almond','brazil_nut','cashew','hazelnut','macadamia','pecan','pistachio','pine_nut','walnut'];
 function parseFoodList(text){
@@ -10,7 +10,7 @@ function parseFoodList(text){
   const broadNuts=/坚果|堅果|\bnuts?\b/u.test(value)&&!/\b(pine|brazil) nuts?\b/u.test(value);
   const ids=extractTerms(value);
   if(broadNuts){ids.push(...TREE_NUTS,'peanut');value=value.replace(/坚果|堅果|\bnuts?\b/gu,'');}
-  for(const id of ids)for(const alias of [...FOOD_TERMS[id]].sort((a,b)=>b.length-a.length)){
+  for(const alias of ids.flatMap(id=>FOOD_TERMS[id]).sort((a,b)=>b.length-a.length)){
     const a=norm(alias);
     if(/[\u3400-\u9fff]/u.test(a))value=value.replaceAll(a,'');
     else value=value.replace(new RegExp('(^|[^a-z])'+a+'(?=$|[^a-z])','gu'),'$1');
@@ -21,6 +21,8 @@ function parseFoodList(text){
 }
 export function parseTurn(text,previous=newConversation(),records=[]){
   const value=norm(text),patch={allergensAdd:[],allergensRemove:[],excludedAdd:[],preferred:[],unknown:[]};
+  if(/不用开火|不開火|不开火|免开火|无需加热|無需加熱|no cooking|no heat|no stove|without cooking|no oven/u.test(value))patch.noActiveHeat=true;
+  if(/允许开火|可以开火|cooking is okay|heating is okay/u.test(value))patch.noActiveHeat=false;
   patch.reset=/^(重新开始|重新开始对话|新对话|新话题|清空对话|reset|new chat)$/u.test(value.trim());
   patch.another=/换一道|换一个|再来一道|还有别的|另一道|\banother\b|something else|different (?:recipe|dish)|un altro/u.test(value);
   patch.why=/为什么|為什麼|怎么推荐|why|perche/u.test(value);
@@ -48,17 +50,17 @@ export function parseTurn(text,previous=newConversation(),records=[]){
       else {patch.allergensAdd.push(...p.ids);patch.unknown.push(...p.unknown);if(!p.ids.length&&!p.unknown.length)patch.unknown.push("an unnamed allergen");}
       continue;
     }
-    if(/不要|不吃|不加|去掉|without|\bavoid\b|\bno\s+(?:mango|peanuts?|milk|eggs?|sesame|soy)\b|senza/u.test(clause)){
+    if(/不要|不吃|不加|去掉|without|\bavoid\b|\bno\s+|senza/u.test(clause)){
       const terms=extractTerms(clause);
       patch.excludedAdd.push(...terms);
       if(/不要辣|不吃辣/u.test(clause))patch.excludedAdd.push('chili');
-    }else if(/有|用|加入|加点|加點|想吃|\bhave\b|\binclude\b|with|using/u.test(clause)){
+    }else if(/有|用|加入|加点|加點|想吃|\bhave\b|\binclude\b|with|using/u.test(clause)||extractTerms(clause).length&&parseFoodList(clause).unknown.length===0){
       patch.preferred.push(...extractTerms(clause));
     }
   }
   if(previous.unrecognizedAllergens?.length&&!/过敏|過敏|allerg|di ung/u.test(value)){
     const p=parseFoodList(value);
-    if(p.ids.length&&!p.unknown.length){patch.allergensAdd.push(...p.ids);patch.resolvePending=true;}
+      if(p.ids.length&&!p.unknown.length){patch.allergensAdd.push(...p.ids);patch.resolvePending=true;patch.preferred=[];}
   }
   if(/不限制食材|食材不限|any ingredients|no ingredient preference/u.test(value)){patch.preferred=[];patch.clearPreferred=true;}
   if(/不限制忌口|取消忌口/u.test(value))patch.clearExclusions=true;
@@ -78,6 +80,7 @@ export function conditionLabels(state){
   if(state.cuisine)out.push(CUISINE_LABEL[state.cuisine]);
   out.push(state.temperature?TEMP[state.temperature]:(state.avoidHot?"Cold / room temperature":"Cold dishes first"));
   if(state.dishType)out.push(TYPE_LABEL[state.dishType]);
+  if(state.noActiveHeat)out.push('No active heating in listed preparation');
   if(state.allergens.length)out.push("Allergies: "+state.allergens.map(foodLabel).join(', '));
   if(state.excludedIngredients.length)out.push("Avoid: "+state.excludedIngredients.map(foodLabel).join(', '));
   if(state.preferredIngredients.length)out.push("Include: "+state.preferredIngredients.map(foodLabel).join(', '));
@@ -103,6 +106,7 @@ export function handleTurn(text,previous,records,modelPatch=null){
   for(const k of ['cuisine','temperature','dishType'])if(p[k]!==undefined)state[k]=p[k];
   if(p.temperature!==undefined)state.avoidHot=false;
   if(p.avoidHot){state.avoidHot=true;if(state.temperature==='hot')state.temperature=null;}
+  if(p.noActiveHeat!==undefined)state.noActiveHeat=p.noActiveHeat;
   state.allergens=uniq([...state.allergens,...p.allergensAdd]).filter(id=>!p.allergensRemove.includes(id));
   state.excludedIngredients=p.clearExclusions?[]:uniq([...state.excludedIngredients,...p.excludedAdd]);
   if(p.clearPreferred)state.preferredIngredients=[];

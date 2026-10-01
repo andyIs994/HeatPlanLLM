@@ -1,5 +1,5 @@
 import {handleTurn,newConversation} from './chat-engine.mjs';
-import {heatExplanation} from './recommendation.mjs';
+import {heatExplanation,ingredientOptions} from './recommendation.mjs';
 function node(tag,text,cls){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;}
 export function mountChat(host,{records,endpoint='/api/chat'}){
   let state=newConversation(),busy=false,disposed=false,apiAvailable=false;
@@ -10,12 +10,18 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
   const messages=node('div',undefined,'messages');messages.setAttribute('role','log');messages.setAttribute('aria-live','polite');messages.setAttribute('aria-label',"Recipe conversation");
   const context=node('div',undefined,'context');context.setAttribute('aria-label',"Current preferences");
   const form=node('form',undefined,'composer');
-  const input=node('textarea');input.rows=2;input.maxLength=4000;input.placeholder="Tell me your preferred cuisine, hot or cold, and any allergies";input.setAttribute('aria-label',"Message HeatPlan");input.setAttribute('aria-describedby','chat-help');input.id='chat-message';
+  const input=node('textarea');input.rows=2;input.maxLength=4000;input.placeholder="Tell me which ingredients you have, hot or cold, and any allergies";input.setAttribute('aria-label',"Message HeatPlan");input.setAttribute('aria-describedby','chat-help');input.id='chat-message';
   const send=node('button',"Send",'send');send.type='submit';
-  const help=node('p',"Try: \"Chinese food, mango allergy, cold.\" Then \"Another one\" or \"Make it room temperature.\"",'composer-help');help.id='chat-help';
+  const help=node('p',"Try: \"I have blueberries and yogurt, cold.\" Mention any allergies. Cuisine is optional. Ask for \"Another one\" to keep exploring.",'composer-help');help.id='chat-help';
   form.append(input,send);
   host.append(top,messages,context,form,help);
-  const welcome=()=>{const row=node('section',undefined,'message assistant welcome');row.append(node('span','HeatPlan','speaker'),node('p',"Tell me what you would like to eat. Include your preferred cuisine, serving temperature, ingredients and any allergies in one message."),node('p',"Keep chatting — I will remember your preferences during this conversation.",'muted'));messages.append(row);};
+  const options=ingredientOptions(records),browse=node('details',undefined,'ingredient-browser');
+  browse.append(node('summary',`Explore ${options.length} available ingredients`));
+  const search=node('input');search.type='search';search.placeholder='Find an ingredient';search.setAttribute('aria-label','Search available ingredients');
+  const list=node('div',undefined,'ingredient-options');
+  const refresh=()=>{const filtered=options.filter(o=>o.label.includes(search.value.toLowerCase()));list.replaceChildren(...filtered.map(o=>{const b=node('button',`${o.label} (${o.recipe_ids.length})`);b.type='button';b.addEventListener('click',()=>{input.value='I have '+o.label;input.focus();});return b;}));if(!filtered.length)list.append(node('p','No ingredient matches this search. You can still describe your request in the chat.'));};
+  search.addEventListener('input',refresh);browse.append(node('p','Each ingredient has a recipe in the collection. Additional restrictions may reduce the matches.'),search,list);host.append(browse);refresh();
+  const welcome=()=>{const row=node('section',undefined,'message assistant welcome');row.append(node('span','HeatPlan','speaker'),node('p',"What ingredients do you have? Tell me your serving-temperature preference and any allergies. Cuisine is optional."),node('p',"Keep chatting — I will remember your preferences during this conversation.",'muted'));messages.append(row);};
   welcome();
   function renderResult(result){
     const row=node('section',undefined,'message assistant');row.dataset.status=result.status;
@@ -32,7 +38,7 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
       for(const note of r.food_notes)card.append(node('p',note,'food-note'));
       const source=node('p',undefined,'source'),link=node('a',"Original recipe");
       link.href=r.source.revision_url;link.target='_blank';link.rel='noopener noreferrer';
-      source.append(link,document.createTextNode(" · Wikibooks contributors · CC BY-SA 4.0 · Standard recipes and annotations have been adapted; changes are recorded in the dataset."));card.append(source);
+      source.append(link,document.createTextNode(r.licence.id==='CC-BY-SA-4.0'?" · Wikibooks contributors · CC BY-SA 4.0 · Adapted recipe and annotations.":" · Preparation facts from Allrecipes via Kaggle. HeatPlan wording; upstream content is not relicensed."));card.append(source);
       const explain=node('details',undefined,'explanation');explain.append(node('summary',"Why this recipe?"));
       explain.append(node('p',"Preferences: "+result.conditions.join('; ')+'.'));
       explain.append(node('p',r.temperature_label+' group. '+heatExplanation(heatAssessment)));

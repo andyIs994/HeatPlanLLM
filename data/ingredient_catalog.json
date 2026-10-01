@@ -1,0 +1,2122 @@
+{
+  "generated_on": "2026-10-01",
+  "active_recipes": 85,
+  "recognized_terms": 109,
+  "selectable_ingredients": 95,
+  "zero_recipe_selectable_ingredients": 0,
+  "recognition_only_terms": [
+    "hazelnut",
+    "brazil_nut",
+    "barley",
+    "rye",
+    "lupin",
+    "lychee",
+    "dragon_fruit",
+    "potato",
+    "chickpea",
+    "lentil",
+    "corn",
+    "tofu",
+    "cooked_chicken",
+    "canned_chickpea"
+  ],
+  "ingredients": [
+    {
+      "id": "agave",
+      "label": "agave",
+      "recipe_ids": [
+        "ar-e9735e585b5f"
+      ],
+      "aliases": [
+        "龙舌兰糖浆",
+        "agave"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-e9735e585b5f"
+      ]
+    },
+    {
+      "id": "almond",
+      "label": "almond",
+      "recipe_ids": [
+        "wb-051",
+        "wb-052",
+        "ar-2fa5d74610e0",
+        "ar-0c61bb6694ae"
+      ],
+      "aliases": [
+        "杏仁",
+        "almond",
+        "almonds",
+        "mandorle"
+      ],
+      "recipe_count": 4,
+      "no_active_heat_recipe_ids": [
+        "ar-2fa5d74610e0",
+        "ar-0c61bb6694ae"
+      ]
+    },
+    {
+      "id": "almond_milk",
+      "label": "almond milk",
+      "recipe_ids": [
+        "ar-0c61bb6694ae"
+      ],
+      "aliases": [
+        "杏仁奶",
+        "almond milk",
+        "almondmilk"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-0c61bb6694ae"
+      ]
+    },
+    {
+      "id": "apple",
+      "label": "apple",
+      "recipe_ids": [
+        "ar-0d61e0d52620",
+        "ar-3033f40289b7",
+        "ar-b42f9347b733",
+        "ar-c7e976e2f42d"
+      ],
+      "aliases": [
+        "苹果",
+        "蘋果",
+        "apple",
+        "apples"
+      ],
+      "recipe_count": 4,
+      "no_active_heat_recipe_ids": [
+        "ar-0d61e0d52620",
+        "ar-3033f40289b7",
+        "ar-b42f9347b733",
+        "ar-c7e976e2f42d"
+      ]
+    },
+    {
+      "id": "avocado",
+      "label": "avocado",
+      "recipe_ids": [
+        "ar-32a4db95afc2"
+      ],
+      "aliases": [
+        "牛油果",
+        "鳄梨",
+        "avocado",
+        "avocados"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-32a4db95afc2"
+      ]
+    },
+    {
+      "id": "banana",
+      "label": "banana",
+      "recipe_ids": [
+        "wb-015",
+        "ar-f6960a282516",
+        "ar-5c5aeee1366e",
+        "ar-7ebcf2f46b59",
+        "ar-e7466fc5d17b",
+        "ar-c31c2ddbdea7",
+        "ar-4c22a1f7ef34",
+        "ar-b42f9347b733"
+      ],
+      "aliases": [
+        "香蕉",
+        "banana",
+        "bananas"
+      ],
+      "recipe_count": 8,
+      "no_active_heat_recipe_ids": [
+        "ar-f6960a282516",
+        "ar-5c5aeee1366e",
+        "ar-7ebcf2f46b59",
+        "ar-e7466fc5d17b",
+        "ar-c31c2ddbdea7",
+        "ar-4c22a1f7ef34",
+        "ar-b42f9347b733"
+      ]
+    },
+    {
+      "id": "basil",
+      "label": "basil",
+      "recipe_ids": [
+        "wb-003",
+        "wb-005",
+        "wb-011",
+        "wb-012",
+        "wb-013",
+        "wb-016",
+        "wb-017",
+        "wb-018",
+        "wb-026",
+        "wb-029",
+        "wb-030"
+      ],
+      "aliases": [
+        "罗勒",
+        "羅勒",
+        "basil"
+      ],
+      "recipe_count": 11,
+      "no_active_heat_recipe_ids": [
+        "wb-013",
+        "wb-016"
+      ]
+    },
+    {
+      "id": "beef",
+      "label": "beef",
+      "recipe_ids": [
+        "wb-012",
+        "wb-015"
+      ],
+      "aliases": [
+        "牛肉",
+        "beef",
+        "manzo"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "bell_pepper",
+      "label": "bell pepper",
+      "recipe_ids": [
+        "wb-045",
+        "ar-32a4db95afc2"
+      ],
+      "aliases": [
+        "甜椒",
+        "彩椒",
+        "bell pepper",
+        "bell peppers"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "wb-045",
+        "ar-32a4db95afc2"
+      ]
+    },
+    {
+      "id": "black_pepper",
+      "label": "black pepper",
+      "recipe_ids": [
+        "wb-004",
+        "wb-012",
+        "wb-016",
+        "wb-017",
+        "wb-018",
+        "wb-029",
+        "wb-040",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088",
+        "ar-c7e976e2f42d"
+      ],
+      "aliases": [
+        "黑胡椒",
+        "black pepper"
+      ],
+      "recipe_count": 10,
+      "no_active_heat_recipe_ids": [
+        "wb-016",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088",
+        "ar-c7e976e2f42d"
+      ]
+    },
+    {
+      "id": "blueberry",
+      "label": "blueberry",
+      "recipe_ids": [
+        "wb-032",
+        "ar-f6960a282516",
+        "ar-7ade603e39fa"
+      ],
+      "aliases": [
+        "蓝莓",
+        "藍莓",
+        "blueberry",
+        "blueberries"
+      ],
+      "recipe_count": 3,
+      "no_active_heat_recipe_ids": [
+        "ar-f6960a282516",
+        "ar-7ade603e39fa"
+      ]
+    },
+    {
+      "id": "bread",
+      "label": "bread",
+      "recipe_ids": [
+        "wb-001",
+        "wb-017",
+        "wb-018",
+        "wb-029",
+        "wb-043"
+      ],
+      "aliases": [
+        "面包",
+        "麵包",
+        "bread",
+        "baguette"
+      ],
+      "recipe_count": 5,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "cabbage",
+      "label": "cabbage",
+      "recipe_ids": [
+        "wb-013",
+        "wb-060"
+      ],
+      "aliases": [
+        "卷心菜",
+        "包菜",
+        "cabbage"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "wb-013"
+      ]
+    },
+    {
+      "id": "cantaloupe",
+      "label": "cantaloupe",
+      "recipe_ids": [
+        "ar-229176525cb0",
+        "ar-1c15d0848f28",
+        "ar-6626264ec983"
+      ],
+      "aliases": [
+        "哈密瓜",
+        "cantaloupe"
+      ],
+      "recipe_count": 3,
+      "no_active_heat_recipe_ids": [
+        "ar-229176525cb0",
+        "ar-1c15d0848f28",
+        "ar-6626264ec983"
+      ]
+    },
+    {
+      "id": "carrot",
+      "label": "carrot",
+      "recipe_ids": [
+        "wb-001",
+        "wb-003",
+        "wb-006",
+        "wb-008",
+        "wb-028",
+        "wb-060"
+      ],
+      "aliases": [
+        "胡萝卜",
+        "胡蘿蔔",
+        "carrot",
+        "carrots"
+      ],
+      "recipe_count": 6,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "cashew",
+      "label": "cashew",
+      "recipe_ids": [
+        "ar-0d61e0d52620"
+      ],
+      "aliases": [
+        "腰果",
+        "cashew",
+        "cashews"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-0d61e0d52620"
+      ]
+    },
+    {
+      "id": "celery",
+      "label": "celery",
+      "recipe_ids": [
+        "wb-028",
+        "wb-030",
+        "ar-3033f40289b7",
+        "ar-13208b820438"
+      ],
+      "aliases": [
+        "芹菜",
+        "celery"
+      ],
+      "recipe_count": 4,
+      "no_active_heat_recipe_ids": [
+        "ar-3033f40289b7",
+        "ar-13208b820438"
+      ]
+    },
+    {
+      "id": "cheese",
+      "label": "cheese",
+      "recipe_ids": [
+        "wb-016",
+        "wb-018",
+        "wb-026",
+        "wb-028",
+        "wb-045",
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088",
+        "ar-301b590ab4a0",
+        "ar-ea58fc79baaf"
+      ],
+      "aliases": [
+        "奶酪",
+        "芝士",
+        "cheese",
+        "feta",
+        "burrata",
+        "mozzarella",
+        "parmesan"
+      ],
+      "recipe_count": 10,
+      "no_active_heat_recipe_ids": [
+        "wb-016",
+        "wb-045",
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088",
+        "ar-301b590ab4a0",
+        "ar-ea58fc79baaf"
+      ]
+    },
+    {
+      "id": "cherry",
+      "label": "cherry",
+      "recipe_ids": [
+        "ar-f6960a282516",
+        "ar-430b6fb0bec0"
+      ],
+      "aliases": [
+        "樱桃",
+        "櫻桃",
+        "cherry",
+        "cherries"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-f6960a282516",
+        "ar-430b6fb0bec0"
+      ]
+    },
+    {
+      "id": "chia",
+      "label": "chia",
+      "recipe_ids": [
+        "ar-b42f9347b733"
+      ],
+      "aliases": [
+        "奇亚籽",
+        "奇亞籽",
+        "chia"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-b42f9347b733"
+      ]
+    },
+    {
+      "id": "chicken",
+      "label": "chicken",
+      "recipe_ids": [
+        "wb-005",
+        "wb-006",
+        "wb-008",
+        "wb-011",
+        "wb-026",
+        "wb-028",
+        "wb-029",
+        "wb-044",
+        "wb-060"
+      ],
+      "aliases": [
+        "鸡肉",
+        "雞肉",
+        "chicken",
+        "pollo"
+      ],
+      "recipe_count": 9,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "chili",
+      "label": "chili",
+      "recipe_ids": [
+        "wb-001",
+        "wb-003",
+        "wb-011",
+        "wb-012",
+        "wb-015",
+        "wb-024",
+        "ar-07d4a163f73b"
+      ],
+      "aliases": [
+        "辣椒",
+        "chilli",
+        "chili",
+        "chile",
+        "jalapeno",
+        "jalapeño"
+      ],
+      "recipe_count": 7,
+      "no_active_heat_recipe_ids": [
+        "ar-07d4a163f73b"
+      ]
+    },
+    {
+      "id": "cinnamon",
+      "label": "cinnamon",
+      "recipe_ids": [
+        "wb-011",
+        "wb-012",
+        "wb-034",
+        "ar-c7e976e2f42d"
+      ],
+      "aliases": [
+        "肉桂",
+        "cinnamon"
+      ],
+      "recipe_count": 4,
+      "no_active_heat_recipe_ids": [
+        "ar-c7e976e2f42d"
+      ]
+    },
+    {
+      "id": "coconut",
+      "label": "coconut",
+      "recipe_ids": [
+        "wb-055",
+        "wb-056",
+        "wb-057",
+        "ar-13208b820438"
+      ],
+      "aliases": [
+        "椰子",
+        "椰奶",
+        "椰浆",
+        "椰漿",
+        "椰蓉",
+        "coconut",
+        "coconuts",
+        "cocco"
+      ],
+      "recipe_count": 4,
+      "no_active_heat_recipe_ids": [
+        "ar-13208b820438"
+      ]
+    },
+    {
+      "id": "coconut_milk",
+      "label": "coconut milk",
+      "recipe_ids": [
+        "wb-056",
+        "wb-057"
+      ],
+      "aliases": [
+        "椰奶",
+        "椰浆",
+        "椰漿",
+        "coconut milk"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "coconut_water",
+      "label": "coconut water",
+      "recipe_ids": [
+        "ar-13208b820438"
+      ],
+      "aliases": [
+        "椰子水",
+        "coconut water"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-13208b820438"
+      ]
+    },
+    {
+      "id": "coriander",
+      "label": "coriander",
+      "recipe_ids": [
+        "wb-001",
+        "wb-004",
+        "wb-005",
+        "wb-011",
+        "wb-012",
+        "wb-013",
+        "wb-015",
+        "ar-301b590ab4a0",
+        "ar-32a4db95afc2",
+        "ar-07d4a163f73b"
+      ],
+      "aliases": [
+        "香菜",
+        "芫荽",
+        "coriander",
+        "cilantro",
+        "coriandolo"
+      ],
+      "recipe_count": 10,
+      "no_active_heat_recipe_ids": [
+        "wb-013",
+        "ar-301b590ab4a0",
+        "ar-32a4db95afc2",
+        "ar-07d4a163f73b"
+      ]
+    },
+    {
+      "id": "cranberry",
+      "label": "cranberry",
+      "recipe_ids": [
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-3033f40289b7"
+      ],
+      "aliases": [
+        "蔓越莓",
+        "cranberry",
+        "cranberries"
+      ],
+      "recipe_count": 3,
+      "no_active_heat_recipe_ids": [
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-3033f40289b7"
+      ]
+    },
+    {
+      "id": "cream",
+      "label": "cream",
+      "recipe_ids": [
+        "wb-029",
+        "wb-032",
+        "wb-041",
+        "wb-042",
+        "wb-043",
+        "wb-044",
+        "ar-ea58fc79baaf"
+      ],
+      "aliases": [
+        "奶油",
+        "cream"
+      ],
+      "recipe_count": 7,
+      "no_active_heat_recipe_ids": [
+        "wb-041",
+        "ar-ea58fc79baaf"
+      ]
+    },
+    {
+      "id": "crustacean",
+      "label": "crustaceans",
+      "recipe_ids": [
+        "wb-003",
+        "wb-006",
+        "wb-013",
+        "wb-015"
+      ],
+      "aliases": [
+        "虾蟹",
+        "虾",
+        "蝦",
+        "蟹",
+        "虾米",
+        "shrimp",
+        "shrimps",
+        "prawn",
+        "prawns",
+        "crab",
+        "gamberi",
+        "crustaceans"
+      ],
+      "recipe_count": 4,
+      "no_active_heat_recipe_ids": [
+        "wb-013"
+      ]
+    },
+    {
+      "id": "cucumber",
+      "label": "cucumber",
+      "recipe_ids": [
+        "wb-001",
+        "wb-013",
+        "wb-045",
+        "wb-058",
+        "wb-060",
+        "ar-301b590ab4a0",
+        "ar-13208b820438"
+      ],
+      "aliases": [
+        "黄瓜",
+        "黃瓜",
+        "青瓜",
+        "cucumber",
+        "cucumbers",
+        "cetriolo",
+        "dưa chuột"
+      ],
+      "recipe_count": 7,
+      "no_active_heat_recipe_ids": [
+        "wb-013",
+        "wb-045",
+        "wb-058",
+        "ar-301b590ab4a0",
+        "ar-13208b820438"
+      ]
+    },
+    {
+      "id": "cumin",
+      "label": "cumin",
+      "recipe_ids": [
+        "wb-053",
+        "ar-07d4a163f73b"
+      ],
+      "aliases": [
+        "孜然",
+        "cumin"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-07d4a163f73b"
+      ]
+    },
+    {
+      "id": "egg",
+      "label": "egg",
+      "recipe_ids": [
+        "wb-001",
+        "wb-003",
+        "wb-006",
+        "wb-007",
+        "wb-024",
+        "wb-025",
+        "wb-026",
+        "wb-033",
+        "wb-041",
+        "wb-042",
+        "wb-044",
+        "wb-054",
+        "wb-056"
+      ],
+      "aliases": [
+        "蛋",
+        "鸡蛋",
+        "egg",
+        "eggs",
+        "yolk",
+        "uova",
+        "trứng"
+      ],
+      "recipe_count": 13,
+      "no_active_heat_recipe_ids": [
+        "wb-007",
+        "wb-033",
+        "wb-041"
+      ]
+    },
+    {
+      "id": "fig",
+      "label": "fig",
+      "recipe_ids": [
+        "ar-3714b052f088",
+        "ar-7ebcf2f46b59"
+      ],
+      "aliases": [
+        "无花果",
+        "無花果",
+        "fig",
+        "figs"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-3714b052f088",
+        "ar-7ebcf2f46b59"
+      ]
+    },
+    {
+      "id": "fish",
+      "label": "fish",
+      "recipe_ids": [
+        "wb-004",
+        "wb-008",
+        "wb-011",
+        "wb-012",
+        "wb-015",
+        "wb-024",
+        "wb-040",
+        "wb-062"
+      ],
+      "aliases": [
+        "鱼",
+        "魚",
+        "fish",
+        "pesce",
+        "anchovy",
+        "salmon",
+        "catfish"
+      ],
+      "recipe_count": 8,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "garlic",
+      "label": "garlic",
+      "recipe_ids": [
+        "wb-003",
+        "wb-005",
+        "wb-006",
+        "wb-008",
+        "wb-012",
+        "wb-017",
+        "wb-024",
+        "wb-026",
+        "wb-028",
+        "wb-029",
+        "wb-040",
+        "wb-058",
+        "ar-2fa5d74610e0"
+      ],
+      "aliases": [
+        "大蒜",
+        "蒜",
+        "garlic",
+        "aglio"
+      ],
+      "recipe_count": 13,
+      "no_active_heat_recipe_ids": [
+        "wb-058",
+        "ar-2fa5d74610e0"
+      ]
+    },
+    {
+      "id": "ginger",
+      "label": "ginger",
+      "recipe_ids": [
+        "wb-011",
+        "wb-012",
+        "ar-13208b820438"
+      ],
+      "aliases": [
+        "生姜",
+        "生薑",
+        "ginger"
+      ],
+      "recipe_count": 3,
+      "no_active_heat_recipe_ids": [
+        "ar-13208b820438"
+      ]
+    },
+    {
+      "id": "goji",
+      "label": "goji berries",
+      "recipe_ids": [
+        "wb-062"
+      ],
+      "aliases": [
+        "枸杞",
+        "goji",
+        "wolfberry"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "grape",
+      "label": "grape",
+      "recipe_ids": [
+        "ar-0c61bb6694ae"
+      ],
+      "aliases": [
+        "葡萄",
+        "grape",
+        "grapes"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-0c61bb6694ae"
+      ]
+    },
+    {
+      "id": "honey",
+      "label": "honey",
+      "recipe_ids": [
+        "ar-f6960a282516",
+        "ar-0c61bb6694ae"
+      ],
+      "aliases": [
+        "蜂蜜",
+        "honey"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-f6960a282516",
+        "ar-0c61bb6694ae"
+      ]
+    },
+    {
+      "id": "honeydew",
+      "label": "honeydew",
+      "recipe_ids": [
+        "ar-6626264ec983",
+        "ar-5d928d2afcf3"
+      ],
+      "aliases": [
+        "蜜瓜",
+        "honeydew"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-6626264ec983",
+        "ar-5d928d2afcf3"
+      ]
+    },
+    {
+      "id": "kale",
+      "label": "kale",
+      "recipe_ids": [
+        "wb-028",
+        "ar-0c61bb6694ae",
+        "ar-c7e976e2f42d"
+      ],
+      "aliases": [
+        "羽衣甘蓝",
+        "羽衣甘藍",
+        "kale"
+      ],
+      "recipe_count": 3,
+      "no_active_heat_recipe_ids": [
+        "ar-0c61bb6694ae",
+        "ar-c7e976e2f42d"
+      ]
+    },
+    {
+      "id": "kiwi",
+      "label": "kiwi",
+      "recipe_ids": [
+        "ar-e9735e585b5f",
+        "ar-b42f9347b733",
+        "ar-0c61bb6694ae"
+      ],
+      "aliases": [
+        "猕猴桃",
+        "獼猴桃",
+        "奇异果",
+        "奇異果",
+        "kiwi",
+        "kiwifruit"
+      ],
+      "recipe_count": 3,
+      "no_active_heat_recipe_ids": [
+        "ar-e9735e585b5f",
+        "ar-b42f9347b733",
+        "ar-0c61bb6694ae"
+      ]
+    },
+    {
+      "id": "lemon",
+      "label": "lemon",
+      "recipe_ids": [
+        "wb-034",
+        "wb-040",
+        "wb-044",
+        "wb-045",
+        "ar-0d61e0d52620",
+        "ar-3033f40289b7",
+        "ar-13208b820438",
+        "ar-c7e976e2f42d"
+      ],
+      "aliases": [
+        "柠檬",
+        "檸檬",
+        "lemon",
+        "lemons"
+      ],
+      "recipe_count": 8,
+      "no_active_heat_recipe_ids": [
+        "wb-045",
+        "ar-0d61e0d52620",
+        "ar-3033f40289b7",
+        "ar-13208b820438",
+        "ar-c7e976e2f42d"
+      ]
+    },
+    {
+      "id": "lettuce",
+      "label": "lettuce",
+      "recipe_ids": [
+        "wb-003",
+        "wb-005",
+        "wb-013",
+        "ar-0d61e0d52620",
+        "ar-3714b052f088"
+      ],
+      "aliases": [
+        "生菜",
+        "lettuce",
+        "romaine"
+      ],
+      "recipe_count": 5,
+      "no_active_heat_recipe_ids": [
+        "wb-013",
+        "ar-0d61e0d52620",
+        "ar-3714b052f088"
+      ]
+    },
+    {
+      "id": "lily",
+      "label": "lily bulbs",
+      "recipe_ids": [
+        "wb-061"
+      ],
+      "aliases": [
+        "百合",
+        "lily"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "lime",
+      "label": "lime",
+      "recipe_ids": [
+        "wb-011",
+        "wb-012",
+        "wb-015",
+        "wb-043",
+        "wb-053",
+        "ar-4f47d41c0065",
+        "ar-32a4db95afc2",
+        "ar-07d4a163f73b",
+        "ar-6626264ec983"
+      ],
+      "aliases": [
+        "青柠",
+        "青檸",
+        "lime",
+        "limes"
+      ],
+      "recipe_count": 9,
+      "no_active_heat_recipe_ids": [
+        "ar-4f47d41c0065",
+        "ar-32a4db95afc2",
+        "ar-07d4a163f73b",
+        "ar-6626264ec983"
+      ]
+    },
+    {
+      "id": "lotus_seed",
+      "label": "lotus seeds",
+      "recipe_ids": [
+        "wb-061"
+      ],
+      "aliases": [
+        "莲子",
+        "蓮子",
+        "lotus seed",
+        "lotus seeds"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "maca",
+      "label": "maca",
+      "recipe_ids": [
+        "ar-b42f9347b733"
+      ],
+      "aliases": [
+        "玛卡",
+        "瑪卡",
+        "maca"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-b42f9347b733"
+      ]
+    },
+    {
+      "id": "macadamia",
+      "label": "macadamia",
+      "recipe_ids": [
+        "ar-e9735e585b5f"
+      ],
+      "aliases": [
+        "夏威夷果",
+        "macadamia",
+        "macadamias"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-e9735e585b5f"
+      ]
+    },
+    {
+      "id": "mango",
+      "label": "mango",
+      "recipe_ids": [
+        "wb-049",
+        "ar-430b6fb0bec0"
+      ],
+      "aliases": [
+        "芒果",
+        "mango",
+        "mangos",
+        "mangoes",
+        "xoài"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "wb-049",
+        "ar-430b6fb0bec0"
+      ]
+    },
+    {
+      "id": "milk",
+      "label": "milk",
+      "recipe_ids": [
+        "wb-007",
+        "wb-016",
+        "wb-018",
+        "wb-026",
+        "wb-028",
+        "wb-029",
+        "wb-032",
+        "wb-033",
+        "wb-034",
+        "wb-041",
+        "wb-042",
+        "wb-043",
+        "wb-044",
+        "wb-045",
+        "wb-049",
+        "wb-051",
+        "wb-052",
+        "wb-053",
+        "wb-054",
+        "wb-056",
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088",
+        "ar-3033f40289b7",
+        "ar-f6960a282516",
+        "ar-301b590ab4a0",
+        "ar-ea58fc79baaf",
+        "ar-7ebcf2f46b59",
+        "ar-e9735e585b5f",
+        "ar-7ade603e39fa",
+        "ar-1c15d0848f28",
+        "ar-b42f9347b733"
+      ],
+      "aliases": [
+        "奶",
+        "牛奶",
+        "乳制品",
+        "milk",
+        "dairy",
+        "latte",
+        "sữa"
+      ],
+      "recipe_count": 32,
+      "no_active_heat_recipe_ids": [
+        "wb-007",
+        "wb-016",
+        "wb-033",
+        "wb-041",
+        "wb-045",
+        "wb-049",
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088",
+        "ar-3033f40289b7",
+        "ar-f6960a282516",
+        "ar-301b590ab4a0",
+        "ar-ea58fc79baaf",
+        "ar-7ebcf2f46b59",
+        "ar-e9735e585b5f",
+        "ar-7ade603e39fa",
+        "ar-1c15d0848f28",
+        "ar-b42f9347b733"
+      ]
+    },
+    {
+      "id": "mint",
+      "label": "mint",
+      "recipe_ids": [
+        "wb-013",
+        "wb-043",
+        "ar-e9735e585b5f"
+      ],
+      "aliases": [
+        "薄荷",
+        "mint"
+      ],
+      "recipe_count": 3,
+      "no_active_heat_recipe_ids": [
+        "wb-013",
+        "ar-e9735e585b5f"
+      ]
+    },
+    {
+      "id": "mollusc",
+      "label": "molluscs",
+      "recipe_ids": [
+        "wb-008"
+      ],
+      "aliases": [
+        "软体贝类",
+        "贝类",
+        "貝類",
+        "鱿鱼",
+        "squid",
+        "clam",
+        "mussel",
+        "mollusc",
+        "mollusk",
+        "molluscs"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "mung_bean",
+      "label": "mung beans",
+      "recipe_ids": [
+        "wb-059"
+      ],
+      "aliases": [
+        "绿豆",
+        "綠豆",
+        "mung bean",
+        "mung beans"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "mustard",
+      "label": "mustard",
+      "recipe_ids": [
+        "ar-0d61e0d52620"
+      ],
+      "aliases": [
+        "芥末",
+        "mustard"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-0d61e0d52620"
+      ]
+    },
+    {
+      "id": "nectarine",
+      "label": "nectarine",
+      "recipe_ids": [
+        "ar-3033f40289b7",
+        "ar-301b590ab4a0"
+      ],
+      "aliases": [
+        "油桃",
+        "nectarine",
+        "nectarines"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-3033f40289b7",
+        "ar-301b590ab4a0"
+      ]
+    },
+    {
+      "id": "nutmeg",
+      "label": "nutmeg",
+      "recipe_ids": [
+        "ar-7ade603e39fa"
+      ],
+      "aliases": [
+        "肉豆蔻",
+        "nutmeg"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-7ade603e39fa"
+      ]
+    },
+    {
+      "id": "oats",
+      "label": "oats",
+      "recipe_ids": [
+        "ar-c31c2ddbdea7"
+      ],
+      "aliases": [
+        "燕麦",
+        "燕麥",
+        "oat",
+        "oats"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-c31c2ddbdea7"
+      ]
+    },
+    {
+      "id": "olive_oil",
+      "label": "olive oil",
+      "recipe_ids": [
+        "wb-016",
+        "wb-017",
+        "wb-018",
+        "wb-024",
+        "wb-026",
+        "wb-028",
+        "wb-029",
+        "wb-030",
+        "wb-040",
+        "wb-045",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088",
+        "ar-301b590ab4a0",
+        "ar-c7e976e2f42d"
+      ],
+      "aliases": [
+        "橄榄油",
+        "橄欖油",
+        "olive oil"
+      ],
+      "recipe_count": 14,
+      "no_active_heat_recipe_ids": [
+        "wb-016",
+        "wb-045",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088",
+        "ar-301b590ab4a0",
+        "ar-c7e976e2f42d"
+      ]
+    },
+    {
+      "id": "onion",
+      "label": "onion",
+      "recipe_ids": [
+        "wb-005",
+        "wb-008",
+        "wb-011",
+        "wb-012",
+        "wb-015",
+        "wb-028",
+        "wb-030",
+        "wb-044",
+        "wb-045",
+        "ar-0d61e0d52620",
+        "ar-3714b052f088",
+        "ar-32a4db95afc2"
+      ],
+      "aliases": [
+        "洋葱",
+        "洋蔥",
+        "onion",
+        "onions",
+        "cipolla"
+      ],
+      "recipe_count": 12,
+      "no_active_heat_recipe_ids": [
+        "wb-045",
+        "ar-0d61e0d52620",
+        "ar-3714b052f088",
+        "ar-32a4db95afc2"
+      ]
+    },
+    {
+      "id": "orange",
+      "label": "orange",
+      "recipe_ids": [
+        "ar-f6960a282516",
+        "ar-7ebcf2f46b59",
+        "ar-e7466fc5d17b",
+        "ar-1c15d0848f28",
+        "ar-27028d1aa3b0"
+      ],
+      "aliases": [
+        "橙子",
+        "橙",
+        "orange",
+        "oranges"
+      ],
+      "recipe_count": 5,
+      "no_active_heat_recipe_ids": [
+        "ar-f6960a282516",
+        "ar-7ebcf2f46b59",
+        "ar-e7466fc5d17b",
+        "ar-1c15d0848f28",
+        "ar-27028d1aa3b0"
+      ]
+    },
+    {
+      "id": "papaya",
+      "label": "papaya",
+      "recipe_ids": [
+        "ar-ea58fc79baaf"
+      ],
+      "aliases": [
+        "木瓜",
+        "papaya",
+        "papayas",
+        "pawpaw"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-ea58fc79baaf"
+      ]
+    },
+    {
+      "id": "parsley",
+      "label": "parsley",
+      "recipe_ids": [
+        "wb-015",
+        "wb-024",
+        "wb-026",
+        "ar-13208b820438"
+      ],
+      "aliases": [
+        "欧芹",
+        "歐芹",
+        "parsley"
+      ],
+      "recipe_count": 4,
+      "no_active_heat_recipe_ids": [
+        "ar-13208b820438"
+      ]
+    },
+    {
+      "id": "pasta",
+      "label": "pasta",
+      "recipe_ids": [
+        "wb-024",
+        "wb-025"
+      ],
+      "aliases": [
+        "意面",
+        "意大利面",
+        "pasta",
+        "spaghetti",
+        "orzo"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "peach",
+      "label": "peach",
+      "recipe_ids": [
+        "wb-042"
+      ],
+      "aliases": [
+        "桃子",
+        "peach",
+        "peaches"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "peanut",
+      "label": "peanut",
+      "recipe_ids": [
+        "wb-003"
+      ],
+      "aliases": [
+        "花生",
+        "peanut",
+        "peanuts",
+        "arachidi",
+        "đậu phộng",
+        "lạc"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "peanut_butter",
+      "label": "peanut butter",
+      "recipe_ids": [
+        "wb-003"
+      ],
+      "aliases": [
+        "花生酱",
+        "花生醬",
+        "peanut butter"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "pear",
+      "label": "pear",
+      "recipe_ids": [
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088"
+      ],
+      "aliases": [
+        "梨",
+        "pear",
+        "pears"
+      ],
+      "recipe_count": 3,
+      "no_active_heat_recipe_ids": [
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088"
+      ]
+    },
+    {
+      "id": "pecan",
+      "label": "pecan",
+      "recipe_ids": [
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088"
+      ],
+      "aliases": [
+        "碧根果",
+        "pecan",
+        "pecans"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088"
+      ]
+    },
+    {
+      "id": "pine_nut",
+      "label": "pine nut",
+      "recipe_ids": [
+        "wb-030"
+      ],
+      "aliases": [
+        "松子",
+        "pine nut",
+        "pine nuts",
+        "pinoli"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "pineapple",
+      "label": "pineapple",
+      "recipe_ids": [
+        "wb-004",
+        "ar-5c5aeee1366e",
+        "ar-13208b820438",
+        "ar-0c61bb6694ae"
+      ],
+      "aliases": [
+        "菠萝",
+        "菠蘿",
+        "凤梨",
+        "鳳梨",
+        "pineapple",
+        "ananas"
+      ],
+      "recipe_count": 4,
+      "no_active_heat_recipe_ids": [
+        "ar-5c5aeee1366e",
+        "ar-13208b820438",
+        "ar-0c61bb6694ae"
+      ]
+    },
+    {
+      "id": "pistachio",
+      "label": "pistachio",
+      "recipe_ids": [
+        "wb-051"
+      ],
+      "aliases": [
+        "开心果",
+        "開心果",
+        "pistachio",
+        "pistachios"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "plum",
+      "label": "plum",
+      "recipe_ids": [
+        "wb-024"
+      ],
+      "aliases": [
+        "李子",
+        "plum",
+        "plums"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "pomegranate",
+      "label": "pomegranate",
+      "recipe_ids": [
+        "ar-c7e976e2f42d"
+      ],
+      "aliases": [
+        "石榴",
+        "pomegranate"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-c7e976e2f42d"
+      ]
+    },
+    {
+      "id": "pork",
+      "label": "pork",
+      "recipe_ids": [
+        "wb-001",
+        "wb-003",
+        "wb-005",
+        "wb-008",
+        "wb-013",
+        "wb-028"
+      ],
+      "aliases": [
+        "猪肉",
+        "豬肉",
+        "pork",
+        "maiale",
+        "sausage"
+      ],
+      "recipe_count": 6,
+      "no_active_heat_recipe_ids": [
+        "wb-013"
+      ]
+    },
+    {
+      "id": "raisin",
+      "label": "raisin",
+      "recipe_ids": [
+        "wb-052"
+      ],
+      "aliases": [
+        "葡萄干",
+        "葡萄乾",
+        "raisin",
+        "raisins"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "rice",
+      "label": "rice",
+      "recipe_ids": [
+        "wb-003",
+        "wb-005",
+        "wb-006",
+        "wb-011",
+        "wb-012",
+        "wb-013",
+        "wb-015",
+        "wb-034",
+        "wb-035",
+        "wb-052",
+        "wb-055",
+        "wb-056",
+        "wb-060"
+      ],
+      "aliases": [
+        "米饭",
+        "米飯",
+        "大米",
+        "糯米",
+        "rice",
+        "riso"
+      ],
+      "recipe_count": 13,
+      "no_active_heat_recipe_ids": [
+        "wb-013"
+      ]
+    },
+    {
+      "id": "salt",
+      "label": "salt",
+      "recipe_ids": [
+        "wb-001",
+        "wb-003",
+        "wb-004",
+        "wb-006",
+        "wb-008",
+        "wb-011",
+        "wb-017",
+        "wb-018",
+        "wb-024",
+        "wb-025",
+        "wb-026",
+        "wb-028",
+        "wb-029",
+        "wb-030",
+        "wb-034",
+        "wb-040",
+        "wb-044",
+        "wb-045",
+        "wb-053",
+        "wb-055",
+        "wb-056",
+        "wb-057",
+        "wb-058",
+        "wb-060",
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088",
+        "ar-4f47d41c0065",
+        "ar-32a4db95afc2",
+        "ar-07d4a163f73b"
+      ],
+      "aliases": [
+        "盐",
+        "鹽",
+        "salt"
+      ],
+      "recipe_count": 30,
+      "no_active_heat_recipe_ids": [
+        "wb-045",
+        "wb-058",
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088",
+        "ar-4f47d41c0065",
+        "ar-32a4db95afc2",
+        "ar-07d4a163f73b"
+      ]
+    },
+    {
+      "id": "sesame",
+      "label": "sesame",
+      "recipe_ids": [
+        "wb-058",
+        "wb-060"
+      ],
+      "aliases": [
+        "芝麻",
+        "sesame",
+        "sesamo"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "wb-058"
+      ]
+    },
+    {
+      "id": "shallot",
+      "label": "shallot",
+      "recipe_ids": [
+        "wb-003",
+        "ar-c7e976e2f42d"
+      ],
+      "aliases": [
+        "红葱头",
+        "紅蔥頭",
+        "shallot",
+        "shallots"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-c7e976e2f42d"
+      ]
+    },
+    {
+      "id": "soy",
+      "label": "soy",
+      "recipe_ids": [
+        "wb-003",
+        "wb-005",
+        "wb-011",
+        "wb-012",
+        "wb-060",
+        "ar-c31c2ddbdea7",
+        "ar-4c22a1f7ef34"
+      ],
+      "aliases": [
+        "大豆",
+        "黄豆",
+        "豆腐",
+        "soy",
+        "soya",
+        "tofu",
+        "soia"
+      ],
+      "recipe_count": 7,
+      "no_active_heat_recipe_ids": [
+        "ar-c31c2ddbdea7",
+        "ar-4c22a1f7ef34"
+      ]
+    },
+    {
+      "id": "soy_milk",
+      "label": "soy milk",
+      "recipe_ids": [
+        "ar-c31c2ddbdea7",
+        "ar-4c22a1f7ef34"
+      ],
+      "aliases": [
+        "豆奶",
+        "豆浆",
+        "豆漿",
+        "soy milk",
+        "soya milk"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-c31c2ddbdea7",
+        "ar-4c22a1f7ef34"
+      ]
+    },
+    {
+      "id": "spinach",
+      "label": "spinach",
+      "recipe_ids": [
+        "ar-4c22a1f7ef34"
+      ],
+      "aliases": [
+        "菠菜",
+        "spinach"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-4c22a1f7ef34"
+      ]
+    },
+    {
+      "id": "strawberry",
+      "label": "strawberry",
+      "recipe_ids": [
+        "wb-032",
+        "wb-041",
+        "wb-043",
+        "ar-f6960a282516",
+        "ar-e7466fc5d17b",
+        "ar-c31c2ddbdea7"
+      ],
+      "aliases": [
+        "草莓",
+        "strawberry",
+        "strawberries",
+        "fragola",
+        "fragole"
+      ],
+      "recipe_count": 6,
+      "no_active_heat_recipe_ids": [
+        "wb-041",
+        "ar-f6960a282516",
+        "ar-e7466fc5d17b",
+        "ar-c31c2ddbdea7"
+      ]
+    },
+    {
+      "id": "sugar",
+      "label": "sugar",
+      "recipe_ids": [
+        "wb-001",
+        "wb-003",
+        "wb-005",
+        "wb-008",
+        "wb-015",
+        "wb-030",
+        "wb-032",
+        "wb-034",
+        "wb-041",
+        "wb-043",
+        "wb-048",
+        "wb-049",
+        "wb-051",
+        "wb-052",
+        "wb-055",
+        "wb-056",
+        "wb-057",
+        "wb-059",
+        "wb-060",
+        "wb-061",
+        "wb-062",
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-ea58fc79baaf",
+        "ar-4f47d41c0065",
+        "ar-7ade603e39fa",
+        "ar-229176525cb0",
+        "ar-c31c2ddbdea7",
+        "ar-6626264ec983",
+        "ar-5d928d2afcf3"
+      ],
+      "aliases": [
+        "糖",
+        "砂糖",
+        "冰糖",
+        "sugar",
+        "zucchero"
+      ],
+      "recipe_count": 30,
+      "no_active_heat_recipe_ids": [
+        "wb-041",
+        "wb-048",
+        "wb-049",
+        "ar-0d61e0d52620",
+        "ar-2fa5d74610e0",
+        "ar-ea58fc79baaf",
+        "ar-4f47d41c0065",
+        "ar-7ade603e39fa",
+        "ar-229176525cb0",
+        "ar-c31c2ddbdea7",
+        "ar-6626264ec983",
+        "ar-5d928d2afcf3"
+      ]
+    },
+    {
+      "id": "sulphites",
+      "label": "sulphites",
+      "recipe_ids": [
+        "wb-001",
+        "wb-016",
+        "wb-018",
+        "wb-026",
+        "wb-030",
+        "wb-040",
+        "wb-044",
+        "wb-058",
+        "wb-060"
+      ],
+      "aliases": [
+        "亚硫酸盐",
+        "亞硫酸鹽",
+        "sulphite",
+        "sulphites",
+        "sulfite",
+        "sulfites"
+      ],
+      "recipe_count": 9,
+      "no_active_heat_recipe_ids": [
+        "wb-016",
+        "wb-058"
+      ]
+    },
+    {
+      "id": "thyme",
+      "label": "thyme",
+      "recipe_ids": [
+        "wb-040",
+        "ar-c7e976e2f42d"
+      ],
+      "aliases": [
+        "百里香",
+        "thyme"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-c7e976e2f42d"
+      ]
+    },
+    {
+      "id": "tomato",
+      "label": "tomato",
+      "recipe_ids": [
+        "wb-016",
+        "wb-017",
+        "wb-018",
+        "wb-024",
+        "wb-025",
+        "wb-026",
+        "wb-028",
+        "wb-029",
+        "wb-030",
+        "wb-040",
+        "wb-044",
+        "wb-045",
+        "ar-301b590ab4a0",
+        "ar-32a4db95afc2"
+      ],
+      "aliases": [
+        "番茄",
+        "西红柿",
+        "西紅柿",
+        "tomato",
+        "tomatoes",
+        "pomodoro",
+        "pomodori"
+      ],
+      "recipe_count": 14,
+      "no_active_heat_recipe_ids": [
+        "wb-016",
+        "wb-045",
+        "ar-301b590ab4a0",
+        "ar-32a4db95afc2"
+      ]
+    },
+    {
+      "id": "vanilla",
+      "label": "vanilla",
+      "recipe_ids": [
+        "wb-033",
+        "wb-041",
+        "ar-f6960a282516",
+        "ar-ea58fc79baaf",
+        "ar-e9735e585b5f",
+        "ar-7ade603e39fa",
+        "ar-c31c2ddbdea7",
+        "ar-1c15d0848f28"
+      ],
+      "aliases": [
+        "香草精",
+        "vanilla"
+      ],
+      "recipe_count": 8,
+      "no_active_heat_recipe_ids": [
+        "wb-033",
+        "wb-041",
+        "ar-f6960a282516",
+        "ar-ea58fc79baaf",
+        "ar-e9735e585b5f",
+        "ar-7ade603e39fa",
+        "ar-c31c2ddbdea7",
+        "ar-1c15d0848f28"
+      ]
+    },
+    {
+      "id": "vinegar",
+      "label": "vinegar",
+      "recipe_ids": [
+        "wb-001",
+        "wb-016",
+        "wb-018",
+        "wb-030",
+        "wb-058",
+        "wb-060",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088"
+      ],
+      "aliases": [
+        "醋",
+        "vinegar"
+      ],
+      "recipe_count": 8,
+      "no_active_heat_recipe_ids": [
+        "wb-016",
+        "wb-058",
+        "ar-2fa5d74610e0",
+        "ar-3714b052f088"
+      ]
+    },
+    {
+      "id": "walnut",
+      "label": "walnut",
+      "recipe_ids": [
+        "ar-3033f40289b7"
+      ],
+      "aliases": [
+        "核桃",
+        "walnut",
+        "walnuts"
+      ],
+      "recipe_count": 1,
+      "no_active_heat_recipe_ids": [
+        "ar-3033f40289b7"
+      ]
+    },
+    {
+      "id": "watermelon",
+      "label": "watermelon",
+      "recipe_ids": [
+        "ar-4f47d41c0065",
+        "ar-07d4a163f73b"
+      ],
+      "aliases": [
+        "西瓜",
+        "watermelon"
+      ],
+      "recipe_count": 2,
+      "no_active_heat_recipe_ids": [
+        "ar-4f47d41c0065",
+        "ar-07d4a163f73b"
+      ]
+    },
+    {
+      "id": "wheat",
+      "label": "wheat",
+      "recipe_ids": [
+        "wb-001",
+        "wb-003",
+        "wb-005",
+        "wb-011",
+        "wb-012",
+        "wb-017",
+        "wb-018",
+        "wb-024",
+        "wb-025",
+        "wb-026",
+        "wb-029",
+        "wb-040",
+        "wb-043",
+        "wb-054",
+        "wb-055",
+        "wb-057",
+        "wb-060"
+      ],
+      "aliases": [
+        "小麦",
+        "麵粉",
+        "面粉",
+        "wheat",
+        "grano",
+        "semolina"
+      ],
+      "recipe_count": 17,
+      "no_active_heat_recipe_ids": []
+    },
+    {
+      "id": "yogurt",
+      "label": "yogurt",
+      "recipe_ids": [
+        "wb-041",
+        "wb-049",
+        "wb-053",
+        "ar-3033f40289b7",
+        "ar-f6960a282516",
+        "ar-ea58fc79baaf",
+        "ar-e9735e585b5f",
+        "ar-7ade603e39fa",
+        "ar-1c15d0848f28"
+      ],
+      "aliases": [
+        "酸奶",
+        "酸乳",
+        "yogurt",
+        "yoghurt"
+      ],
+      "recipe_count": 9,
+      "no_active_heat_recipe_ids": [
+        "wb-041",
+        "wb-049",
+        "ar-3033f40289b7",
+        "ar-f6960a282516",
+        "ar-ea58fc79baaf",
+        "ar-e9735e585b5f",
+        "ar-7ade603e39fa",
+        "ar-1c15d0848f28"
+      ]
+    }
+  ]
+}

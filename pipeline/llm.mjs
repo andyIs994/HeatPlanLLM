@@ -12,7 +12,7 @@ export function milliseconds(value,fallback){
 export class ProviderError extends Error{
   constructor(code){super(code);this.code=code;}
 }
-const cuisine=['vietnamese','italian','english','indian','chinese','malaysian','greek',null];
+const cuisine=['vietnamese','italian','english','indian','chinese','malaysian','greek','international',null];
 const properties={
   cuisine:{type:['string','null'],enum:cuisine},temperature:{type:['string','null'],enum:['cold','room','hot',null]},
   dishType:{type:['string','null'],enum:['main','side','salad','dessert','beverage','sauce','base',null]},

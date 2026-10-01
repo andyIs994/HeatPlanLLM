@@ -30,3 +30,8 @@ into a separate directory reproduced current data, runtime, embedded preview,
 candidate manifest and documentation (comparing text independent of line endings).
 These checks do not establish empirical heat-score accuracy or approve candidate
 recipe safety/rights. Historical checks below concern earlier versions.
+
+
+## Ingredient-first release, 2026-10-01
+
+Verified in the in-app browser at localhost:8893 with no API keys: ingredient-first welcome, blueberry/yogurt/cold/no-cooking request, correct added recipe and source attribution, 95-ingredient browser, search and ingredient-button-to-chat flow. Provider checks use mocks; live availability not verified.

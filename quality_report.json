@@ -1,5 +1,5 @@
 {
-  "recipes": 58,
+  "recipes": 85,
   "translated_ingredient_or_step_blocks": 55,
   "baseline_regressions_passed": 37,
   "english_flow_and_display_checks_passed": true,
@@ -38,5 +38,18 @@
       "ui/chat-ui.mjs",
       "data/recipes.json"
     ]
-  }
+  },
+  "ingredient_release": {
+    "date": "2026-10-01",
+    "added_recipes": 27,
+    "selectable_ingredients": 95,
+    "recognized_food_identifiers": 109,
+    "deferred_candidates": 123,
+    "chat_regressions_passed": 37,
+    "heat_provider_ingredient_tests_passed": 42,
+    "kaggle_tests_passed": 7,
+    "browser_checked": true,
+    "live_llm_tested": false
+  },
+  "historical_v04_rebuild_files_byte_identical_note": "Historical verification only; these files have subsequently changed."
 }

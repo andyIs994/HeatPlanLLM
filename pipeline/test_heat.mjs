@@ -44,7 +44,8 @@ test('chilling, proofing, resting and total elapsed time never inflate active co
   assert.ok(cookingHeat(get('wb-043')).value<cookingHeat(get('wb-051')).value);
 });
 test('all current records have traceable profiles and valid finite scores',()=>{
-  assert.equal(rows.length,58);
+  assert.equal(rows.filter(r=>r.recipe_id.startsWith('wb-')).length,58);
+  assert.equal(rows.filter(r=>r.recipe_id.startsWith('ar-')).length,27);
   for(const r of rows){
     const h=cookingHeat(r);
     assert.ok(Number.isFinite(h.value)&&h.value>=0&&h.value<100);

@@ -1,12 +1,10 @@
-# Standard recipes · English edition
+# Active recipe catalogue
 
-English display translations of the v0.4 collection. Ingredient amounts and methods have not been reformulated.
+85 records. See docs/INGREDIENT_RELEASE.md for review scope.
 
-## Pork Bánh Mì · Standard recipe
+## Bánh Mì
 
-Vietnamese · Room temperature
-
-### Ingredients
+wb-001 | Room temperature
 
 - 1 loaf baguette-style bread
 - Julienned carrot
@@ -21,8 +19,6 @@ Vietnamese · Room temperature
 - Cooked BBQ pork, sliced
 - Japanese mayonnaise
 
-### Method
-
 1. Lightly sprinkle the julienned carrot and radish with salt. Let rest 5 min, then rinse with cold water.
 2. Mix equal parts of water, vinegar with sugar. Bring to a boil, cool, and pour over vegetables.
 3. Store this mixture in a container in the refrigerator for at least a day before using.
@@ -31,15 +27,11 @@ Vietnamese · Room temperature
 6. Fill with sliced cooked BBQ pork, the prepared carrot and daikon pickle, cilantro, jalapeño and cucumber.
 7. Serve.
 
-Allergen reminder: this recipe contains or may contain egg, sulphites, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4605959
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4605959) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Bò bía
 
-## Bò bía Rolls with Peanut–Hoisin Dipping Sauce · Standard recipe
-
-Vietnamese · Room temperature
-
-### Ingredients
+wb-003 | Room temperature
 
 - 9 rice paper rounds
 - 3 ea. Chinese sweet sausages (lạp xưởng)
@@ -58,8 +50,6 @@ Vietnamese · Room temperature
 - 1 tbsp peanut butter
 - 1 tbsp sugar
 - Pickled carrots and daikon
-
-### Method
 
 1. Roast the small dried shrimps without any oil in a pan by stirring constantly on medium heat for 2 to 3 minutes until fragrant.
 2. Bring a pan of water to a boil. Cook all 3 Chinese sweet sausages until cooked through, then let cool and slice thinly on a diagonal.
@@ -80,15 +70,11 @@ Vietnamese · Room temperature
 17. Roll gently and tight enough, so that the ingredients do not fall out after one's first bite. A nice roll should show up all the colors of the ingredients inside.
 18. To serve, dip the salad roll in the dipping sauce or spoon some of the sauce onto the roll and have a bite.
 
-Allergen reminder: this recipe contains or may contain crustacean, egg, peanut, soy, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4632281
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4632281) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Canh Chua (Vietnamese Hot and Sour Soup)
 
-## Canh Chua (Vietnamese Hot and Sour Soup) · Standard recipe
-
-Vietnamese · Hot
-
-### Ingredients
+wb-004 | Hot
 
 - 1 whole catfish
 - 2 scallions, green part reserved for garnish and white part crushed
@@ -103,22 +89,16 @@ Vietnamese · Hot
 - 2 tablespoons chopped fresh coriander
 - Green part of scallions, chopped
 
-### Method
-
 1. Marinate the fish for 15 minutes with the crushed scallions, black pepper, salt, and nước mắm.
 2. Bring water to the boil. Add the sour bamboo and pineapple slices. Boil for 5 minutes.
 3. Add marinated fish and continue to boil for a total of 10 minutes. While the fish is boiling, add Nước mắm, and salt.
 4. For serving, the soup can be garnished with coriander and the green part of scallions.
 
-Allergen reminder: this recipe contains or may contain fish. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4629675
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4629675) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Cao lầu (Vietnamese Pork Noodles with Greens)
 
-## Cao lầu (Vietnamese Pork Noodles with Greens) · Standard recipe
-
-Vietnamese · Hot
-
-### Ingredients
+wb-005 | Hot
 
 - 300 g pork
 - 2 cups (150 g) uncooked Hokkien-style rice noodles
@@ -137,8 +117,6 @@ Vietnamese · Hot
 - Croûtons
 - Spring onions
 
-### Method
-
 1. Heat oil and paprika in a pan.
 2. Add sliced pork, smashed garlic, soy sauce, chicken stock powder and spices. Stir-fry until the pork is cooked through.
 3. Add 1 tbsp water and fry for a further 2 minutes.
@@ -148,15 +126,11 @@ Vietnamese · Hot
 7. Put noodles in a bowl on top of lettuce and greens. Add pork mixture, chopped spring onions, croûtons, and chiles.
 8. Serve the assembled noodles and pork hot.
 
-Allergen reminder: this recipe contains or may contain soy, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4504850
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4504850) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Com Chien (Vietnamese Fried Rice)
 
-## Com Chien (Vietnamese Fried Rice) · Standard recipe
-
-Vietnamese · Hot
-
-### Ingredients
+wb-006 | Hot
 
 - 3 tbsp oil
 - 3 cloves garlic
@@ -172,29 +146,21 @@ Vietnamese · Hot
 - 2 tbsp chicken powder
 - Fried egg
 
-### Method
-
 1. Heat the oil in a non-stick pan, and stir-fry the garlic, red chile, and leeks for about 1 minute.
 2. Add the prawn, carrot, and peas, and then add the beaten eggs. Mix until combined.
 3. Add the rice, salt, pepper, and chicken powder. Stir until well-mixed.
 4. Serves with a fried egg.
 
-Allergen reminder: this recipe contains or may contain crustacean, egg. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4630396
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4630396) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Egg Soda
 
-## Egg Soda · Standard recipe
-
-Vietnamese · Cold / chilled
-
-### Ingredients
+wb-007 | Cold / chilled
 
 - 2 teaspoons sweetened condensed milk
 - 1 egg yolk
 - Carbonated water (as needed, about 1–2 cups / 250–500 ml / 8.5–17 oz)
 - Ice
-
-### Method
 
 1. Fill a glass with ice.
 2. In another glass, combine the condensed milk and egg yolk.
@@ -202,16 +168,11 @@ Vietnamese · Cold / chilled
 4. Pour liquid over ice.
 5. Enjoy.
 
-Allergen reminder: this recipe contains or may contain egg, milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
-This recipe contains raw egg. Commercially pasteurised egg yolk is recommended; pregnant people, older adults and people with weakened immune systems should avoid the version made with ordinary raw egg.
+Source: https://en.wikibooks.org/w/index.php?oldid=4516705
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4516705) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Mực Nhồi Thịt (Vietnamese Stuffed Squid)
 
-## Mực Nhồi Thịt (Vietnamese Stuffed Squid) · Standard recipe
-
-Vietnamese · Hot
-
-### Ingredients
+wb-008 | Hot
 
 - 12 small squid, cleaned, with tentacles removed and reserved
 - 2 spring onions, cut into 2-inch lengths
@@ -231,8 +192,6 @@ Vietnamese · Hot
 - 1 pinch salt
 - 1 pinch pepper
 
-### Method
-
 1. Combine chopped squid tentacles, minced pork fat, and garlic.
 2. Add spring onion and mushrooms to the squid mixture, along with nước mắm, sugar, salt and pepper.
 3. Stuff into the squid heads and secure the openings with toothpicks.
@@ -240,21 +199,15 @@ Vietnamese · Hot
 5. Place in a preheated 350 °F oven, and bake for 20 minutes.
 6. Serve in the pot accompanied by steamed rice.
 
-Allergen reminder: this recipe contains or may contain fish, mollusc. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4494457
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4494457) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Vietnamese Caramel Sauce (Nước Maøu)
 
-## Vietnamese Caramel Sauce (Nước Maøu) · Standard recipe
-
-Vietnamese · Room temperature
-
-### Ingredients
+wb-010 | Room temperature
 
 - ½ cup white granulated sugar
 - ¼ cup water
 - 1 cup water
-
-### Method
 
 1. Combine sugar and the ¼ cup water in a small saucepan over low heat.
 2. Swirl the pan frequently to avoid burning. When the sugar turns light brown, remove from the heat.
@@ -262,15 +215,11 @@ Vietnamese · Room temperature
 4. Let cool a little and return the sauce to the stove. Cook on low heat until all the sugar has dissolved.
 5. Let the sauce cool and store in a jar in the refrigerator for future use.
 
-Allergen reminder: no common allergens were identified in the listed ingredients; this does not mean there is no allergy risk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4587152
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4587152) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Phở Gà (Vietnamese Chicken Noodle Soup)
 
-## Phở Gà (Vietnamese Chicken Noodle Soup) · Standard recipe
-
-Vietnamese · Hot
-
-### Ingredients
+wb-011 | Hot
 
 - 1 tsp fennel seed
 - 1 tsp peppercorns
@@ -295,23 +244,17 @@ Vietnamese · Hot
 - Sriracha chili sauce
 - Additional fish sauce
 
-### Method
-
 1. Combine ingredients for seasoning pouch in a small strainer or a pouch made from cheesecloth and twine.
 2. In a large stock pot, boil soup ingredients together with seasoning pouch until the chicken is thoroughly cooked
 3. Remove the chicken and strain broth back into the pot for additional simmering. Once the chicken is cool, pull apart the meat into bite sized pieces and discard bones.
 4. In a separate pot, boil the pho noodles in sufficient water. Stop when they're no longer chewy (basically the way you'd boil spaghetti). Make sure you don't overdo it or the noodles will fall apart and you'll end up with porridge. When done, pour the noodles into a colander and rinse them with lukewarm water. Then, leave them to drain.
 5. Once the noodles have drained, add them to a bowl. Combine the chicken, serving ingredients, and enough broth to cover the noodles.
 
-Allergen reminder: this recipe contains or may contain fish, soy, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4518484
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4518484) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Phở Bò (Vietnamese Beef Noodle Soup)
 
-## Phở Bò (Vietnamese Beef Noodle Soup) · Standard recipe
-
-Vietnamese · Hot
-
-### Ingredients
+wb-012 | Hot
 
 - 2 large white onions, cut into quarters
 - 1 tablespoon vegetable oil
@@ -338,23 +281,17 @@ Vietnamese · Hot
 - Garlic, to taste, for the broth
 - Water, enough to cover the beef bones
 
-### Method
-
 1. Fry onions in oil until lightly browned. Remove and drain.
 2. Rinse the beef bones, place in a stockpot, cover with cold water, and bring slowly to a boil. Reduce heat and simmer, uncovered, for 10–15 minutes. For a clear broth skim off foam.
 3. After this initial cooking, add cooked onions, ginger, cinnamon, cardamom, star anise, cloves, garlic and peppercorns. Bring to a boil again and gently simmer the stock, partially covered, for a minimum of 6 hours but up to 12 hours if you can, skimming regularly. If necessary, add more water to keep the bones covered.
 4. Strain stock to remove the vegetable and spices and discard them. Return the broth to the stove to keep it boiling hot.
 5. Cook the thinly sliced beef in the boiling broth until cooked through. Put cooked phở noodles in a bowl, add beef and hot broth, then garnish with the listed onions, herbs and condiments. Serve hot.
 
-Allergen reminder: this recipe contains or may contain fish, soy, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4518483
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4518483) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Summer Rolls
 
-## Summer Rolls · Standard recipe
-
-Vietnamese · Room temperature
-
-### Ingredients
+wb-013 | Room temperature
 
 - 4 rice wafers (rice paper, tapioca sheet)
 - 4–8 cooked, peeled prawns
@@ -366,8 +303,6 @@ Vietnamese · Room temperature
 - Fresh coriander, basil and mint, to taste
 - Warm water
 
-### Method
-
 1. Dip a rice wafer into the warm water and remove immediately when it is completely wet—it only needs to be in the water for a few seconds.
 2. Lay the rice wafer on a board or plate.
 3. Arrange a portion of the ingredients near the edge of the rice wafer in a neat pile, with the fingers of cucumber roughly parallel to the edge of the wafer.
@@ -377,15 +312,11 @@ Vietnamese · Room temperature
 7. Set aside for 5 minutes to dry a little before eating.
 8. Repeat for each roll and serve promptly.
 
-Allergen reminder: this recipe contains or may contain crustacean. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4630369
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4630369) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Vietnamese Fish Dipping Sauce (Nước mắm pha)
 
-## Vietnamese Fish Dipping Sauce (Nước mắm pha) · Standard recipe
-
-Vietnamese · Cold / chilled
-
-### Ingredients
+wb-014 | Cold / chilled
 
 - ¼ cups nước mắm (concentrated fish sauce)
 - 1½ cups water
@@ -394,22 +325,15 @@ Vietnamese · Cold / chilled
 - 1 tsp minced garlic or about 2 cloves pressed through a garlic press
 - ½ tsp sambal oelek (a type of hot chile sauce)
 
-### Method
-
 1. Mix all ingredients together.
 2. If desired, bring to a boil that cannot be stirred down.
 3. Cover and refrigerate.
 
-Allergen reminder: this recipe contains or may contain fish. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
-The original recipe is unchanged. The default is to mix and refrigerate; optional boiling is excluded from its default heat score.
+Source: https://en.wikibooks.org/w/index.php?oldid=4519041
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4519041) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Vietnamese Rice Noodle and Beef Soup (Bún bò Huế)
 
-## Vietnamese Rice Noodle and Beef Soup (Bún bò Huế) · Standard recipe
-
-Vietnamese · Hot
-
-### Ingredients
+wb-015 | Hot
 
 - 4 tbsp Huế shrimp paste
 - 1 small onion, finely chopped
@@ -431,8 +355,6 @@ Vietnamese · Hot
 - Banana blossom, thinly sliced
 - Shrimp paste
 
-### Method
-
 1. Add the shrimp paste to a large 2.5 L bowl, and gradually mix in cold water while vigorously stirring the paste. Keep adding water and stirring until you’ve almost reached the rim of the bowl. Don’t let it spill over. Let the paste mixture rest in the bowl for 1.5 hours to allow the mixture to settle.
 2. Sauté the small onion in 3 tbsp oil until golden brown.
 3. In a stockpot, combine the cooked onion and pig feet with 2 L water. Slowly bring it to the boil over medium heat.
@@ -447,15 +369,11 @@ Vietnamese · Hot
 12. In a large soup bowl, place a handful of noodles, top with a handful of the parsley/cilantro/onion mixture, and ladle on generous amounts of steaming hot broth, ensuring there are several pieces of beef and pork.
 13. Serve hot with the condiments. You can add a squeeze of lime and chopped fresh chillies if you like your food extra spicy. It is also common to add a small dollop of shrimp paste to the soup, but those unfamiliar with the taste may not like it.
 
-Allergen reminder: this recipe contains or may contain crustacean, fish. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4509883
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4509883) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Caprese Salad
 
-## Caprese Salad · Standard recipe
-
-Italian · Room temperature
-
-### Ingredients
+wb-016 | Room temperature
 
 - 1 medium tomato
 - A few basil leaves
@@ -463,8 +381,6 @@ Italian · Room temperature
 - Olive oil
 - Balsamic vinegar
 - Oregano and black pepper, to taste
-
-### Method
 
 1. Cut the tomato into about 5 slices.
 2. Put a slice of mozzarella cheese on top of each tomato slice.
@@ -474,15 +390,11 @@ Italian · Room temperature
 6. Drizzle some vinegar and olive oil on top. Do not mix the vinegar and olive oil.
 7. Eat fresh.
 
-Allergen reminder: this recipe contains or may contain milk, sulphites. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4605277
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4605277) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Bruschetta
 
-## Bruschetta · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-017 | Hot
 
 - 1 loaf Italian bread, sliced ½ inch (1.25 cm) thick on the bias
 - ½ head garlic
@@ -491,21 +403,15 @@ Italian · Hot
 - Extra-virgin olive oil
 - Chopped tomatoes and fresh basil
 
-### Method
-
 1. Toast the bread slices in a toaster oven until golden.
 2. Immediately rub the bread with the cut side of the garlic. Sprinkle with salt and black pepper, and drizzle generously with extra-virgin olive oil.
 3. Top with the chopped tomatoes and basil, and serve warm.
 
-Allergen reminder: this recipe contains or may contain wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4523487
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4523487) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Fresh Mozzarella Bruschetta
 
-## Fresh Mozzarella Bruschetta · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-018 | Hot
 
 - 1 long loaf of crusty French bread
 - 3 medium ripe Roma tomatoes
@@ -517,8 +423,6 @@ Italian · Hot
 - Oregano
 - Balsamic vinegar
 
-### Method
-
 1. Cut bread into ½ inch (1.27 cm) slices on the diagonal.
 2. Lightly toast bread in the oven on both sides.
 3. Cut tomatoes into ¼ inch (0.75 cm) slices, and place one on each slice of bread.
@@ -527,15 +431,11 @@ Italian · Hot
 6. Combine olive oil and balsamic vinegar (to taste) in a small bowl
 7. Drizzle bruschetta with the mixture and sprinkle with salt and pepper.
 
-Allergen reminder: this recipe contains or may contain milk, sulphites, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4605220
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4605220) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Balsamic Dressing
 
-## Balsamic Dressing · Standard recipe
-
-Italian · Room temperature
-
-### Ingredients
+wb-020 | Room temperature
 
 - 2 tablespoons aged balsamic vinegar
 - 6 tablespoons extra-virgin olive oil
@@ -543,21 +443,15 @@ Italian · Room temperature
 - Freshly-ground black pepper, to taste
 - Assorted salad greens
 
-### Method
-
 1. Whisk together vinegar and seasonings.
 2. Slowly whisk in oil.
 3. Serve over assorted salad greens.
 
-Allergen reminder: this recipe contains or may contain sulphites. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4527286
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4527286) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Pesto I
 
-## Pesto I · Standard recipe
-
-Italian · Room temperature
-
-### Ingredients
+wb-021 | Room temperature
 
 - 4 oz (100 g) fresh basil
 - About 8 oz (200 g) extra virgin olive oil
@@ -566,31 +460,23 @@ Italian · Room temperature
 - 4 cloves garlic
 - Freshly ground salt and pepper (to taste)
 
-### Method
-
 1. Preheat the oven to 425 °F (220 °C).
 2. Toast the pine nuts in an ovenproof pan for 10–15 minutes, checking regularly to prevent burning.
 3. In a small frying pan (skillet), heat 2 tbsp of the olive oil on medium heat.
 4. Crush the garlic and sauté in the oil until soft, about 2–3 minutes.
 5. Blend the basil, cooked garlic, cheese, pine nuts and oil to a smooth paste, adding the oil gradually.
 
-Allergen reminder: this recipe contains or may contain milk, pine nut. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4518820
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4518820) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Pesto II
 
-## Pesto II · Standard recipe
-
-Italian · Room temperature
-
-### Ingredients
+wb-022 | Room temperature
 
 - High-quality olive oil
 - 1 packet pine nuts
 - 2 large plants worth of fresh basil
 - 7 garlic cloves
 - Freshly grated Parmesan cheese (not Pecorino)
-
-### Method
 
 1. Use a blender to make the pesto.
 2. Add olive oil to the blender and start blending.
@@ -599,15 +485,11 @@ Italian · Room temperature
 5. When the developing pesto sticks and becomes too thick, simply add more olive oil until the whole lot starts to mulch again. Continue adding basil leaves, nuts and the garlic cloves, always making sure the mixture remains fluid.
 6. Add Parmesan cheese and blend to a paste. Transfer to a clean container.
 
-Allergen reminder: this recipe contains or may contain milk, pine nut. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4518821
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4518821) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Puttanesca Sauce (Vegan)
 
-## Puttanesca Sauce (Vegan) · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-023 | Hot
 
 - ¼–½ cup extra-virgin olive oil
 - 6 garlic cloves, minced
@@ -620,8 +502,6 @@ Italian · Hot
 - ⅛ teaspoon pepper
 - 2 tablespoons parsley
 
-### Method
-
 1. Heat oil in a large skillet.
 2. Add garlic and sauté over medium heat until garlic starts to brown lightly.
 3. Add oregano, pepper, olives, capers, and tomatoes. Simmer for about 15 minutes.
@@ -629,15 +509,11 @@ Italian · Hot
 5. Add salt to taste.
 6. Pour over 1 pound (450 g) of cooked pasta, and serve.
 
-Allergen reminder: this recipe contains or may contain egg, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4518999
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4518999) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Spaghetti alla Puttanesca
 
-## Spaghetti alla Puttanesca · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-024 | Hot
 
 - 600 grams (21 ounces) uncooked spaghetti
 - 4 tablespoons extra-virgin olive oil
@@ -650,8 +526,6 @@ Italian · Hot
 - 2 tablespoons chopped parsley
 - Salt to taste
 
-### Method
-
 1. Put the olive oil, garlic, and anchovy paste in a skillet over medium heat.
 2. Before the garlic browns, add the olives, capers, tomato sauce, and chile peppers.
 3. Add 2–3 pinches of salt, mixing over high heat. Then lower the heat and allow to simmer for 15 to 20 minutes.
@@ -659,23 +533,17 @@ Italian · Hot
 5. Place pasta in a large serving bowl, and coat it with sauce. Then, sprinkle it with chopped parsley.
 6. Mix and serve hot.
 
-Allergen reminder: this recipe contains or may contain egg, fish, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4622379
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4622379) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Simple Spaghetti
 
-## Simple Spaghetti · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-025 | Hot
 
 - 2.25 L (10 cups) water
 - 8 oz (224 g) spaghetti
 - 2.5 cups (24 oz) tomato pasta sauce
 - Salt, to taste
 - Vegetable oil
-
-### Method
 
 1. On a stovetop, bring the water to a boil on high heat after adding salt and vegetable oil.
 2. Reduce heat to medium and add the pasta.
@@ -685,15 +553,11 @@ Italian · Hot
 6. Once the pasta is ready, carefully drain it through a colander into a sink.
 7. Serve sauce over pasta in bowls.
 
-Allergen reminder: this recipe contains or may contain egg, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4525181
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4525181) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Linguine Primavera Mediterranean
 
-## Linguine Primavera Mediterranean · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-026 | Hot
 
 - 1 tablespoon olive oil
 - 2 tablespoons freshly-minced garlic
@@ -713,8 +577,6 @@ Italian · Hot
 - About ¼ cup crumbled feta cheese for garnish
 - 1–2 tablespoons chopped parsley for garnish
 
-### Method
-
 1. Heat oil in a sauté pan over high heat.
 2. Add garlic, and sauté until it just begins to brown (about 1 minute). Be careful not to burn it.
 3. Stir in red peppers, sun-dried tomatoes, olives, and artichoke heart.
@@ -724,15 +586,11 @@ Italian · Hot
 7. Add pasta and toss to combine.
 8. Garnish with crumbled feta cheese and chopped parsley, and serve hot.
 
-Allergen reminder: this recipe contains or may contain egg, milk, sulphites, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4524831
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4524831) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Tuscan Bean Soup
 
-## Tuscan Bean Soup · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-028 | Hot
 
 - 3 cups pinto beans
 - 1 cup spelt berries
@@ -749,8 +607,6 @@ Italian · Hot
 - 1 sprig fresh sage
 - Sea salt and freshly ground pepper
 - ½ cup freshly grated Parmigiano-Reggiano cheese
-
-### Method
 
 1. Soak beans and spelt overnight in separate bowls of cold water.
 2. Drain and set aside.
@@ -769,15 +625,11 @@ Italian · Hot
 15. Drizzle with olive oil, and sprinkle on cheese.
 16. Serve immediately.
 
-Allergen reminder: this recipe contains or may contain milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4515570
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4515570) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Tomato Basil Soup with Garlic Toasts
 
-## Tomato Basil Soup with Garlic Toasts · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-029 | Hot
 
 - 1 cup tomato paste
 - ¾ cup heavy cream
@@ -791,8 +643,6 @@ Italian · Hot
 - ½ tsp garlic powder
 - 2 large bunches fresh basil
 
-### Method
-
 1. Combine paste, juice, cream, broth, 2 tsp salt, 2 tsp pepper, and diced tomatoes in a large saucepan. Bring to a boil over medium high heat.
 2. Reduce heat to medium low and cook, stirring occasionally, until liquid has reduced by ⅓.
 3. Using an immersion blender, purée soup until smooth. Keep warm over low heat.
@@ -800,15 +650,11 @@ Italian · Hot
 5. Add basil leaves to tomato purée and let steep for 5 minutes over low heat. Remove leaves.
 6. Garnish individual bowls with sprigs of basil and serve warm with garlic toast.
 
-Allergen reminder: this recipe contains or may contain milk, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4512031
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4512031) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Caponata (Sicilian Eggplant and Vegetables)
 
-## Caponata (Sicilian Eggplant and Vegetables) · Standard recipe
-
-Italian · Cold / chilled
-
-### Ingredients
+wb-030 | Cold / chilled
 
 - 2 ¼ pounds (1 kg) eggplant (aubergine)
 - ½ pound (225 g) green olives packed in brine, pitted
@@ -824,23 +670,17 @@ Italian · Cold / chilled
 - Olive oil
 - Salt
 
-### Method
-
 1. Strip the filaments from the celery sticks and blanch in lightly salted water for five minutes. Drain and cut the celery into bite-size pieces, sauté them in a little oil, and set aside.
 2. Wash and dice the eggplant, strain, and sprinkle liberally with salt, and let sit for several hours to draw out the bitterness. In the meantime, blanch, peel, seed and chop the tomatoes.
 3. Once the eggplant has sat, rinse away the salt and pat the pieces dry. Finely slice the onion and sauté them in olive oil; once they have turned translucent, add the capers, pine nuts, olives, and tomatoes. Continue cooking, stirring with a wooden spoon, until the tomatoes are done, about 15 minutes, and then remove the pot from the heat.
 4. While the tomatoes are cooking, heat another pan of oil and fry the eggplant, in batches, to prevent lowering of the frying temperature. When the last batch is done, return the tomato pot to the heat and stir in the eggplant together with the previously sautéed celery. Cook for several minutes over low flame, stirring gently, then stir in the vinegar and the sugar; when the vinegar has almost completely evaporated, remove the pot from the fire and let it cool.
 5. Serve the caponata cold with a garnish of fresh basil. Caponata keeps for several days in the refrigerator.
 
-Allergen reminder: this recipe contains or may contain pine nut, sulphites. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4508143
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4508143) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Basic Polenta
 
-## Basic Polenta · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-031 | Hot
 
 - 3 cups (~750 mL) water
 - 1 cup (~250 mL) coarse cornmeal
@@ -848,22 +688,16 @@ Italian · Hot
 - Salt
 - Parmesan cheese, to taste
 
-### Method
-
 1. Bring the water to a boil in a heavy pot.
 2. When the liquid is at a boil, add a pinch or so of salt. Add the polenta, stirring frequently to avoid lumps and form a stable suspension.
 3. Cover pot and turn to low heat, checking on it occasionally. Add more liquid if necessary. The polenta will be finished in approximately 45 minutes.
 4. Serve the polenta warm with butter and Parmesan to taste.
 
-Allergen reminder: this recipe contains or may contain milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4524011
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4524011) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Panna Cotta with Red Fruit Sauce
 
-## Panna Cotta with Red Fruit Sauce · Standard recipe
-
-Italian · Cold / chilled
-
-### Ingredients
+wb-032 | Cold / chilled
 
 - 15 g gelatin
 - 2 cups (500 ml) cold water
@@ -873,41 +707,28 @@ Italian · Cold / chilled
 - 100 g berries (e.g. strawberries, raspberries, blueberries)
 - 100 g sugar
 
-### Method
-
 1. Stir the gelatin into the water, and let bloom for about 5 minutes.
 2. In a pot, place the milk, cream, sugar, and soaked gelatin. Heat the pot to a gentle boil (stirring regularly to prevent scorching) and remove from heat.
 3. Pour the mixture into molds suited to a small portion for dessert, and let cool for 2–3 hours in the refrigerator.
 4. While waiting, liquidize the berries, combining with the sugar to make the fruit sauce.
 5. When ready to serve, unmold the dessert onto a plate, and decorate with red fruit sauce.
 
-Allergen reminder: this recipe contains or may contain milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4587321
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4587321) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Affogato
 
-## Affogato · Standard recipe
-
-Italian · Cold / chilled
-
-### Ingredients
+wb-033 | Cold / chilled
 
 - 1 scoop vanilla gelato
 - 1 shot prepared espresso
 
-### Method
-
 1. Pour the prepared espresso over the vanilla gelato and serve immediately.
 
-Allergen reminder: this recipe contains or may contain egg, milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
-Ice cream with hot coffee gives a mixture of cold and warm sensations; this project classifies it as a cold dessert.
+Source: https://en.wikibooks.org/w/index.php?oldid=4587419
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4587419) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Italian Rice Pudding
 
-## Italian Rice Pudding · Standard recipe
-
-Italian · Room temperature
-
-### Ingredients
+wb-034 | Room temperature
 
 - 2 cups (500 ml/1.1 pint) water
 - 1 cup (110 g/3.9 oz) risotto rice
@@ -919,8 +740,6 @@ Italian · Room temperature
 - 1 piece of lemon peel
 - Ground cinnamon to garnish
 
-### Method
-
 1. Bring water to a boil, then add rice, salt, and butter.
 2. Cover, lower heat to simmer, and cook for 20 minutes.
 3. Place rice in upper part of double boiler with half and half, sugar, cinnamon stick, and lemon peel.
@@ -930,34 +749,24 @@ Italian · Room temperature
 7. Pour rice mixture into a 2-quart (1.9 L) casserole and allow to cool.
 8. Sprinkle with cinnamon powder.
 
-Allergen reminder: this recipe contains or may contain milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4517883
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4517883) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Rice and Peas (Risi e Bisi)
 
-## Rice and Peas (Risi e Bisi) · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-035 | Hot
 
 - Rice (Vialone Nano is prefered)
 - Peas in their pods
-
-### Method
 
 1. Cook the rice per the cooking instructions on the packet.
 2. Boil the peas with their pods. Mash them.
 3. Add the mashed peas to the rice.
 
-Allergen reminder: no common allergens were identified in the listed ingredients; this does not mean there is no allergy risk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4512991
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4512991) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Risotto (Basic)
 
-## Risotto (Basic) · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-036 | Hot
 
 - 400 g (14 oz) risotto rice
 - 1 onion, finely chopped
@@ -965,8 +774,6 @@ Italian · Hot
 - 25 g (1 oz) butter (a good rich butter is best)
 - About 1 liter stock/broth (but it's a good idea to have more than you need)
 - Salt and black pepper, to taste
-
-### Method
 
 1. Gently cook the chopped onion in a little of the listed butter over medium heat without browning it.
 2. Add the rice and cook until it has a transparent look (this shouldn't take long). Add some salt and pepper.
@@ -977,23 +784,17 @@ Italian · Hot
 7. Vigorously stir in the butter in small chunks at the time, tasting to get the amount of butter right. Season with more salt and pepper to taste. This phase is called the mantecatura.
 8. Serve immediately.
 
-Allergen reminder: this recipe contains or may contain milk, sulphites. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4525537
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4525537) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Fresh Egg Pasta (Pasta Fresca All'uovo)
 
-## Fresh Egg Pasta (Pasta Fresca All'uovo) · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-037 | Hot
 
 - 300 g (1½ cups) all-purpose flour
 - 1 tsp salt
 - 3 eggs
 - 1 Tbsp olive oil
 - A few drops of water
-
-### Method
 
 1. Pour the flour and salt into a food processor.
 2. Beat the eggs with the oil. With the processor running, slowly pour the egg through the feed tube.
@@ -1012,23 +813,17 @@ Italian · Hot
 15. Unroll the strips to make tagliatelle.
 16. Cook fresh pasta in 6–8 litres of water for 5–10 minutes or until al dente.
 
-Allergen reminder: this recipe contains or may contain egg, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4501508
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4501508) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Focaccia I
 
-## Focaccia I · Standard recipe
-
-Italian · Room temperature
-
-### Ingredients
+wb-038 | Room temperature
 
 - Active dry yeast (non-instant) |  | 2 teaspoons | 8 g | 1.6%
 - Warm water (approx. 110°F / 43°C) |  | 1 ½ cups | 355.5 g | 71.1%
 - Unbleached all-purpose flour |  | 4 cups | 500 g | 100%
 - Extra-virgin olive oil |  | 5 tablespoons | 67.5 g | 13.5%
 - Sea salt |  | 3 teaspoons | 18 g | 3.6%
-
-### Method
 
 1. Sprinkle one teaspoon of the yeast over ½ cup of the water in a medium bowl. Stir to mix, and let stand 10 minutes. Stir in ¾ cup flour, cover tightly with plastic and let rise in warm place until doubled, about 45 minutes.
 2. In a large bowl, sprinkle the remaining teaspoon of yeast over 1 cup of warm water, mix and let stand 10 minutes. Add the first yeast mixture (now risen) along with 3 tablespoons of olive oil and 2 teaspoons of salt, mix well. Add the remaining flour gradually, mixing well after each addition until well incorporated.
@@ -1038,15 +833,11 @@ Italian · Room temperature
 6. Preheat oven to 425 °F (220 °C). Remove towel and press indentations into the dough with your fingertips, then drizzle with the remaining 2 tablespoons of olive oil, sprinkle with sea salt and place pan in oven. Bake 20 to 25 minutes, or until the top is golden.
 7. Remove the focaccia from the pan as soon as it is out of the oven and let cool on a rack before serving.
 
-Allergen reminder: this recipe contains or may contain wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4658422
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4658422) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Italian Tomato Sauce
 
-## Italian Tomato Sauce · Standard recipe
-
-Italian · Room temperature
-
-### Ingredients
+wb-039 | Room temperature
 
 - 3 cups tomato paste
 - 1 tbsp salt
@@ -1056,19 +847,13 @@ Italian · Room temperature
 - 1 tbsp Italian seasoning
 - 2–4 cloves of garlic, minced
 
-### Method
-
 1. Combine all ingredients.
 
-Allergen reminder: no common allergens were identified in the listed ingredients; this does not mean there is no allergy risk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4516477
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4516477) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Italian Poached Salmon
 
-## Italian Poached Salmon · Standard recipe
-
-Italian · Hot
-
-### Ingredients
+wb-040 | Hot
 
 - 4 ea. (24 ounces) salmon filets, pin bones removed
 - ¾ cup red wine
@@ -1083,8 +868,6 @@ Italian · Hot
 - 2 tsp fresh thyme
 - 1 tbsp lemon pepper
 
-### Method
-
 1. Combine wine, tomato paste, and capers. Set aside.
 2. In a skillet large enough to hold all the salmon, heat 1 tbsp oil over medium high heat. Add garlic and cook until golden.
 3. Add the wine mixture to the garlic and bring the sauce to a gentle simmer.
@@ -1092,15 +875,11 @@ Italian · Hot
 5. Heat a nonstick skillet over high heat. Add 2 filets, skin side up, and cook until browned on all sides. Repeat with remaining salmon.
 6. Transfer the browned salmon to the gently simmering sauce and poach until cooked through. Serve hot.
 
-Allergen reminder: this recipe contains or may contain fish, sulphites, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4508149
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4508149) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Strawberry and Yogurt Eton Mess
 
-## Strawberry and Yogurt Eton Mess · Standard recipe
-
-English · Cold / chilled
-
-### Ingredients
+wb-041 | Cold / chilled
 
 - 4 medium-sized meringues
 - 280 ml double cream
@@ -1109,8 +888,6 @@ English · Cold / chilled
 - 150 ml Greek yoghurt
 - 500 g strawberries
 
-### Method
-
 1. Rinse the strawberries, remove the tops, and cut into halves.
 2. Break the meringues into pieces (not too small) and place into a bowl.
 3. Put the double cream, vanilla essence, and icing sugar into a bowl. Whip until reasonably stiff.
@@ -1118,15 +895,11 @@ English · Cold / chilled
 5. Serve in bowls.
 6. Use chilled cream and yogurt, and serve the assembled dessert promptly.
 
-Allergen reminder: this recipe contains or may contain egg, milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4587373
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4587373) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Trifle
 
-## Trifle · Standard recipe
-
-English · Cold / chilled
-
-### Ingredients
+wb-042 | Cold / chilled
 
 - 1 Swiss roll
 - 50 ml dry sherry
@@ -1134,8 +907,6 @@ English · Cold / chilled
 - 1 tin of peach segments
 - Custard, prepared according to its recipe or packet
 - Whipped double cream
-
-### Method
 
 1. Slice the Swiss roll approximately ¾-inch (2 cm) thick, and line the base of a Pyrex casserole dish with it.
 2. Pour sherry over the swiss roll.
@@ -1145,16 +916,11 @@ English · Cold / chilled
 6. Whip the cream and spread it over the chilled custard.
 7. Serve chilled.
 
-Allergen reminder: this recipe contains or may contain egg, milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
-The standard recipe contains sherry. An alcohol-free request requires a separate adaptation.
+Source: https://en.wikibooks.org/w/index.php?oldid=4587330
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4587330) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Summer Pudding
 
-## Summer Pudding · Standard recipe
-
-English · Cold / chilled
-
-### Ingredients
+wb-043 | Cold / chilled
 
 - 1 punnet strawberries, large ones halved
 - 1 punnet raspberries
@@ -1169,8 +935,6 @@ English · Cold / chilled
 - 3 tbsp water
 - Whipped cream, to serve
 
-### Method
-
 1. Butter the inside of a pudding bowl about 5 inches in diameter. Line it with cling film.
 2. Combine the blackcurrants, redcurrants, mint leaves, lime zest, sugar, and about 3 tbsp water. Poach them for about 5 minutes on the lowest possible heat setting of your stove. Add the strawberries and poach for another minute.
 3. Turn the heat off and add the raspberries. Leave to cool.
@@ -1182,15 +946,11 @@ English · Cold / chilled
 9. When you are ready to serve the pudding, carefully using a knife to release the bread mould from the side of the bowl, and invert the whole thing onto a plate. If things become a little fraught and wobbly at this point, don't panic—just sort of whack everything back into shape using a wooden spoon.
 10. Serve chilled with the listed fruit, mint and whipped cream.
 
-Allergen reminder: this recipe contains or may contain milk, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4587366
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4587366) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Coronation Chicken
 
-## Coronation Chicken · Standard recipe
-
-English · Cold / chilled
-
-### Ingredients
+wb-044 | Cold / chilled
 
 - 1 cooked poached chicken (about 2.3 kg / 5 lb before cooking)
 - 1 tbsp vegetable oil
@@ -1207,8 +967,6 @@ English · Cold / chilled
 - Pepper
 - Watercress to garnish
 
-### Method
-
 1. Remove skin and bones from the cooked poached chicken and cut the meat into small pieces.
 2. In a small saucepan, warm a small amount of vegetable oil.
 3. Add the onion to the pan and cook gently until soft (about 3 minutes).
@@ -1219,16 +977,11 @@ English · Cold / chilled
 8. Fold in the chicken pieces, garnish with watercress, and serve.
 9. Chill the prepared salad before serving.
 
-Allergen reminder: this recipe contains or may contain egg, milk, sulphites. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
-The sauce contains red wine. An alcohol restriction requires a separate adaptation.
+Source: https://en.wikibooks.org/w/index.php?oldid=4517533
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4517533) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Greek Salad
 
-## Greek Salad · Standard recipe
-
-Greek · Room temperature
-
-### Ingredients
+wb-045 | Room temperature
 
 - Red tomatoes, chopped
 - Cucumber, sliced into rounds
@@ -1241,22 +994,16 @@ Greek · Room temperature
 - Feta cheese
 - Oregano
 
-### Method
-
 1. Combine tomatoes, cucumbers, onions, peppers, and olives in a deep bowl.
 2. Add extra-virgin olive oil, lemon juice, and salt to taste. Toss the ingredients for half a minute.
 3. Place a feta cheese slice on top and season with a splash of olive oil.
 4. Top with a sprig of oregano.
 
-Allergen reminder: this recipe contains or may contain milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4518144
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4518144) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Tzatziki
 
-## Tzatziki · Standard recipe
-
-Greek · Cold / chilled
-
-### Ingredients
+wb-046 | Cold / chilled
 
 - 1½ cups yogurt
 - 4 cloves garlic, minced
@@ -1266,23 +1013,17 @@ Greek · Cold / chilled
 - 2 small cucumbers, diced
 - Salt
 
-### Method
-
 1. Drain yogurt in a sieve or a cheesecloth for about 3 hours prior to using it.
 2. Drain the cucumber and salt it to further remove moisture.
 3. Combine yogurt, garlic, olive oil, and lemon juice in a bowl and cover and refrigerate for 1 hour or more.
 4. After refrigerating, add dill and cucumber into bowl and mix with a whisk until smooth.
 5. Add pepper and salt to taste.
 
-Allergen reminder: this recipe contains or may contain milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4519035
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4519035) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Greek Yogurt Sauce
 
-## Greek Yogurt Sauce · Standard recipe
-
-Greek · Cold / chilled
-
-### Ingredients
+wb-047 | Cold / chilled
 
 - 1 ½ cups plain yogurt
 - ¼ cup freshly-squeezed lemon juice
@@ -1295,28 +1036,20 @@ Greek · Cold / chilled
 - 1 ½ tsp fresh rosemary, finely chopped
 - 2 tbsp flat-leaf parsley, finely chopped
 
-### Method
-
 1. Pulse all ingredients in a food processor until relatively smooth.
 2. Pour into your dipping bowl, and serve with a Greek-style dish.
 3. Keep chilled until serving.
 
-Allergen reminder: this recipe contains or may contain milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4518937
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4518937) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Frappé Coffee
 
-## Frappé Coffee · Standard recipe
-
-Greek · Cold / chilled
-
-### Ingredients
+wb-048 | Cold / chilled
 
 - 1 spoon instant coffee
 - Tall glass of cold water
 - 1 spoon sugar
 - 4 ice cubes
-
-### Method
 
 1. Put coffee and sugar in a shaker or tall glass and add a little water, just enough to cover the mixture (about 10 ml, or a couple of teaspoonfuls).
 2. Shake or stir with mixer until the mixture becomes foamy.
@@ -1324,37 +1057,26 @@ Greek · Cold / chilled
 4. Add the 4 ice cubes and stir.
 5. Sip with a straw.
 
-Allergen reminder: no common allergens were identified in the listed ingredients; this does not mean there is no allergy risk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
-Contains caffeine.
+Source: https://en.wikibooks.org/w/index.php?oldid=4515823
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4515823) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Sweet Mango Lassi
 
-## Sweet Mango Lassi · Standard recipe
-
-Indian · Cold / chilled
-
-### Ingredients
+wb-049 | Cold / chilled
 
 - 1 L (4 cups) mango nectar (strained puréed mango)
 - 500 ml (2 cups) full-fat yoghurt
 - 500 ml (2 cups) chilled milk
 - 250 ml (1 cup) sugar
 
-### Method
-
 1. Mix sugar with the mango nectar until dissolved.
 2. Gradually add the milk to the yoghurt.
 3. Mix together the mango and yoghurt mixtures.
 
-Allergen reminder: this recipe contains or may contain milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4511034
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4511034) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Raita
 
-## Raita · Standard recipe
-
-Indian · Cold / chilled
-
-### Ingredients
+wb-050 | Cold / chilled
 
 - ⅛ cup grated cucumber (about 1 inch of cucumber)
 - ½ cup plain yogurt
@@ -1364,8 +1086,6 @@ Indian · Cold / chilled
 - Chile powder
 - Ground cumin
 
-### Method
-
 1. Squeeze the grated cucumber to remove and discard excess liquid.
 2. Stir the cucumber into the yogurt.
 3. Add the chopped mint and cilantro.
@@ -1374,15 +1094,11 @@ Indian · Cold / chilled
 6. Sprinkle with a little chili powder.
 7. Refrigerate and serve cold.
 
-Allergen reminder: this recipe contains or may contain milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4518927
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4518927) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Kulfi (South Asian Frozen Custard)
 
-## Kulfi (South Asian Frozen Custard) · Standard recipe
-
-Indian · Cold / chilled
-
-### Ingredients
+wb-051 | Cold / chilled
 
 - 4 cups milk
 - 8 tsp sugar
@@ -1390,23 +1106,17 @@ Indian · Cold / chilled
 - 1 tbsp pistachios, thinly sliced
 - 1 tbsp thinly sliced almonds
 
-### Method
-
 1. Put the milk into a wide, heavy pan, and bring to boil over high heat, stirring constantly.
 2. Lower the heat and cook the milk, stirring constantly until it has thickened and reduced to ¾ cup—this will take about 40–45 minutes. Stir the sides of the pan constantly to avoid scorching.
 3. Stir in the sugar, nuts, and cardamom powder. Set aside to cool.
 4. Pour the mixture evenly into kulfi moulds or small ramekins. Cover with plastic wrap or foil, and freeze for about 6 hours until set.
 5. To serve, run a sharp knife dipped in hot water along the sides of the moulds, and unmold them onto a serving plate.
 
-Allergen reminder: this recipe contains or may contain almond, milk, pistachio. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4639854
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4639854) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Kheer (Rice Pudding)
 
-## Kheer (Rice Pudding) · Standard recipe
-
-Indian · Cold / chilled
-
-### Ingredients
+wb-052 | Cold / chilled
 
 - 1 L (4 cups) milk
 - 250 ml (1 cup) long grain white rice
@@ -1416,23 +1126,17 @@ Indian · Cold / chilled
 - 65 ml (¼ cup) slivered blanched almonds
 - 15 ml (1 tbsp) rosewater
 
-### Method
-
 1. Bring the milk to a boil. Stir regularly to prevent scorching.
 2. Add rice and simmer slowly until thick (about 20 minutes).
 3. Stir in the sugar, sultanas, and the ground cardamom seeds. Cook for 5 minutes.
 4. Remove from the heat, stir in the almonds and rosewater, and cover until ready to serve.
 5. Cool promptly in shallow containers, refrigerate, and serve chilled.
 
-Allergen reminder: this recipe contains or may contain almond, milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4587270
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4587270) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Mild Salty Lassi
 
-## Mild Salty Lassi · Standard recipe
-
-Indian · Cold / chilled
-
-### Ingredients
+wb-053 | Cold / chilled
 
 - 1 teaspoon (4 g) cumin seeds
 - 250 ml (1 cup) full-fat yogurt
@@ -1441,21 +1145,15 @@ Indian · Cold / chilled
 - ½–1 teaspoon (2–4 g) salt
 - 100 ml (½ cup) ice cubes
 
-### Method
-
 1. Dry-roast cumin seeds by cooking them over low heat in a small pan until you can smell the seasoning (about 2–3 minutes). Cool and grind.
 2. In blender, blend cumin seed powder with yoghurt, milk, lemon juice, salt, and ice cubes.
 3. Serve chilled, optionally garnished with crumbled mint and a small pinch of cayenne.
 
-Allergen reminder: this recipe contains or may contain milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4531786
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4531786) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Kek Batik (Malaysian Tiffin)
 
-## Kek Batik (Malaysian Tiffin) · Standard recipe
-
-Malaysian · Cold / chilled
-
-### Ingredients
+wb-054 | Cold / chilled
 
 - 250 g butter, cut into chunks
 - 1 cup Milo chocolate drink powder
@@ -1466,8 +1164,6 @@ Malaysian · Cold / chilled
 - 2 packets Marie Biscuits, broken into quarters
 - 1 cup Nestum Cereal flakes
 
-### Method
-
 1. Melt the butter in a saucepan over low heat. Whisk in the Milo chocolate powder, cocoa powder, and condensed milk.
 2. Mix in the eggs and water. Cook, stirring, until thickened.
 3. Remove from the heat, and stir in the biscuit pieces and cereal flakes so everything is well coated with the chocolate mixture.
@@ -1476,16 +1172,11 @@ Malaysian · Cold / chilled
 6. Let cool completely, then unmold and cut into slices.
 7. Refrigerate until set before slicing and serving.
 
-Allergen reminder: this recipe contains or may contain egg, milk, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
-Contains egg, Milo, biscuits and branded cereal ingredients. Check the product labels and cook the egg mixture thoroughly.
+Source: https://en.wikibooks.org/w/index.php?oldid=4587515
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4587515) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Buah Melaka (Malaysian Palm Sugar Dumplings)
 
-## Buah Melaka (Malaysian Palm Sugar Dumplings) · Standard recipe
-
-Malaysian · Room temperature
-
-### Ingredients
+wb-055 | Room temperature
 
 - 15 pandan leaves
 - 3 cups water
@@ -1493,8 +1184,6 @@ Malaysian · Room temperature
 - Gula melaka palm sugar, cut into small pieces
 - Grated coconut
 - Salt
-
-### Method
 
 1. Combine the grated coconut and a pinch of salt together, then place it in a dish. Set aside for later.
 2. Use a blender or mortar to grind together the pandan leaves and water. Strain the mixture and discard the solids.
@@ -1508,15 +1197,11 @@ Malaysian · Room temperature
 10. Remove and drain the dumplings.
 11. While still hot, roll the cooked dumplings in the plate of coconut until they are completely coated.
 
-Allergen reminder: this recipe contains or may contain wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4587517
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4587517) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Kuih Seri Muka (Malaysian Sticky Rice with Pandan Custard)
 
-## Kuih Seri Muka (Malaysian Sticky Rice with Pandan Custard) · Standard recipe
-
-Malaysian · Room temperature
-
-### Ingredients
+wb-056 | Room temperature
 
 - 275 g sticky/glutinous rice
 - 195 ml coconut milk
@@ -1526,8 +1211,6 @@ Malaysian · Room temperature
 - 170 g white granulated sugar
 - 1 spoonful pandan juice
 - 195 ml coconut milk
-
-### Method
 
 1. Cover the rice with cool water, and leave to soak for 6–12 hours. Drain.
 2. Bring several inches of water to a boil in the bottom of a steamer pot.
@@ -1543,15 +1226,11 @@ Malaysian · Room temperature
 12. Remove the pan from the steamer, and allow it to cool completely. To speed cooling, place it in a larger tray of cold water.
 13. Unmold the custard, and cut it diagonally into diamonds.
 
-Allergen reminder: this recipe contains or may contain egg, milk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4587518
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4587518) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Kuih Lapis (Malaysian Layered Steamed Confection)
 
-## Kuih Lapis (Malaysian Layered Steamed Confection) · Standard recipe
-
-Malaysian · Room temperature
-
-### Ingredients
+wb-057 | Room temperature
 
 - 1 cup all-purpose flour
 - 1 cup cornstarch
@@ -1559,8 +1238,6 @@ Malaysian · Room temperature
 - 4 cups medium-thick coconut milk
 - 1 tsp salt
 - Food coloring as desired
-
-### Method
 
 1. Preheat a baking pan in a steamer over a pot of simmering water.
 2. Combine the flour, cornstarch, sugar, coconut milk, and salt in a blender. Process until completely smooth, then strain the batter.
@@ -1571,15 +1248,11 @@ Malaysian · Room temperature
 7. Remove the pan from the steamer, and allow it to cool completely.
 8. Unmold the kuih from the pan, and cut it into pieces.
 
-Allergen reminder: this recipe contains or may contain wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://en.wikibooks.org/w/index.php?oldid=4517484
 
-[Source recipe](https://en.wikibooks.org/w/index.php?oldid=4517484) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Smashed Cucumber Salad
 
-## Smashed Cucumber Salad · Standard recipe
-
-Chinese · Room temperature
-
-### Ingredients
+wb-058 | Room temperature
 
 - Cucumber
 - Garlic cloves
@@ -1587,29 +1260,21 @@ Chinese · Room temperature
 - Vinegar
 - Salt, to taste
 
-### Method
-
 1. Prepare the cucumber, garlic cloves, sesame oil, vinegar and salt.
 2. Wash and smash the cucumber to your preferred size. Chop the garlic.
 3. Place the cucumber and garlic in a bowl. Add sesame oil, vinegar and a little salt, then toss to combine.
 4. Transfer to a plate and serve.
 
-Allergen reminder: this recipe contains or may contain sesame, sulphites. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://zh.wikibooks.org/w/index.php?oldid=183307
 
-[Source recipe](https://zh.wikibooks.org/w/index.php?oldid=183307) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Mung Bean and Job's Tears Soup
 
-## Mung Bean and Job's Tears Soup · Standard recipe
-
-Chinese · Cold / chilled
-
-### Ingredients
+wb-059 | Cold / chilled
 
 - Mung beans
 - Job's tears (coix seeds)
 - Sugar
 - Water
-
-### Method
 
 1. Rinse the uncooked mung beans and Job's tears as you would rinse rice.
 2. Add water.
@@ -1619,15 +1284,11 @@ Chinese · Cold / chilled
 6. Stir in sugar to your preferred sweetness.
 7. After cooking, promptly divide into shallow containers, cool and refrigerate. Serve chilled.
 
-Allergen reminder: no common allergens were identified in the listed ingredients; this does not mean there is no allergy risk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://zh.wikibooks.org/w/index.php?oldid=93000
 
-[Source recipe](https://zh.wikibooks.org/w/index.php?oldid=93000) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Dongbei Glass Noodle Salad
 
-## Dongbei Glass Noodle Salad · Standard recipe
-
-Chinese · Room temperature
-
-### Ingredients
+wb-060 | Room temperature
 
 - Wide starch noodles (la pi)
 - ½ cucumber
@@ -1646,8 +1307,6 @@ Chinese · Room temperature
 - ¼ tsp white pepper (about 1 g)
 - A little cooking oil, for stir-frying the chicken
 
-### Method
-
 1. Tear the purple cabbage into large pieces and wash. Soak in lightly salted water for 5 minutes, drain, then cut into fine shreds about 4 cm long.
 2. Peel the carrot and wash the cucumber, then cut both into fine shreds about 4 cm long. Briefly soak the wide starch noodles in water until they separate, then cut into strips about 2 cm wide.
 3. Cut the chicken breast into thin strips. Mix with 5 ml light soy sauce, the cooking wine, white pepper and starch.
@@ -1655,48 +1314,465 @@ Chinese · Room temperature
 5. In a bowl, combine 15 g sesame paste, 15 ml rice vinegar, 5 ml light soy sauce, 3 g sugar, 2 g salt and a mung-bean-sized amount of green wasabi-style paste. Stir until smooth, adding water a little at a time if needed, until the dressing is slightly thick but flows freely.
 6. Toss the dressing with the wide starch noodles, cooked chicken strips, shredded cucumber, carrot and purple cabbage. Serve.
 
-Allergen reminder: this recipe contains or may contain sesame, soy, sulphites, wheat. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://zh.wikibooks.org/w/index.php?oldid=183315
 
-[Source recipe](https://zh.wikibooks.org/w/index.php?oldid=183315) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Lotus Seed and Lily Bulb Dessert Soup
 
-## Lotus Seed and Lily Bulb Dessert Soup · Standard recipe
-
-Chinese · Cold / chilled
-
-### Ingredients
+wb-061 | Cold / chilled
 
 - Lotus seeds
 - Edible lily bulbs
 - Water
 - Rock sugar
 
-### Method
-
 1. Remove the bitter centres from the lotus seeds. Wash and soak the lotus seeds and lily bulbs separately until softened. Boil the lotus seeds in water for 15 minutes, then simmer for about 30 minutes. Add the lily bulbs and rock sugar and cook for about 5 more minutes, until soft.
 2. Promptly divide into shallow containers, cool and refrigerate. Serve chilled.
 
-Allergen reminder: no common allergens were identified in the listed ingredients; this does not mean there is no allergy risk. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
+Source: https://zh.wikibooks.org/w/index.php?oldid=183174
 
-[Source recipe](https://zh.wikibooks.org/w/index.php?oldid=183174) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Goji Berry Jelly
 
-## Goji Berry Jelly · Standard recipe
-
-Chinese · Cold / chilled
-
-### Ingredients
+wb-062 | Cold / chilled
 
 - Goji berries, to taste
 - Yellow rock sugar, to taste
 - 500 ml hot boiled water
 - 18 g food-grade gelatine powder (called fish gelatine powder in the source; check the animal source on the product label)
 
-### Method
-
 1. Place the goji berries and yellow rock sugar in a bowl. Add the hot boiled water, reserving a little for the next step. Stir gently, then leave to stand or continue stirring for about 10 minutes.
 2. Dissolve the gelatine powder in the reserved hot water. Pour it through a sieve into the goji berry mixture.
 3. Stir gently, then refrigerate for 2–5 hours before serving.
 
-Allergen reminder: this recipe contains or may contain fish. Check ingredient and compound-seasoning labels and possible cross-contact. Tell us about any allergies.
-The animal source of the gelatine varies by product; check the packaging.
+Source: https://zh.wikibooks.org/w/index.php?oldid=183206
 
-[Source recipe](https://zh.wikibooks.org/w/index.php?oldid=183206) · Wikibooks contributors · CC BY-SA 4.0 · Adapted and translated.
+## Apple pear cashew salad
+
+ar-0d61e0d52620 | Room temperature
+
+- ½ cup white sugar
+- ½ cup lemon juice
+- 2 teaspoons diced onion
+- 1 teaspoon Dijon-style prepared mustard
+- ½ teaspoon salt
+- ⅔ cup vegetable oil
+- 1 tablespoon poppy seeds
+- 1 head romaine lettuce, torn into bite-size pieces
+- 4 ounces shredded Swiss cheese
+- 1 cup cashews
+- ¼ cup dried cranberries
+- 1 apple - peeled, cored and diced
+- 1 pear - peeled, cored and sliced
+
+1. Blend the sugar, lemon juice, onion, mustard and salt. Gradually incorporate the oil, then briefly mix in the poppy seeds.
+2. Put the lettuce, cheese, nuts, cranberries, apple and pear in a bowl. Add the dressing just before serving and turn the salad together.
+
+Source: https://www.allrecipes.com/recipe/13482/winter-fruit-salad-with-lemon-poppyseed-dressing/
+
+## Pear cranberry nut salad
+
+ar-2fa5d74610e0 | Room temperature
+
+- ¾ cup olive oil
+- ¼ cup balsamic vinegar
+- 1 tablespoon dark brown sugar
+- 2 ½ teaspoons minced garlic
+- ½ teaspoon salt
+- ½ teaspoon freshly ground black pepper
+- 6 cups mixed baby greens
+- 3 pears, thinly sliced
+- 1 cup dried cranberries
+- 1 cup toasted pecans
+- ¾ cup cubed Havarti cheese
+- ½ cup toasted sliced almonds
+
+1. Use already toasted nuts as listed. Mix the oil, vinegar, sugar, garlic, salt and pepper to make a dressing.
+2. Put the greens, pears, cranberries, pecans and cheese in a bowl. Add the dressing, turn gently, and finish with the almonds.
+
+Source: https://www.allrecipes.com/recipe/229399/cranberry-pear-salad/
+
+## Pear fig pecan bowl
+
+ar-3714b052f088 | Room temperature
+
+- 2 cups torn romaine lettuce
+- 6 fresh figs, quartered
+- 1 large ripe but firm pear, peeled and thinly sliced
+- ¼ cup toasted pecans, chopped
+- ¼ cup shredded Gruyere cheese
+- 1 small red onion, thinly sliced
+- 3 tablespoons extra-virgin olive oil
+- 3 tablespoons balsamic vinegar,  salt and freshly ground black pepper to taste
+
+1. Use already toasted pecans as listed. Put the prepared lettuce, figs, pear, pecans, cheese and onion into a bowl.
+2. Pour over the oil and vinegar, season with salt and pepper, and turn gently before serving.
+
+Source: https://www.allrecipes.com/recipe/263850/pear-fig-salad/
+
+## Apple, nectarine and celery yogurt salad
+
+ar-3033f40289b7 | Cold / chilled
+
+- 1 red apple, cored and chopped
+- 1 Granny Smith apple, cored and chopped
+- 1 nectarine, pitted and sliced
+- 2 stalks celery, chopped
+- ½ cup dried cranberries
+- ½ cup chopped walnuts
+- 1 (8 ounce) container nonfat lemon yogurt
+
+1. Dice the apples, nectarine and celery. Put them in a bowl with the cranberries and walnuts.
+2. Fold the yogurt through the fruit mixture. Refrigerate until serving.
+
+Source: https://www.allrecipes.com/recipe/14187/fabulous-fruit-salad/
+
+## Mixed berry yogurt smoothie
+
+ar-f6960a282516 | Cold / chilled
+
+- 1 banana
+- 1 cup frozen strawberries
+- 1 cup frozen blueberries
+- 1 cup frozen cherries
+- 4 ice cubes
+- ½ cup orange juice
+- ¾ cup vanilla yogurt
+- ½ teaspoon honey (Optional)
+
+1. Load the prepared fruit and ice into a blender, then add the juice and yogurt. Add honey if using.
+2. Process to an even consistency and pour into glasses.
+
+Source: https://www.allrecipes.com/recipe/172463/simple-summer-smoothie/
+
+## Pineapple banana ice smoothie
+
+ar-5c5aeee1366e | Cold / chilled
+
+- 4 ice cubes
+- ¼ fresh pineapple - peeled, cored and cubed
+- 1 large banana, cut into chunks
+- 1 cup pineapple juice
+
+1. Add the prepared pineapple, banana, juice and ice to a blender jug.
+2. Process until no large pieces remain, then pour into a glass.
+
+Source: https://www.allrecipes.com/recipe/138159/pineapple-and-banana-smoothie/
+
+## Nectarine cucumber tomato bowl
+
+ar-301b590ab4a0 | Room temperature
+
+- 2 tomatoes, cut into chunks
+- ½ cucumber - peeled, seeded, and diced
+- 1 large ripe nectarine, diced
+- 3 tablespoons chopped fresh cilantro
+- 1 tablespoon olive oil
+- 3 tablespoons crumbled goat cheese
+
+1. Put the chopped tomatoes, cucumber and nectarine in a serving bowl.
+2. Fold through the coriander and olive oil, then scatter the goat cheese over the top.
+
+Source: https://www.allrecipes.com/recipe/258418/summer-nectarine-tomato-and-cucumber-salad/
+
+## Papaya yogurt ice smoothie
+
+ar-ea58fc79baaf | Cold / chilled
+
+- 2 cups papaya - peeled, seeded and cubed
+- 2 cups milk
+- ¼ cup white sugar
+- ¼ cup sweetened condensed milk
+- 1 cup vanilla yogurt
+- 2 tablespoons cream cheese
+- 2 cups ice
+
+1. Measure the milk, condensed milk, yogurt, cream cheese and sugar into a blender.
+2. Add the prepared papaya and ice, process to an even texture, and pour into glasses.
+
+Source: https://www.allrecipes.com/recipe/139660/papaya-passion-smoothie/
+
+## Watermelon lime ice blend
+
+ar-4f47d41c0065 | Cold / chilled
+
+- 4 cups cubed seedless watermelon
+- 10 ice cubes
+- ⅓ cup fresh lime juice
+- ¼ cup white sugar
+- ⅛ teaspoon salt
+
+1. Put the watermelon, ice, lime juice, sugar and salt into a blender jug.
+2. Blend to a slushy consistency and divide between glasses.
+
+Source: https://www.allrecipes.com/recipe/141371/watermelon-cooler-slushy/
+
+## Fig and frozen banana smoothie
+
+ar-7ebcf2f46b59 | Cold / chilled
+
+- 2 frozen bananas, peeled and chopped
+- 6 fresh figs, halved
+- ¾ cup milk
+- ¾ cup orange juice
+
+1. Put the prepared frozen banana and figs into a blender with the milk and orange juice.
+2. Process until the mixture is even, then divide into glasses.
+
+Source: https://www.allrecipes.com/recipe/190893/fig-smoothie/
+
+## Kiwi macadamia yogurt cup
+
+ar-e9735e585b5f | Cold / chilled
+
+- 1 (5.3 ounce) container low-fat vanilla Greek yogurt
+- ½ cup chopped kiwi
+- 2 tablespoons chopped macadamia nuts
+- 1 teaspoon agave nectar
+- 1 teaspoon chopped fresh mint
+
+1. Divide the yogurt, kiwi, nuts and agave between two layers in a serving glass.
+2. Finish with the chopped mint and serve.
+
+Source: https://www.allrecipes.com/recipe/285020/tart-tropical-parfait/
+
+## Strawberry banana orange ice blend
+
+ar-e7466fc5d17b | Cold / chilled
+
+- 1 cup fresh strawberries
+- ¾ cup orange juice
+- 1 ripe banana
+- 1 cup ice cubes, or as needed
+
+1. Add the strawberries, peeled banana, orange juice and ice to a blender.
+2. Process to the texture you prefer and pour into glasses.
+
+Source: https://www.allrecipes.com/recipe/215163/strawberry-orange-banana-smoothie/
+
+## Blueberry nutmeg yogurt smoothie
+
+ar-7ade603e39fa | Cold / chilled
+
+- 1 cup blueberries (frozen or fresh)
+- 1 (8 ounce) container plain yogurt
+- ¾ cup 2% reduced-fat milk
+- 2 tablespoons white sugar
+- ½ teaspoon vanilla extract
+- ⅛ teaspoon ground nutmeg
+
+1. Measure the yogurt, milk, sugar, vanilla and nutmeg into a blender, then add the blueberries.
+2. Blend evenly, stopping to scrape the jug if necessary. Divide between two glasses.
+
+Source: https://www.allrecipes.com/recipe/215184/blueberry-smoothie/
+
+## Cantaloupe drink over ice
+
+ar-229176525cb0 | Cold / chilled
+
+- 1 ½ cups water
+- 3 slices cantaloupe, peeled and seeded
+- 6 tablespoons white sugar
+- 1 cup ice cubes
+
+1. Process the prepared melon with the water and sugar in a blender.
+2. Put ice in two glasses and divide the melon drink between them.
+
+Source: https://www.allrecipes.com/recipe/230153/agua-fresca/
+
+## Avocado pepper tomato bowl
+
+ar-32a4db95afc2 | Room temperature
+
+- 2 avocados - peeled, pitted and diced
+- 1 sweet onion, chopped
+- 1 green bell pepper, chopped
+- 1 large ripe tomato, chopped
+- ¼ cup chopped fresh cilantro
+- ½ lime, juiced
+- salt and pepper to taste
+
+1. Put the diced avocado, onion, pepper and tomato in a bowl.
+2. Add the coriander and lime juice, gently turn the mixture together, and season with salt and pepper.
+
+Source: https://www.allrecipes.com/recipe/19960/avocado-salad/
+
+## Strawberry soy oat smoothie
+
+ar-c31c2ddbdea7 | Cold / chilled
+
+- 1 cup soy milk
+- ½ cup rolled oats
+- 14 frozen strawberries
+- 1 banana, broken into chunks
+- 1 ½ teaspoons white sugar (Optional)
+- ½ teaspoon vanilla extract (Optional)
+
+1. Add the soy milk, oats, prepared strawberries and banana to a blender.
+2. Process evenly. If using sugar or vanilla, add them and briefly blend again.
+
+Source: https://www.allrecipes.com/recipe/23539/strawberry-oatmeal-breakfast-smoothie/
+
+## Pineapple cucumber ginger blend
+
+ar-13208b820438 | Room temperature
+
+- 1 cup coconut water, or to taste
+- 1 cup chopped fresh pineapple
+- 1 stalk celery
+- ½ cucumber, peeled
+- ½ lemon, peeled
+- ⅓ bunch fresh parsley
+- 1 (1 inch) piece fresh ginger root
+
+1. Place the prepared pineapple, celery, cucumber, lemon, parsley and ginger in a blender jug.
+2. Add coconut water and process until evenly blended.
+
+Source: https://www.allrecipes.com/recipe/236413/pineapple-cleanser-smoothie/
+
+## Cantaloupe orange yogurt smoothie
+
+ar-1c15d0848f28 | Cold / chilled
+
+- 1 cup vanilla yogurt
+- ½ cup orange juice
+- ½ cup sliced cantaloupe
+- 4 ice cubes, crushed, or as needed
+
+1. Add the yogurt, orange juice, prepared cantaloupe and ice to a blender.
+2. Process until the ice and fruit are evenly incorporated, then pour into glasses.
+
+Source: https://www.allrecipes.com/recipe/238339/simple-cantaloupe-smoothie/
+
+## Cherry mango ice smoothie
+
+ar-430b6fb0bec0 | Cold / chilled
+
+- 2 cups pitted cherries
+- 1 cup chopped mango
+- 1 cup water
+- 1 cup ice cubes
+
+1. Check that all cherry stones have been removed. Put the cherries, prepared mango, water and ice in a blender.
+2. Process evenly and divide between glasses.
+
+Source: https://www.allrecipes.com/recipe/238484/mango-cherry-smoothie/
+
+## Spinach banana soy blend
+
+ar-4c22a1f7ef34 | Room temperature
+
+- 1 cup plain soy milk
+- ¾ cup packed fresh spinach leaves
+- 1 large banana, sliced
+
+1. Blend the soy milk with the washed spinach first.
+2. Add the peeled banana, process again until evenly mixed, and pour into a glass.
+
+Source: https://www.allrecipes.com/recipe/241019/spinach-and-banana-power-smoothie/
+
+## Apple kiwi chia smoothie
+
+ar-b42f9347b733 | Cold / chilled
+
+- 1 apple, roughly chopped
+- 1 banana, broken into chunks
+- 2 kiwifruit, peeled
+- 1 ¼ cups milk
+- ¼ cup ice, or as desired
+- 2 teaspoons chia seeds
+- 1 teaspoon maca powder
+
+1. Core the apple and peel the banana and kiwi. Put the prepared fruit in a blender.
+2. Add the milk, ice, chia and maca powder, then process to an even consistency.
+
+Source: https://www.allrecipes.com/recipe/241259/kiwi-banana-apple-smoothie/
+
+## Spiced watermelon with lime
+
+ar-07d4a163f73b | Room temperature
+
+- ¼ teaspoon ground cumin
+- ¼ teaspoon ground coriander
+- ¼ teaspoon chili powder
+- ¼ teaspoon salt
+- ⅛ teaspoon cayenne pepper
+- 2 cups cubed seeded watermelon
+- ½ lime, juiced
+
+1. Combine the cumin, ground coriander, chili powder, salt and cayenne in a small dish.
+2. Divide the watermelon into serving bowls. Add the spice mixture and squeeze the lime over the fruit.
+
+Source: https://www.allrecipes.com/recipe/233285/spicy-watermelon/
+
+## Grape kale pineapple blend
+
+ar-0c61bb6694ae | Cold / chilled
+
+- 2 cups honey-flavoured almond milk
+- 1 cup green grapes
+- 2 cups packed baby kale
+- 1 large kiwi fruit, peeled and chopped
+- 1 (10 ounce) package frozen pineapple chunks
+
+1. Put the almond drink, grapes, washed kale, peeled kiwi and prepared pineapple into a blender.
+2. Process until evenly blended, then divide into glasses.
+
+Source: https://www.allrecipes.com/recipe/269576/supreme-green-smoothie/
+
+## Two-melon lime drink
+
+ar-6626264ec983 | Room temperature
+
+- ¼ cantaloupe - peeled, seeded and cubed
+- ¼ honeydew melon - peeled, seeded and cubed
+- 1 lime, juiced
+- 2 tablespoons sugar
+
+1. Remove the peel and seeds from both melons. Put their flesh in a blender with the lime juice and sugar.
+2. Process evenly and pour into glasses.
+
+Source: https://www.allrecipes.com/recipe/32450/melon-smoothie/
+
+## Honeydew ice drink
+
+ar-5d928d2afcf3 | Cold / chilled
+
+- 1 (5 pound) honeydew melon, quartered and seeded
+- 2 cups ice cubes
+- 1 cup water
+- 3 tablespoons white sugar
+
+1. Remove the rind and seeds from the melon and transfer the flesh to a blender.
+2. Add the water, ice and sugar. Blend until the fruit is fully broken down and serve.
+
+Source: https://www.allrecipes.com/recipe/232448/heavenly-honeydew-juice/
+
+## Freshly squeezed orange drink
+
+ar-27028d1aa3b0 | Room temperature
+
+- 4 oranges
+
+1. Wash the oranges and cut them across the middle.
+2. Use a citrus juicer to extract the juice, remove any seeds, and pour into a glass.
+
+Source: https://www.allrecipes.com/recipe/89229/fresh-orange-juice/
+
+## Apple kale pomegranate bowl
+
+ar-c7e976e2f42d | Room temperature
+
+- 10 ounces kale, shredded
+- 2 Honeycrisp apples, thinly sliced
+- 1 pomegranate, seeds only
+- ½ teaspoon ground cinnamon,  Dressing:
+- 2 tablespoons extra-virgin olive oil
+- 2 tablespoons lemon juice
+- 1 shallot, thinly sliced
+- 1 tablespoon chopped fresh thyme,  ground black pepper to taste
+- 1 pinch crushed red pepper flakes
+
+1. Wash and shred the kale, then rub the leaves together for about two minutes to soften them.
+2. Toss the kale with the sliced apples, pomegranate seeds and cinnamon.
+3. Mix the oil, lemon juice, shallot, thyme, pepper and chili flakes separately, then fold this dressing through the salad.
+
+Source: https://www.allrecipes.com/recipe/276587/healthy-apple-and-kale-salad/

@@ -20,10 +20,12 @@ export function validateState(value){
   }
   if(!Array.isArray(value.unrecognizedAllergens)||value.unrecognizedAllergens.length>30||value.unrecognizedAllergens.some(v=>typeof v!=='string'||v.length>200))throw Error('Invalid pending terms');
   state.unrecognizedAllergens=value.unrecognizedAllergens;
-  if(!Array.isArray(value.shownIds)||value.shownIds.length>100||value.shownIds.some(v=>!/^wb-\d{3}$/.test(v)))throw Error('Invalid seen recipes');
+  const validRecipeId=v=>typeof v==='string'&&/^(?:wb-\d{3}|ar-[a-f0-9]{12})$/.test(v);
+  if(!Array.isArray(value.shownIds)||value.shownIds.length>100||value.shownIds.some(v=>!validRecipeId(v)))throw Error('Invalid seen recipes');
   state.shownIds=value.shownIds;
-  for(const k of ['recipeId','lastRecipeId']){if(value[k]!==null&&!/^wb-\d{3}$/.test(value[k]))throw Error('Invalid recipe id');state[k]=value[k];}
+  for(const k of ['recipeId','lastRecipeId']){if(value[k]!==null&&!validRecipeId(value[k]))throw Error('Invalid recipe id');state[k]=value[k];}
   state.avoidHot=value.avoidHot===true;
+  state.noActiveHeat=value.noActiveHeat===true;
   if(!Number.isInteger(value.turn)||value.turn<0||value.turn>1000)throw Error('Invalid turn');
   state.turn=value.turn;return state;
 }

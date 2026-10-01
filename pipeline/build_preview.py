@@ -13,6 +13,8 @@ def build_preview(root):
         (root / 'ui' / name).write_text(source, encoding='utf-8', newline='\n')
         template = template.replace(token, re.sub(r'^import .*?;\s*$', '', source, flags=re.M))
     rows = json.loads((root / 'data/recipes.json').read_text(encoding='utf-8'))
+    (root / 'ui/recipes.json').write_text(json.dumps(rows, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    (root / 'data/recipes.jsonl').write_text(''.join(json.dumps(row, ensure_ascii=False) + '\n' for row in rows), encoding='utf-8')
     template = template.replace('__RECIPES__', json.dumps(rows, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/'))
     assert not re.search(r'__(STYLES|RULES|ENGINE|UI|RECIPES)__', template)
     (root / 'ui/preview.html').write_text(template, encoding='utf-8', newline='\n')

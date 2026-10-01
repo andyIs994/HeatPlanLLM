@@ -21,4 +21,4 @@ for(const r of rows){
   const display=[r.title,r.standard_recipe_label,r.cuisine_label,r.temperature_label,r.dish_type_label,r.allergen_reminder,...r.allergen_labels,...r.food_notes,...r.heat_breakdown.map(h=>h.label),...r.ingredients.concat(r.steps).flatMap(b=>[b.text,b.source_group||''])];
   assert.doesNotMatch(display.join('\n'),/[\u3400-\u9fff]/u,r.recipe_id);
 }
-console.log('PASS English multi-turn flow, allergy retention, hot-weather distinction and all 58 English recipe displays');
+console.log('PASS English multi-turn flow, allergy retention, hot-weather distinction and '+rows.length+' English recipe displays');
