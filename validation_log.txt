@@ -45,3 +45,5 @@ PASS English multi-turn flow, allergy retention, hot-weather distinction and all
 2026-09-18 provider update: 37 existing regressions PASS; English flow/display PASS; 23 injected provider tests PASS; current adapter/UI/data rebuild text comparison PASS; three browser mock scenarios PASS. No live NVIDIA/Groq calls.
 
 2026-10-01: 37 chat regressions, 42 provider/heat/ingredient tests, 7 Kaggle tests passed. English display checks cover 85 records. Browser smoke passed. 58 original records unchanged except ingredient index.
+
+2026-10-01 review round 2: 95 automated tests passed (51 + 37 + 7); all 194 English displays checked; 131 selectable ingredients retrieve recipes. Live APIs not tested.

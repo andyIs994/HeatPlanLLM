@@ -12,48 +12,55 @@
     "recipe_id": "ar-0d2cbb28bc7c",
     "title": "Refreshing Cucumber Lemonade",
     "source_url": "https://www.allrecipes.com/recipe/197751/refreshing-cucumber-lemonade/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 3,
     "recipe_id": "ar-5c09db14fb98",
     "title": "Peach Ice Cream",
     "source_url": "https://www.allrecipes.com/recipe/20120/peach-ice-cream/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "held_after_review",
+    "reason": "Raw eggs are blended and frozen without a cooking or pasteurised-egg specification. Requires a separately verified preparation before release.",
+    "review_date": "2026-10-01",
+    "reason_code": "preparation_review"
   },
   {
     "number": 4,
     "recipe_id": "ar-96f6bd48de13",
     "title": "100% Fruit \"Cake\"",
     "source_url": "https://www.allrecipes.com/recipe/218890/100-fruit-cake/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 5,
     "recipe_id": "ar-f31031150206",
     "title": "Old-Fashioned Lemonade",
     "source_url": "https://www.allrecipes.com/recipe/20487/old-fashioned-lemonade/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 6,
     "recipe_id": "ar-44be528c4dae",
     "title": "Georgia Peach Homemade Ice Cream",
     "source_url": "https://www.allrecipes.com/recipe/38236/georgia-peach-homemade-ice-cream/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 7,
     "recipe_id": "ar-df9d5ceb395a",
     "title": "Refreshing Watermelon Salad",
     "source_url": "https://www.allrecipes.com/recipe/111853/refreshing-watermelon-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 8,
@@ -68,88 +75,101 @@
     "recipe_id": "ar-3cc6e34f6b66",
     "title": "Coconut Cream Pie I",
     "source_url": "https://www.allrecipes.com/recipe/12110/coconut-cream-pie-i/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 10,
     "recipe_id": "ar-9d2468c164ed",
     "title": "Perfect Summer Fruit Salad",
     "source_url": "https://www.allrecipes.com/recipe/214947/perfect-summer-fruit-salad/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Only dressing ingredients are present; pineapple, strawberries, kiwi, bananas, oranges, grapes and blueberries have no quantities.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 11,
     "recipe_id": "ar-207a7fbaf7b8",
     "title": "Summer Sweet Smoothies",
     "source_url": "https://www.allrecipes.com/recipe/215581/summer-sweet-smoothies/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 12,
     "recipe_id": "ar-5a3ea9329abd",
     "title": "Pavlova Deluxe",
     "source_url": "https://www.allrecipes.com/recipe/12138/pavlova-deluxe/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 13,
     "recipe_id": "ar-bccca6e74ee5",
     "title": "Summer Fruit Salad II",
     "source_url": "https://www.allrecipes.com/recipe/215586/summer-fruit-salad-ii/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 14,
     "recipe_id": "ar-e06c2c6cef51",
     "title": "Homemade Peach Tea",
     "source_url": "https://www.allrecipes.com/recipe/245306/homemade-peach-tea/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Tea bags and their quantity are absent; the directions require another six cups of water not listed in the ingredient block.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 15,
     "recipe_id": "ar-b422a9da4988",
     "title": "Southern Style Banana Split Cake",
     "source_url": "https://www.allrecipes.com/recipe/15439/southern-style-banana-split-cake/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 16,
     "recipe_id": "ar-8fc7e85ce270",
     "title": "Refreshing Cucumber Watermelon Salad",
     "source_url": "https://www.allrecipes.com/recipe/222728/refreshing-cucumber-watermelon-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 17,
     "recipe_id": "ar-92dd4bfaf434",
     "title": "Flavored Water",
     "source_url": "https://www.allrecipes.com/recipe/246155/flavored-water/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 18,
     "recipe_id": "ar-a6e58600cdf0",
     "title": "Pineapple Pie",
     "source_url": "https://www.allrecipes.com/recipe/15903/pineapple-pie-iii/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 19,
     "recipe_id": "ar-7a151a259ce2",
     "title": "Summer Fruit Salad with a Lemon, Honey, and Mint Dressing",
     "source_url": "https://www.allrecipes.com/recipe/228231/summer-fruit-salad-with-a-lemon-honey-and-mint-dressing/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 20,
@@ -164,8 +184,9 @@
     "recipe_id": "ar-6ae32df0b98c",
     "title": "Fruit Pizza Trifles To Go",
     "source_url": "https://www.allrecipes.com/recipe/218710/fruit-pizza-trifles-to-go/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 22,
@@ -180,24 +201,28 @@
     "recipe_id": "ar-6ebaa108fad1",
     "title": "Filipino Avocado Milkshake",
     "source_url": "https://www.allrecipes.com/recipe/139425/filipino-avocado-milkshake/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 24,
     "recipe_id": "ar-4db16faf9a4b",
     "title": "Harriet Davis's Indiana Persimmon Pudding",
     "source_url": "https://www.allrecipes.com/recipe/255797/harriet-daviss-indiana-persimmon-pudding/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 25,
     "recipe_id": "ar-2feed8018d88",
     "title": "Summer Salad with Burrata, Tomatoes, and Nectarines",
     "source_url": "https://www.allrecipes.com/recipe/266997/summer-salad-with-burrata-tomatoes-and-nectarines/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Dressing oil, vinegar, mustard, honey, salt and pepper are absent from the ingredient block.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 26,
@@ -212,16 +237,18 @@
     "recipe_id": "ar-557e8e9ef0d3",
     "title": "Vanilla Cherry Ice Cream",
     "source_url": "https://www.allrecipes.com/recipe/143665/vanilla-cherry-ice-cream/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 28,
     "recipe_id": "ar-60bfa6d5f234",
     "title": "Watermelon Summer Salad",
     "source_url": "https://www.allrecipes.com/recipe/74824/watermelon-summer-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 29,
@@ -236,32 +263,36 @@
     "recipe_id": "ar-78fa3dde82cb",
     "title": "Creamy Pomegranate Ice Cream",
     "source_url": "https://www.allrecipes.com/recipe/200443/creamy-pomegranate-ice-cream/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 31,
     "recipe_id": "ar-141e4e408cb0",
     "title": "Spinach Pomegranate Salad",
     "source_url": "https://www.allrecipes.com/recipe/127167/spinach-pomegranate-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 32,
     "recipe_id": "ar-809894e4589b",
     "title": "Watermelon and Strawberry Lemonade",
     "source_url": "https://www.allrecipes.com/recipe/143452/watermelon-and-strawberry-lemonade/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 33,
     "recipe_id": "ar-f1fa500ab9a2",
     "title": "Watermelon Sherbet",
     "source_url": "https://www.allrecipes.com/recipe/215568/watermelon-sherbet/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 34,
@@ -276,24 +307,27 @@
     "recipe_id": "ar-bdd8d7106327",
     "title": "Strawberry Banana Protein Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/160708/strawberry-banana-protein-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 36,
     "recipe_id": "ar-8a7f9219e180",
     "title": "Simple Watermelon Sorbet",
     "source_url": "https://www.allrecipes.com/recipe/233892/simple-watermelon-sorbet/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 37,
     "recipe_id": "ar-760d6cabfbdb",
     "title": "Bing Cherry Congealed Salad",
     "source_url": "https://www.allrecipes.com/recipe/13700/bing-cherry-congealed-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 38,
@@ -316,104 +350,119 @@
     "recipe_id": "ar-e7d81d9c73b3",
     "title": "Strawberry, Kiwi, and Spinach Salad",
     "source_url": "https://www.allrecipes.com/recipe/14170/strawberry-kiwi-and-spinach-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 41,
     "recipe_id": "ar-7d5c3af4e9d6",
     "title": "Avocado Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/199931/avocado-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 42,
     "recipe_id": "ar-0e155bb3c484",
     "title": "Mango Sorbet",
     "source_url": "https://www.allrecipes.com/recipe/86396/mango-sorbet/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 43,
     "recipe_id": "ar-957642f7fa42",
     "title": "Thai-Inspired Confetti Salad",
     "source_url": "https://www.allrecipes.com/recipe/141790/thai-inspired-confetti-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "held_after_review",
+    "reason": "Green beans are used without a specified cooking/preparation stage. Hold until the intended ready-to-eat preparation is verified.",
+    "review_date": "2026-10-01",
+    "reason_code": "preparation_review"
   },
   {
     "number": 44,
     "recipe_id": "ar-a68a1ef9a5ba",
     "title": "Bananerberry Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/20126/bananerberry-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 45,
     "recipe_id": "ar-b014b32aa604",
     "title": "No-Bake Chocolate Coconut Cookies",
     "source_url": "https://www.allrecipes.com/recipe/231731/no-bake-chocolate-coconut-cookies/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 46,
     "recipe_id": "ar-cc6c8dcc7ef7",
     "title": "Strawberry Spinach Salad",
     "source_url": "https://www.allrecipes.com/recipe/14276/strawberry-spinach-salad-i/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Only dressing is listed; strawberries, spinach and almonds have no quantities.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 47,
     "recipe_id": "ar-d30d319539b3",
     "title": "B and L's Strawberry Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/20792/b-and-ls-strawberry-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 48,
     "recipe_id": "ar-cb21d610c38f",
     "title": "No-Bake Chocolate-Oatmeal Drop Cookies",
     "source_url": "https://www.allrecipes.com/recipe/274285/no-bake-chocolate-oatmeal-drop-cookies/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 49,
     "recipe_id": "ar-0ba7a77270fb",
     "title": "Cobb Salad",
     "source_url": "https://www.allrecipes.com/recipe/14415/cobb-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 50,
     "recipe_id": "ar-044c3a912038",
     "title": "Watermelon Lemonade",
     "source_url": "https://www.allrecipes.com/recipe/214907/watermelon-lemonade/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 51,
     "recipe_id": "ar-b628f88556dd",
     "title": "No Bake Fruitcake",
     "source_url": "https://www.allrecipes.com/recipe/7605/no-bake-fruitcake/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 52,
     "recipe_id": "ar-8fee9737f89d",
     "title": "Frog Eye Salad",
     "source_url": "https://www.allrecipes.com/recipe/14439/frog-eye-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 53,
@@ -428,24 +477,28 @@
     "recipe_id": "ar-b868a04c0b68",
     "title": "Orange Gelatin Salad",
     "source_url": "https://www.allrecipes.com/recipe/14465/orange-gelatin-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 55,
     "recipe_id": "ar-a8f7c2504c56",
     "title": "Creamy Mango Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/215171/creamy-mango-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 56,
     "recipe_id": "ar-363e443e6219",
     "title": "Jamie's Cranberry Spinach Salad",
     "source_url": "https://www.allrecipes.com/recipe/14469/jamies-cranberry-spinach-salad/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Oil, sugar, both vinegars, sesame, poppy seeds, onion and paprika for dressing are absent.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 57,
@@ -460,72 +513,81 @@
     "recipe_id": "ar-c622f071faaf",
     "title": "Pear and Blue Cheese Salad",
     "source_url": "https://www.allrecipes.com/recipe/147395/pear-and-blue-cheese-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 59,
     "recipe_id": "ar-2503c0cfcf07",
     "title": "Fruit and Yogurt Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/215189/fruit-and-yogurt-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 60,
     "recipe_id": "ar-9c6b5d6018d1",
     "title": "Lime Pear Gelatin Salad",
     "source_url": "https://www.allrecipes.com/recipe/156739/lime-pear-gelatin-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 61,
     "recipe_id": "ar-670e1c58c157",
     "title": "Crazy Fruit Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/215196/crazy-fruit-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 62,
     "recipe_id": "ar-f2233fbbdb35",
     "title": "Cherry Chicken Salad",
     "source_url": "https://www.allrecipes.com/recipe/16225/cherry-chicken-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 63,
     "recipe_id": "ar-d816e3ce9217",
     "title": "Watermelon Milkshake",
     "source_url": "https://www.allrecipes.com/recipe/215579/watermelon-milkshake/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 64,
     "recipe_id": "ar-e98ff50d6f4a",
     "title": "Waldorf Salad",
     "source_url": "https://www.allrecipes.com/recipe/16800/waldorf-salad-ii/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 65,
     "recipe_id": "ar-37ef5d9280dc",
     "title": "Peanut Butter Banana Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/221261/peanut-butter-banana-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 66,
     "recipe_id": "ar-d89d2a8fba6b",
     "title": "Taco Salad III",
     "source_url": "https://www.allrecipes.com/recipe/16848/taco-salad-iii/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 67,
@@ -540,48 +602,54 @@
     "recipe_id": "ar-76976698136a",
     "title": "Avocado Egg Salad",
     "source_url": "https://www.allrecipes.com/recipe/170446/avocado-egg-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 69,
     "recipe_id": "ar-07ebb7b2096f",
     "title": "Quick Banana Milkshake (Ice Cream Free)",
     "source_url": "https://www.allrecipes.com/recipe/231180/quick-banana-milkshake-ice-cream-free/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 70,
     "recipe_id": "ar-2a14d45a0937",
     "title": "Apple-Cranberry Salad",
     "source_url": "https://www.allrecipes.com/recipe/171402/apple-cranberry-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 71,
     "recipe_id": "ar-846a0296ecbb",
     "title": "Easy Mango Banana Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/231851/easy-mango-banana-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 72,
     "recipe_id": "ar-981961db7b80",
     "title": "Cranberry JELL-O Salad",
     "source_url": "https://www.allrecipes.com/recipe/17265/cranberry-gelatin-salad-i/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 73,
     "recipe_id": "ar-e177f89718f5",
     "title": "Peach Banana Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/232903/peach-banana-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 74,
@@ -596,32 +664,36 @@
     "recipe_id": "ar-de6f9e589a23",
     "title": "Chef John's Watermelon Agua Fresca",
     "source_url": "https://www.allrecipes.com/recipe/233795/chef-johns-watermelon-agua-fresca/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 76,
     "recipe_id": "ar-aa9182eb9568",
     "title": "Strawberry Pretzel Salad",
     "source_url": "https://www.allrecipes.com/recipe/20338/strawberry-pretzel-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 77,
     "recipe_id": "ar-0a72226e388d",
     "title": "Heart Healthy Blueberry Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/235261/heart-healthy-blueberry-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 78,
     "recipe_id": "ar-42b88718fa9e",
     "title": "Pear and Pomegranate Salad",
     "source_url": "https://www.allrecipes.com/recipe/213165/pear-and-pomegranate-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 79,
@@ -636,24 +708,27 @@
     "recipe_id": "ar-0105245496a5",
     "title": "Pretty Pomegranate Salad",
     "source_url": "https://www.allrecipes.com/recipe/214633/pretty-pomegranate-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 81,
     "recipe_id": "ar-178e6e3eb849",
     "title": "Basic Fruit Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/23553/basic-fruit-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 82,
     "recipe_id": "ar-569c3df78382",
     "title": "Watermelon Feta Salad",
     "source_url": "https://www.allrecipes.com/recipe/215044/watermelon-feta-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 83,
@@ -668,40 +743,45 @@
     "recipe_id": "ar-eb8c1ffa65f6",
     "title": "Mojito Fruit Salad",
     "source_url": "https://www.allrecipes.com/recipe/215576/mojito-fruit-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 85,
     "recipe_id": "ar-3c73a91baaf9",
     "title": "Simple Avocado Milkshake",
     "source_url": "https://www.allrecipes.com/recipe/237804/simple-avocado-milkshake/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 86,
     "recipe_id": "ar-f86031b20cae",
     "title": "Watermelon and Feta Salad with Arugula and Spinach",
     "source_url": "https://www.allrecipes.com/recipe/218557/watermelon-and-feta-salad-with-arugula-and-spinach/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 87,
     "recipe_id": "ar-c53526312687",
     "title": "Mango Watermelon Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/238068/mango-watermelon-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 88,
     "recipe_id": "ar-68d8d583dd5f",
     "title": "Salsa Salad",
     "source_url": "https://www.allrecipes.com/recipe/218645/salsa-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 89,
@@ -716,8 +796,9 @@
     "recipe_id": "ar-8bc12144bd4b",
     "title": "Fig and Arugula Salad",
     "source_url": "https://www.allrecipes.com/recipe/220468/fig-and-arugula-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 91,
@@ -732,40 +813,45 @@
     "recipe_id": "ar-eef80b688473",
     "title": "Herb Watermelon Feta Salad",
     "source_url": "https://www.allrecipes.com/recipe/222512/herb-watermelon-feta-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 93,
     "recipe_id": "ar-063dace319f9",
     "title": "Peanut Butter Mango Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/238642/peanut-butter-mango-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 94,
     "recipe_id": "ar-50cfe1fd85f1",
     "title": "Tropical Island Fruit Salad",
     "source_url": "https://www.allrecipes.com/recipe/222534/tropical-island-fruit-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 95,
     "recipe_id": "ar-f5d11d59851f",
     "title": "Lela's Protein Mango Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/238647/lelas-protein-mango-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 96,
     "recipe_id": "ar-92e519563857",
     "title": "Tomato Watermelon Salad",
     "source_url": "https://www.allrecipes.com/recipe/228277/tomato-watermelon-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 97,
@@ -788,16 +874,18 @@
     "recipe_id": "ar-00ba071ca5c3",
     "title": "Mango Oatmeal Breakfast Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/241023/mango-oatmeal-breakfast-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 100,
     "recipe_id": "ar-e8b4e0563a84",
     "title": "5 Cup Salad",
     "source_url": "https://www.allrecipes.com/recipe/230038/5-cup-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 101,
@@ -812,16 +900,19 @@
     "recipe_id": "ar-d2621d4506a9",
     "title": "Kale, Quinoa, and Avocado Salad with Lemon Dijon Vinaigrette",
     "source_url": "https://www.allrecipes.com/recipe/230050/kale-quinoa-and-avocado-salad-with-lemon-dijon-vinaigrette/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Olive oil, lemon juice, Dijon mustard, salt and pepper for the dressing have no quantities.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 103,
     "recipe_id": "ar-0313b46be932",
     "title": "Banana, Avocado, and Spinach Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/241365/banana-avocado-and-spinach-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 104,
@@ -836,48 +927,55 @@
     "recipe_id": "ar-d0dddda60129",
     "title": "Strawberry-Kiwi Slush",
     "source_url": "https://www.allrecipes.com/recipe/242220/strawberry-kiwi-slush/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 106,
     "recipe_id": "ar-79633a87385f",
     "title": "Jicama Mango Salad with Cilantro and Lime",
     "source_url": "https://www.allrecipes.com/recipe/233495/jicama-mango-salad-with-cilantro-and-lime/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Cilantro, lime juice, honey, salt and cayenne used in the dressing are absent.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 107,
     "recipe_id": "ar-09f214ecdc83",
     "title": "Healthy Chocolate Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/245061/healthy-chocolate-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 108,
     "recipe_id": "ar-fd05062b0588",
     "title": "Rosa Marina Fruit Salad",
     "source_url": "https://www.allrecipes.com/recipe/233943/rosa-marina-fruit-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 109,
     "recipe_id": "ar-a0572b47c934",
     "title": "Watermelon Lime Agua Fresca",
     "source_url": "https://www.allrecipes.com/recipe/246117/watermelon-lime-agua-fresca/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 110,
     "recipe_id": "ar-bc5723a3444b",
     "title": "Orange, Fig, and Gorgonzola Salad",
     "source_url": "https://www.allrecipes.com/recipe/234219/orange-fig-and-gorgonzola-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 111,
@@ -892,40 +990,46 @@
     "recipe_id": "ar-d17c7d906668",
     "title": "Mexican Green Papaya Salad",
     "source_url": "https://www.allrecipes.com/recipe/236243/mexican-green-papaya-salad/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Papaya, black beans, corn and red pepper forming the salad are absent.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 113,
     "recipe_id": "ar-3360860f4a47",
     "title": "Tropical Mango-Pineapple-Berry Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/270865/tropical-mango-pineapple-berry-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 114,
     "recipe_id": "ar-db9ecda540cb",
     "title": "Easy Mango Salad",
     "source_url": "https://www.allrecipes.com/recipe/238047/easy-mango-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 115,
     "recipe_id": "ar-71297fabb49d",
     "title": "Watermelon-Cucumber Agua Fresca",
     "source_url": "https://www.allrecipes.com/recipe/285328/watermelon-cucumber-agua-fresca/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 116,
     "recipe_id": "ar-bddf78aac3f9",
     "title": "Watermelon and Blue Cheese Salad",
     "source_url": "https://www.allrecipes.com/recipe/238093/watermelon-and-blue-cheese-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 117,
@@ -940,144 +1044,165 @@
     "recipe_id": "ar-b2868f4e0a39",
     "title": "Spinach Salad with Chicken, Avocado, and Goat Cheese",
     "source_url": "https://www.allrecipes.com/recipe/240327/spinach-salad-with-chicken-avocado-and-goat-cheese/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "White wine vinegar, olive oil and Dijon mustard for dressing are absent.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 119,
     "recipe_id": "ar-59539950f01c",
     "title": "Mango-Peach Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/66224/mango-peach-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 120,
     "recipe_id": "ar-71f39a802613",
     "title": "Avocado Watermelon Salad",
     "source_url": "https://www.allrecipes.com/recipe/242175/avocado-watermelon-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 121,
     "recipe_id": "ar-d6a80f314112",
     "title": "Papaya Surprise Smoothie",
     "source_url": "https://www.allrecipes.com/recipe/72701/papaya-surprise-smoothie/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 122,
     "recipe_id": "ar-af9d53b86210",
     "title": "Lemon Pretzel Salad with Mango and Kiwi",
     "source_url": "https://www.allrecipes.com/recipe/242187/lemon-pretzel-salad-with-mango-and-kiwi/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Only crust ingredients are present; the cream layer, gelatin layer and fruit quantities are absent.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 123,
     "recipe_id": "ar-c362694cf8e2",
     "title": "Virgin Strawberry Daiquiri",
     "source_url": "https://www.allrecipes.com/recipe/107945/virgin-strawberry-daiquiri/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 124,
     "recipe_id": "ar-9c106af7e0b4",
     "title": "Hawaiian Cole Slaw",
     "source_url": "https://www.allrecipes.com/recipe/244615/hawaiian-cole-slaw/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 125,
     "recipe_id": "ar-8b6f7e38c251",
     "title": "Nectarine Blush",
     "source_url": "https://www.allrecipes.com/recipe/142435/nectarine-blush/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 126,
     "recipe_id": "ar-d48a9a68a488",
     "title": "Persimmon, Pomegranate, and Massaged Kale Salad",
     "source_url": "https://www.allrecipes.com/recipe/245726/persimmon-pomegranate-and-massaged-kale-salad/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Only nut topping is listed; kale, persimmon, pomegranate and dressing quantities are absent.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 127,
     "recipe_id": "ar-9a0d7ae79f44",
     "title": "Pawpaw (Papaya) And Mango Punch",
     "source_url": "https://www.allrecipes.com/recipe/173746/pawpaw-papaya-and-mango-punch/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 128,
     "recipe_id": "ar-be139bf8618d",
     "title": "Watermelon Basil Salad",
     "source_url": "https://www.allrecipes.com/recipe/254422/watermelon-basil-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 129,
     "recipe_id": "ar-bb16abb3d19c",
     "title": "Aileen's Punch",
     "source_url": "https://www.allrecipes.com/recipe/20310/aileens-punch/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 130,
     "recipe_id": "ar-0b4aaf8f0138",
     "title": "Zesty Salad",
     "source_url": "https://www.allrecipes.com/recipe/254539/zesty-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 131,
     "recipe_id": "ar-d8c9fc8ee94c",
     "title": "Watermelon and Cucumber Juice with a Spritz of Lime",
     "source_url": "https://www.allrecipes.com/recipe/215519/watermelon-and-cucumber-juice-with-a-spritz-of-lime/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 132,
     "recipe_id": "ar-22ed782b0d3d",
     "title": "Peach and Tomato Caprese Salad",
     "source_url": "https://www.allrecipes.com/recipe/258123/peach-and-tomato-caprese-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 133,
     "recipe_id": "ar-fc0485d84e82",
     "title": "Polynesian Watermelon Drink ('Otai)",
     "source_url": "https://www.allrecipes.com/recipe/222172/polynesian-watermelon-drink-otai/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 134,
     "recipe_id": "ar-818e18072654",
     "title": "Quinoa Salad with Broccoli, Nuts, and Pomegranate",
     "source_url": "https://www.allrecipes.com/recipe/263464/quinoa-salad-with-broccoli-nuts-and-pomegranate/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 135,
     "recipe_id": "ar-8c35abb15e50",
     "title": "Watermelon Juice",
     "source_url": "https://www.allrecipes.com/recipe/228280/watermelon-juice/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 136,
@@ -1100,88 +1225,100 @@
     "recipe_id": "ar-22a010e10c12",
     "title": "Bionicos (Mexican Fruit Bowls)",
     "source_url": "https://www.allrecipes.com/recipe/266532/bionicos-mexican-fruit-bowls/",
-    "status": "deferred",
-    "reason": "Ingredient block appears incomplete relative to title or full directions; do not infer missing quantities."
+    "status": "held_after_review",
+    "reason": "Only cream sauce is listed; fruit, granola, raisins and coconut quantities are absent.",
+    "review_date": "2026-10-01",
+    "reason_code": "missing_ingredients"
   },
   {
     "number": 139,
     "recipe_id": "ar-3327b7b5e587",
     "title": "Quick Cantaloupe Juice",
     "source_url": "https://www.allrecipes.com/recipe/234301/quick-cantaloupe-juice/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 140,
     "recipe_id": "ar-dcf6b008abfb",
     "title": "Halloumi Three-Bean Salad with Pomegranate-Harissa Vinaigrette",
     "source_url": "https://www.allrecipes.com/recipe/266602/halloumi-three-bean-salad-with-pomegranate-harissa-vinaigrette/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 141,
     "recipe_id": "ar-1dd89be1956c",
     "title": "Fruit Batido",
     "source_url": "https://www.allrecipes.com/recipe/238624/fruit-batido/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 142,
     "recipe_id": "ar-765482577942",
     "title": "Smoked Salmon Poke Bowl",
     "source_url": "https://www.allrecipes.com/recipe/268086/smoked-salmon-poke-bowl/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 143,
     "recipe_id": "ar-dfd97f2d5f85",
     "title": "Chocolate Banana Peanut Butter Protein Shake",
     "source_url": "https://www.allrecipes.com/recipe/244959/chocolate-banana-peanut-butter-protein-shake/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 144,
     "recipe_id": "ar-d72ea2dc9b92",
     "title": "Christmas Pomegranate Salad",
     "source_url": "https://www.allrecipes.com/recipe/268727/christmas-pomegranate-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 145,
     "recipe_id": "ar-db42b4c0fce8",
     "title": "Warm Lemon, Honey, and Ginger Soother",
     "source_url": "https://www.allrecipes.com/recipe/256236/warm-lemon-honey-and-ginger-soother/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 146,
     "recipe_id": "ar-7b38d0e0d6a5",
     "title": "Freekeh Salad with Tahini Dressing",
     "source_url": "https://www.allrecipes.com/recipe/270199/freekeh-salad-with-tahini-dressing/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 147,
     "recipe_id": "ar-8a48978d592e",
     "title": "Honey Lemon Tea",
     "source_url": "https://www.allrecipes.com/recipe/56445/honey-lemon-tea/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 148,
     "recipe_id": "ar-8e45c2b340d7",
     "title": "Mango Papaya Fruit Salad",
     "source_url": "https://www.allrecipes.com/recipe/270424/mango-papaya-fruit-salad/",
-    "status": "deferred",
-    "reason": "Not individually approved in this release; ingredient completeness, preparation and compound checks remain."
+    "status": "added_reviewed_preparation",
+    "reason": "Ingredient/preparation alignment reviewed; serving temperature, allergen screening and separate heating stages recorded. See recipe review metadata.",
+    "review_date": "2026-10-01"
   },
   {
     "number": 149,

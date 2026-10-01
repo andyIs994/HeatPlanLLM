@@ -29,7 +29,7 @@ export const FOOD_TERMS={
   lychee:['荔枝','lychee','lychees','litchi'],peach:['桃子','peach','peaches'],apple:['苹果','蘋果','apple','apples'],
   avocado:['牛油果','鳄梨','avocado','avocados'],dragon_fruit:['火龙果','火龍果','dragon fruit','pitaya'],
   garlic:['大蒜','蒜','garlic','aglio'],onion:['洋葱','洋蔥','onion','onions','cipolla'],
-  chili:['辣椒','chilli','chili','chile','jalapeno','jalapeño'],coriander:['香菜','芫荽','coriander','cilantro','coriandolo'],
+  chili:['辣椒','chilli','chili','chile','jalapeno','jalapeño','jalapenos','cayenne','red pepper flakes'],coriander:['香菜','芫荽','coriander','cilantro','coriandolo'],
   chicken:['鸡肉','雞肉','chicken','pollo'],pork:['猪肉','豬肉','pork','maiale','sausage'],beef:['牛肉','beef','manzo'],
   rice:['米饭','米飯','大米','糯米','rice','riso'],mung_bean:['绿豆','綠豆','mung bean','mung beans'],
   lotus_seed:['莲子','蓮子','lotus seed','lotus seeds'],lily:['百合','lily'],goji:['枸杞','goji','wolfberry'],
@@ -62,7 +62,24 @@ export const FOOD_TERMS={
   almond_milk:['杏仁奶','almond milk','almondmilk'],coconut_milk:['椰奶','椰浆','椰漿','coconut milk'],
   coconut_water:['椰子水','coconut water'],peanut_butter:['花生酱','花生醬','peanut butter'],
   mustard:['芥末','mustard'],black_pepper:['黑胡椒','black pepper'],salt:['盐','鹽','salt'],
-  cooked_chicken:['熟鸡肉','熟雞肉','cooked chicken'],canned_chickpea:['罐装鹰嘴豆','罐裝鷹嘴豆','canned chickpeas']
+  cooked_chicken:['熟鸡肉','熟雞肉','cooked chicken'],canned_chickpea:['罐装鹰嘴豆','罐裝鷹嘴豆','canned chickpeas'],
+  arugula:['芝麻菜','火箭菜','arugula','rocket'],broccoli:['西兰花','西蘭花','broccoli'],
+  quinoa:['藜麦','藜麥','quinoa'],freekeh:['青麦','freekeh'],persimmon:['柿子','persimmon'],
+  passion_fruit:['百香果','passion fruit','passion fruits'],apricot:['杏子','apricot'],
+  raspberry:['树莓','覆盆子','raspberry'],lemon_balm:['柠檬香蜂草','lemon balm','melissa'],
+  poppy_seed:['罂粟籽','罌粟籽','poppy seed','poppy seeds'],cocoa:['可可粉','可可','cocoa'],
+  pinto_bean:['斑豆','pinto bean','pinto beans'],kidney_bean:['红腰豆','紅腰豆','kidney bean','kidney beans'],
+  black_bean:['黑豆','black bean','black beans'],white_bean:['白豆','white bean','white beans'],
+  halloumi:['哈罗米','halloumi'],cream_cheese:['奶油奶酪','cream cheese'],
+  gelatin:['明胶','明膠','gelatin','gelatine','jell-o'],marshmallow:['棉花糖','marshmallow','marshmallows'],
+  mayonnaise:['蛋黄酱','蛋黃醬','mayonnaise'],ice_cream:['冰淇淋','ice cream'],
+  maple_syrup:['枫糖浆','楓糖漿','maple syrup'],bacon:['培根','bacon'],
+  hard_boiled_egg:['水煮蛋','熟鸡蛋','hard boiled egg','hard-boiled egg','hard-boiled eggs','hard boiled eggs'],
+  cooked_rice:['熟米饭','熟米飯','cooked rice','cooked brown rice'],
+  smoked_salmon:['烟熏三文鱼','煙燻鮭魚','smoked salmon'],
+  condensed_milk:['炼乳','煉乳','condensed milk'],evaporated_milk:['淡奶','evaporated milk'],
+  tahini:['芝麻酱','芝麻醬','tahini'],cornstarch:['玉米淀粉','玉米澱粉','cornstarch'],
+  corn_chips:['玉米片','corn chips'],pickles:['腌黄瓜','醃黃瓜','pickles']
 };
 export function contains(text,word){
   text=norm(text);word=norm(word);
@@ -72,7 +89,8 @@ export const foodLabel=id=>({mung_bean:'mung beans',lotus_seed:'lotus seeds',lil
 export const extractTerms=text=>{
   // Plant milks must not accidentally introduce the dairy constraint.
   const withoutPlantMilk=norm(text).replace(/coconut milk|almond ?milk|soy milk|soya milk|椰奶|椰浆|椰漿|杏仁奶|豆奶|豆浆|豆漿/gu,'');
-  return Object.entries(FOOD_TERMS).filter(([id,a])=>a.some(w=>contains(id==='milk'?withoutPlantMilk:text,w))).map(([id])=>id);
+  const scoped={milk:withoutPlantMilk,grape:norm(text).replace(/grape tomatoes/gu,''),cherry:norm(text).replace(/cherry tomatoes/gu,''),cream:norm(text).replace(/cream of tartar|cream of coconut/gu,'')};
+  return Object.entries(FOOD_TERMS).filter(([id,a])=>a.some(w=>contains(scoped[id]??text,w))).map(([id])=>id);
 };
 export function heatLevel(methods){return [...new Set(methods)].reduce((n,m)=>{if(!(m in HEAT_WEIGHTS))throw Error('Unknown heat method');return n+HEAT_WEIGHTS[m];},0);}
 // v1 heatLevel is retained only for historical data compatibility.

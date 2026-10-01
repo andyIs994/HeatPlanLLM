@@ -7,7 +7,7 @@ const rows=JSON.parse(fs.readFileSync(path.join(root,'data/recipes.json'),'utf8'
 const standard=Object.keys(FOOD_TERMS).slice(0,Object.keys(FOOD_TERMS).indexOf('mango'));
 for(const r of rows){
   const found=extractTerms(r.ingredients.map(b=>b.text).join('\n')).filter(id=>!standard.includes(id));
-  r.ingredient_ids=[...new Set([...r.allergen_ids,...found])].sort();
+  r.ingredient_ids=[...new Set([...r.allergen_ids,...found,...(r.ingredient_state_ids||[])])].sort();
   r.ingredient_index_basis='ingredient_list_and_curated_allergen_annotations_only';
 }
 const options=ingredientOptions(rows);

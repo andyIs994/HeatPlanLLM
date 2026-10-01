@@ -1,3 +1,5 @@
+> Historical first release. Current counts and remaining-candidate decisions: [second review](REVIEW_ROUND2.md).
+
 # Ingredient-first release, 1 October 2026
 
 The active collection now contains 85 recipes: the existing 58 Wikibooks records plus 27 individually reviewed preparations based on the cached Kaggle candidate facts. The dictionary contains 109 food identifiers, including food families and prepared forms. There are 95 selectable ingredients with at least one standalone active recipe. These are not 109 unique botanical species.

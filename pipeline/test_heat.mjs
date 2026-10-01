@@ -45,7 +45,8 @@ test('chilling, proofing, resting and total elapsed time never inflate active co
 });
 test('all current records have traceable profiles and valid finite scores',()=>{
   assert.equal(rows.filter(r=>r.recipe_id.startsWith('wb-')).length,58);
-  assert.equal(rows.filter(r=>r.recipe_id.startsWith('ar-')).length,27);
+  const release=JSON.parse(fs.readFileSync(new URL('../data/candidate_release_review.json',import.meta.url),'utf8'));
+  assert.equal(rows.filter(r=>r.recipe_id.startsWith('ar-')).length,release.filter(r=>r.status==='added_reviewed_preparation').length);
   for(const r of rows){
     const h=cookingHeat(r);
     assert.ok(Number.isFinite(h.value)&&h.value>=0&&h.value<100);

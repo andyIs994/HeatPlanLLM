@@ -1,5 +1,5 @@
 {
-  "recipes": 85,
+  "recipes": 194,
   "translated_ingredient_or_step_blocks": 55,
   "baseline_regressions_passed": 37,
   "english_flow_and_display_checks_passed": true,
@@ -51,5 +51,15 @@
     "browser_checked": true,
     "live_llm_tested": false
   },
-  "historical_v04_rebuild_files_byte_identical_note": "Historical verification only; these files have subsequently changed."
+  "historical_v04_rebuild_files_byte_identical_note": "Historical verification only; these files have subsequently changed.",
+  "review_round2": {
+    "reviewed": 123,
+    "added": 109,
+    "held": 14,
+    "recognized_food_identifiers": 141,
+    "selectable_ingredients": 131,
+    "automated_tests_passed": 95,
+    "english_display_count": 194,
+    "live_llm_tested": false
+  }
 }

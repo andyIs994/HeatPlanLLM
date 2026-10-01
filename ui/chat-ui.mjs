@@ -34,6 +34,7 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
       ing.append(node('h3',"Ingredients"));const ul=node('ul');for(const b of r.ingredients)ul.append(node('li',(b.source_group?'['+b.source_group+'] ':'')+b.text));ing.append(ul);
       steps.append(node('h3',"Method"));const ol=node('ol');for(const b of r.steps)ol.append(node('li',b.text));steps.append(ol);
       grid.append(ing,steps);card.append(grid);
+      if(r.equipment?.length)card.append(node('p','Equipment: '+r.equipment.join(', '),'food-note'));
       card.append(node('p',r.allergen_reminder,'allergy'));
       for(const note of r.food_notes)card.append(node('p',note,'food-note'));
       const source=node('p',undefined,'source'),link=node('a',"Original recipe");

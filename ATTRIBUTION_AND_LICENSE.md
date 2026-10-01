@@ -2,7 +2,7 @@
 
 The 58 active Wikibooks recipes: recipe text © Wikibooks contributors, adapted under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Their derived recipe data and annotations use the same licence; project code uses MIT (pipeline/LICENSE).
 
-The separate Kaggle candidate manifest records source links and review metadata. Its source archive declares CC0, but original Allrecipes text/image rights remain unverified. 27 reviewed preparations now appear in the active catalogue with newly worded titles and directions, factual ingredient quantities and individual Allrecipes source links. No blanket upstream rights clearance is claimed. Full candidate source text is kept outside Git; it does not inherit the Wikibooks licence. See docs/KAGGLE_CANDIDATES.md.
+The separate Kaggle candidate manifest records source links and review metadata. Its source archive declares CC0, but original Allrecipes text/image rights remain unverified. 136 reviewed preparations now appear in the active catalogue with newly worded titles and directions, factual ingredient quantities and individual Allrecipes source links. No blanket upstream rights clearance is claimed. Full candidate source text is kept outside Git; it does not inherit the Wikibooks licence. See docs/KAGGLE_CANDIDATES.md.
 
 Cooking heat v2 adds assistant-authored stage annotations with explicit source evidence and assumed timing scenarios. It does not alter the standard recipe ingredients or preparation text.
 Changes: standard-version selection, consistency edits, preparation/temperature and allergen annotations. Per-recipe changes record content edits. Retired records appear only in immutable historical input.

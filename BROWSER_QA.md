@@ -35,3 +35,8 @@ recipe safety/rights. Historical checks below concern earlier versions.
 ## Ingredient-first release, 2026-10-01
 
 Verified in the in-app browser at localhost:8893 with no API keys: ingredient-first welcome, blueberry/yogurt/cold/no-cooking request, correct added recipe and source attribution, 95-ingredient browser, search and ingredient-button-to-chat flow. Provider checks use mocks; live availability not verified.
+
+
+## Second candidate review, 2026-10-01
+
+In-app browser at localhost:8895: catalogue exposes 131 ingredients; broccoli returns the new quinoa/broccoli recipe with correct ingredient quantities, methods and provenance; following with no cooking returns no match and preserves broccoli. No live provider keys configured. Prior 85 recipes unchanged apart from rebuilt ingredient IDs; JSON, JSONL and UI data agree.

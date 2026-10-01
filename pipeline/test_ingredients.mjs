@@ -40,6 +40,7 @@ test('allergy clarification never becomes a positive ingredient preference',()=>
 });
 test('released candidates have provenance, unique ids, full fields and explicit heat review',()=>{
  assert.equal(new Set(rows.map(r=>r.recipe_id)).size,rows.length);
- const released=rows.filter(r=>r.recipe_id.startsWith('ar-'));assert.equal(released.length,27);
- for(const r of released){assert.ok(r.source.source_rows.length);assert.ok(r.ingredients.every(i=>i.text.trim()));assert.ok(r.steps.length>=2);assert.equal(r.cooking_heat_profile.no_active_heat_confirmed,true);assert.equal(r.licence.id,'source-rights-not-relicensed');assert.equal(r.review.not_claimed.includes('kitchen_test'),true);assert.equal(cookingHeat(r).value,0);}
+ const ledger=JSON.parse(fs.readFileSync(new URL('../data/candidate_release_review.json',import.meta.url)));
+ const released=rows.filter(r=>r.recipe_id.startsWith('ar-'));assert.equal(released.length,ledger.filter(r=>r.status==='added_reviewed_preparation').length);
+ for(const r of released){assert.ok(r.source.source_rows.length);assert.ok(r.ingredients.every(i=>i.text.trim()));assert.ok(r.steps.length>=2);assert.equal(r.cooking_heat_profile.no_active_heat_confirmed,r.cooking_heat_profile.stages.length===0);assert.equal(r.licence.id,'source-rights-not-relicensed');assert.equal(r.review.not_claimed.includes('kitchen_test'),true);assert.ok(Number.isFinite(cookingHeat(r).value));}
 });

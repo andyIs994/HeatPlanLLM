@@ -1,6 +1,6 @@
 # Active recipe catalogue
 
-85 records. See docs/INGREDIENT_RELEASE.md for review scope.
+194 records. See docs/REVIEW_ROUND2.md for review scope.
 
 ## Bánh Mì
 
@@ -1776,3 +1776,1848 @@ ar-c7e976e2f42d | Room temperature
 3. Mix the oil, lemon juice, shallot, thyme, pepper and chili flakes separately, then fold this dressing through the salad.
 
 Source: https://www.allrecipes.com/recipe/276587/healthy-apple-and-kale-salad/
+
+## Cucumber lemon cooler
+
+ar-0d2cbb28bc7c | Cold / chilled
+
+- 1 cup water
+- ½ cup white sugar
+- 1 cucumber, sliced
+- 6 lemons, juiced
+
+1. Heat the sugar with the water until dissolved and almost boiling. Cool the syrup in the refrigerator for about 30 minutes.
+2. Blend the cucumber and leave its pulp in a fine sieve for about 15 minutes, collecting roughly two-thirds of a cup of juice. Mix this with the syrup and lemon juice and serve cold.
+
+Source: https://www.allrecipes.com/recipe/197751/refreshing-cucumber-lemonade/
+
+## Layered melon fruit dessert
+
+ar-96f6bd48de13 | Cold / chilled
+
+- 1 seedless watermelon
+- 2 cups strawberries, hulled and sliced
+- 1 cantaloupe - seeded, peeled, and sliced (Optional)
+- 1 fresh pineapple - peeled, cored, and sliced (Optional)
+
+1. Cut three thick crosswise watermelon rounds, remove their rinds and arrange them from largest to smallest with the prepared strawberries, cantaloupe and pineapple between layers.
+2. Use remaining fruit to decorate the stack. Refrigerate until serving, then cut into wedges.
+
+Source: https://www.allrecipes.com/recipe/218890/100-fruit-cake/
+
+## Lemon water with sugar
+
+ar-f31031150206 | Cold / chilled
+
+- 6 lemons
+- 1 cup white sugar
+- 6 cups water, or more as needed
+- Ice, for serving
+
+1. Squeeze the lemons to obtain about one cup of juice. Mix it with the measured sugar and water until the sugar dissolves.
+2. Adjust with extra water if required, refrigerate, and pour over ice to serve.
+
+Source: https://www.allrecipes.com/recipe/20487/old-fashioned-lemonade/
+
+## Peach milk ice cream
+
+ar-44be528c4dae | Cold / chilled
+
+- 2 ½ pounds fresh peaches - peeled, pitted and chopped
+- 1 pint half-and-half cream
+- ½ cup white sugar
+- 1 (14 ounce) can sweetened condensed milk
+- 1 (12 fluid ounce) can evaporated milk
+- 1 teaspoon vanilla extract
+- 2 cups whole milk, or as needed
+
+1. Blend the prepared peaches with the half-and-half and sugar in batches. Combine with condensed milk, evaporated milk and vanilla in the ice-cream container.
+2. Add whole milk up to the container fill line, approximately two cups. Churn according to the machine instructions, about 20 minutes, then freeze in a covered container for about four hours.
+
+Source: https://www.allrecipes.com/recipe/38236/georgia-peach-homemade-ice-cream/
+
+## Watermelon cucumber feta bowl
+
+ar-df9d5ceb395a | Room temperature
+
+- 3 tablespoons lime juice
+- 1 cup sliced red onion, cut lengthwise
+- 15 cups cubed watermelon
+- 3 cups cubed English cucumber
+- 1 (8 ounce) package feta cheese, crumbled
+- ½ cup chopped fresh cilantro
+- cracked black pepper
+- sea salt
+
+1. Leave the sliced onion in the lime juice while preparing the other ingredients.
+2. Combine watermelon, cucumber, feta and coriander. Fold in the onion and its juice, then season with pepper and salt just before serving.
+
+Source: https://www.allrecipes.com/recipe/111853/refreshing-watermelon-salad/
+
+## Chilled coconut pudding pie
+
+ar-3cc6e34f6b66 | Cold / chilled
+
+- 1 (9 inch) pie shell, baked
+- 1 (5 ounce) package instant vanilla pudding mix
+- 1 ½ cups milk
+- 1 ½ cups flaked coconut
+- 1 (8 ounce) container frozen whipped topping, thawed
+
+1. Whisk the instant pudding with milk until thick. Fold in one cup of coconut and half the ready-to-use whipped topping, then spread into the already baked pie shell.
+2. Cover with the remaining topping and coconut. Refrigerate before serving.
+
+Source: https://www.allrecipes.com/recipe/12110/coconut-cream-pie-i/
+
+## Cranberry berry fig blend
+
+ar-207a7fbaf7b8 | Room temperature
+
+- 2 cups cranberry juice
+- 2 cups strawberries
+- 1 cup blueberries
+- 1 cup watermelon chunks
+- 1 banana
+- 2 fresh figs
+
+1. Put the cranberry juice and all the prepared fruit into a blender.
+2. Process evenly and serve, or keep the drink refrigerated until needed.
+
+Source: https://www.allrecipes.com/recipe/215581/summer-sweet-smoothies/
+
+## Passion fruit cream meringue
+
+ar-5a3ea9329abd | Cold / chilled
+
+- 6 egg whites
+- ⅛ teaspoon cream of tartar
+- 1 cup white sugar
+- 1 tablespoon cornstarch
+- 2 teaspoons distilled white vinegar
+- 1 ¼ cups heavy cream, chilled
+- 1 teaspoon vanilla extract
+- 2 teaspoons confectioners' sugar
+- 4 passion fruits
+
+1. Heat the oven to 205 C. Grease an eight-inch springform pan and lightly dust with cornstarch.
+2. Whip the egg whites in a grease-free bowl until firm. Gradually beat in the mixed cream of tartar, sugar and cornstarch, then gently fold in the vinegar.
+3. Spread the meringue in the pan with a shallow hollow in the centre. Put it in the oven and immediately reduce the setting to 120 C. Bake for 75–90 minutes, then open the door and leave it inside for another 15 minutes.
+4. Carefully release the pan rim and cool completely before moving to a plate. Whip the cream with vanilla and confectioners sugar, spread over the meringue, top with passion fruit pulp and chill.
+
+Source: https://www.allrecipes.com/recipe/12138/pavlova-deluxe/
+
+## Chilled mixed fruit coconut bowl
+
+ar-bccca6e74ee5 | Cold / chilled
+
+- 3 cups cubed (1-inch) seedless watermelon
+- 1 large white peach, pitted and cut into small cubes
+- 1 large nectarine, pitted and cut into small cubes
+- 1 black plum, pitted and cut into small cubes
+- 1 cup fresh blueberries
+- ½ cup seedless red grapes, halved
+- ½ cup shredded coconut
+- 1 teaspoon ground cinnamon
+- ½ cup nondairy whipped topping (Optional)
+
+1. Turn together the watermelon, peach, nectarine, plum, blueberries and grapes. Fold through the coconut and cinnamon.
+2. Cover and refrigerate for at least one hour. Add the optional ready-to-use topping when serving.
+
+Source: https://www.allrecipes.com/recipe/215586/summer-fruit-salad-ii/
+
+## Banana pineapple cream layers
+
+ar-b422a9da4988 | Cold / chilled
+
+- 2 cups graham cracker crumbs
+- ¾ cup white sugar
+- ¼ pound butter, melted
+- 2 (8 ounce) packages cream cheese
+- 1 ½ cups confectioners' sugar
+- 4 bananas, sliced
+- 1 (15 ounce) can crushed pineapple, drained
+- 1 (16 ounce) container frozen whipped topping, thawed
+- 1 (16 ounce) jar maraschino cherries, drained
+- 12 ounces crushed peanuts
+
+1. Mix the cracker crumbs, white sugar and already melted butter, then press into a 9-by-13-inch pan. Chill for about 30 minutes.
+2. Beat cream cheese with confectioners sugar and spread over the base. Add layers of banana, drained pineapple and ready-to-use whipped topping.
+3. Finish with cherries and peanuts. Refrigerate for at least one hour before serving.
+
+Source: https://www.allrecipes.com/recipe/15439/southern-style-banana-split-cake/
+
+## Mint cucumber watermelon bowl
+
+ar-8fc7e85ce270 | Room temperature
+
+- 1 small red onion, halved and sliced into thin half-moons
+- 2 tablespoons lime juice, or more to taste
+- 2 tablespoons extra-virgin olive oil
+- 1 seedless watermelon, cut into cubes
+- 3 baby cucumbers, seeded and cut into cubes
+- 1 cup crumbled feta cheese
+- ½ cup mint leaves, sliced thinly
+
+1. Leave the onion in lime juice for at least ten minutes, then stir in the olive oil.
+2. Combine the watermelon, cucumbers and feta, add the onion dressing and fold through the mint.
+
+Source: https://www.allrecipes.com/recipe/222728/refreshing-cucumber-watermelon-salad/
+
+## Cucumber citrus infused water
+
+ar-92dd4bfaf434 | Cold / chilled
+
+- ½ small cucumber, sliced thin
+- ½ nectarine, pitted and chopped
+- ½ lemon, sliced
+- ½ lemon, juiced
+- ½ lime, sliced
+- ½ lime, juiced
+- 4 slices ginger root, peeled, or more to taste
+- 10 melissa leaves (lemon balm), or more to taste
+- 2 quarts water
+- 1 drop liquid stevia, or to taste
+
+1. Lightly crush the prepared cucumber, nectarine, citrus slices and juices, ginger and lemon balm in a jug. Add water and stevia and stir.
+2. Refrigerate for two hours or overnight to infuse. Strain and pour over ice.
+
+Source: https://www.allrecipes.com/recipe/246155/flavored-water/
+
+## Chilled pineapple pastry pie
+
+ar-a6e58600cdf0 | Cold / chilled
+
+- 1 recipe pastry for a 9 inch double crust pie
+- ¾ cup white sugar
+- 3 tablespoons cornstarch
+- 1 (20 ounce) can crushed pineapple with juice
+- 1 tablespoon lemon juice
+- 2 tablespoons milk
+- 1 tablespoon white sugar
+
+1. Heat the oven to 220 C. Stir the sugar, cornstarch, pineapple with its juice and lemon juice over medium heat until thick, then boil for one minute.
+2. Let the filling cool slightly and transfer into the pastry-lined pie pan. Add the top pastry, seal, cut steam vents and brush with milk and the extra sugar.
+3. Bake for 35 minutes. Cool before serving chilled or at room temperature.
+
+Source: https://www.allrecipes.com/recipe/15903/pineapple-pie-iii/
+
+## Mint lemon mixed fruit bowl
+
+ar-7a151a259ce2 | Cold / chilled
+
+- 4 cups cubed seeded watermelon
+- 2 cups sliced fresh strawberries
+- 2 large fresh peaches, cut into cubes
+- 2 large nectarines, cut into cubes
+- 1 red Anjou pear, cut into cubes
+- 1 cup seedless grapes, halved
+- 2 lemons, juiced
+- ¼ cup minced fresh mint (chocolate mint preferred)
+- ½ lemon, zested
+- 1 tablespoon honey (fireweed honey preferred)
+
+1. Combine the prepared watermelon, strawberries, peaches, nectarines, pear and grapes.
+2. Mix lemon juice, zest, mint and honey, fold through the fruit, and refrigerate for one hour.
+
+Source: https://www.allrecipes.com/recipe/228231/summer-fruit-salad-with-a-lemon-honey-and-mint-dressing/
+
+## Fruit cream cheese dessert cups
+
+ar-6ae32df0b98c | Cold / chilled
+
+- 4 (8 ounce) packages reduced-fat cream cheese, softened
+- 2 cups brown sugar
+- 4 teaspoons vanilla extract
+- 1 pound fresh strawberries, coarsely chopped
+- 1 fresh pineapple - peeled, cored and chopped
+- 1 pound seedless grapes, halved
+- 1 pint blueberries
+- 12 sugar cookies, crushed
+- 2 kiwis, peeled and sliced
+
+1. Beat cream cheese with brown sugar and vanilla and refrigerate for about 30 minutes. Mix the strawberries, pineapple, grapes and blueberries separately.
+2. In each serving cup, layer about three tablespoons of cream mixture, about one-third cup of fruit and one or two teaspoons of cookie crumbs. Add kiwi slices and refrigerate until serving.
+
+Source: https://www.allrecipes.com/recipe/218710/fruit-pizza-trifles-to-go/
+
+## Avocado milk ice blend
+
+ar-6ebaa108fad1 | Cold / chilled
+
+- 1 avocado - peeled, pitted, and cubed
+- 5 cubes ice
+- 3 tablespoons white sugar
+- 1 ⅓ cups milk
+- 1 teaspoon fresh lemon juice
+- 1 scoop vanilla ice cream
+
+1. Put the prepared avocado, milk, sugar, ice, lemon juice and vanilla ice cream into a blender.
+2. Process evenly, then divide between glasses.
+
+Source: https://www.allrecipes.com/recipe/139425/filipino-avocado-milkshake/
+
+## Chilled persimmon baked pudding
+
+ar-4db16faf9a4b | Cold / chilled
+
+- 1 ½ cups buttermilk
+- 1 teaspoon baking soda
+- 1 ½ cups all-purpose flour
+- 1 teaspoon baking powder
+- ½ teaspoon ground cinnamon
+- ⅛ teaspoon salt
+- 2 cups persimmon pulp
+- 2 cups white sugar
+- 2 eggs, well beaten
+- ¼ cup heavy whipping cream
+- ¼ cup butter, melted
+
+1. Heat the oven to 165 C. Mix buttermilk with baking soda in one bowl, and flour, baking powder, cinnamon and salt in another.
+2. Beat the persimmon pulp, sugar and eggs together. Alternately fold in the wet and dry mixtures, then add cream and the already melted butter.
+3. Pour into a 9-by-13-inch pan and bake for 25–30 minutes, until the edges pull away and the centre begins to crack. Cool and refrigerate before serving.
+
+Source: https://www.allrecipes.com/recipe/255797/harriet-daviss-indiana-persimmon-pudding/
+
+## Cherry cream frozen dessert
+
+ar-557e8e9ef0d3 | Cold / chilled
+
+- 2 cups heavy cream
+- 1 cup milk
+- ¾ cup white sugar
+- 1 tablespoon vanilla extract
+- 1 teaspoon almond extract
+- 2 cups fresh cherries, pits removed and cut in half
+
+1. Stir the cream, milk and sugar until dissolved. Mix in both extracts and the pitted cherries.
+2. Churn using the ice-cream maker instructions, transfer to a freezer container and freeze for at least two hours.
+
+Source: https://www.allrecipes.com/recipe/143665/vanilla-cherry-ice-cream/
+
+## Watermelon olive mint salad
+
+ar-60bfa6d5f234 | Room temperature
+
+- ¾ cup halved, thinly sliced red onion
+- 1 tablespoon fresh lime juice
+- 1 ½ quarts seeded, cubed watermelon
+- ¾ cup crumbled feta cheese
+- ½ cup pitted black olive halves
+- 1 cup chopped fresh mint
+- 2 tablespoons olive oil
+
+1. Leave the onion in lime juice for ten minutes.
+2. Fold it and the juice through the watermelon, feta, olives and mint, then add the olive oil.
+
+Source: https://www.allrecipes.com/recipe/74824/watermelon-summer-salad/
+
+## Pomegranate cream frozen dessert
+
+ar-78fa3dde82cb | Cold / chilled
+
+- 1 cup heavy cream
+- 1 cup white sugar
+- 1 cup pomegranate juice
+- 1 teaspoon vanilla extract
+- 1 pinch salt
+
+1. Stir the cream and sugar together, then incorporate the juice, vanilla and salt.
+2. Transfer to an ice-cream maker and freeze using its instructions.
+
+Source: https://www.allrecipes.com/recipe/200443/creamy-pomegranate-ice-cream/
+
+## Spinach walnut pomegranate bowl
+
+ar-141e4e408cb0 | Room temperature
+
+- 1 (10 ounce) bag baby spinach leaves, rinsed and drained
+- ½ cup walnut pieces
+- ½ cup crumbled feta
+- ¼ medium red onion, sliced very thin
+- ½ cup pomegranate seeds, or to taste
+- 4 tablespoons balsamic vinaigrette
+
+1. Arrange the spinach, walnuts, feta, onion and pomegranate seeds in a bowl.
+2. Drizzle over the vinaigrette just before serving. The source optional alfalfa sprouts are omitted in this version.
+
+Source: https://www.allrecipes.com/recipe/127167/spinach-pomegranate-salad/
+
+## Watermelon strawberry lemon blend
+
+ar-809894e4589b | Room temperature
+
+- 8 cups cubed seeded watermelon
+- 1 cup fresh strawberries, halved
+- ½ cup fresh lemon juice
+- 1 cup white sugar
+- 2 cups water
+
+1. Put the prepared watermelon and strawberries in a blender with lemon juice, sugar and water.
+2. Blend evenly and pour into glasses.
+
+Source: https://www.allrecipes.com/recipe/143452/watermelon-and-strawberry-lemonade/
+
+## Watermelon cream sherbet
+
+ar-f1fa500ab9a2 | Cold / chilled
+
+- 4 cups diced seedless watermelon
+- 1 cup white sugar
+- 3 tablespoons lemon juice
+- 1 dash salt
+- ¼ cup cold water
+- 1 (.25 ounce) envelope unflavored gelatin
+- 1 cup chilled heavy cream
+
+1. Mix watermelon, sugar, lemon juice and salt and refrigerate for 30 minutes. Blend this mixture evenly.
+2. Sprinkle gelatin onto the cold water in a saucepan, wait one minute, then heat gently for two minutes. Stir into the fruit mixture, add cream and beat until aerated.
+3. Churn according to the ice-cream machine instructions. Transfer to a sealed container and freeze for at least two hours.
+
+Source: https://www.allrecipes.com/recipe/215568/watermelon-sherbet/
+
+## Strawberry almond protein blend
+
+ar-bdd8d7106327 | Cold / chilled
+
+- 1 ¼ cups sliced fresh strawberries
+- 1 banana
+- 10 whole almonds
+- 2 tablespoons water
+- 1 cup ice cubes
+- 3 tablespoons chocolate flavored protein powder
+
+1. Blend the strawberries, banana, almonds and water first. Add the ice and process again.
+2. Add the measured protein powder and mix for roughly 30 seconds until incorporated.
+
+Source: https://www.allrecipes.com/recipe/160708/strawberry-banana-protein-smoothie/
+
+## Watermelon lemon frozen dessert
+
+ar-8a7f9219e180 | Cold / chilled
+
+- 1 cup white sugar
+- ½ cup water
+- ¼ cup lemon juice
+- 3 cups cubed seeded watermelon
+
+1. Heat and stir the sugar, water and lemon juice for about five minutes until dissolved. Refrigerate the syrup for about 30 minutes.
+2. Blend the watermelon, mix with the cooled syrup and freeze in an ice-cream maker according to its instructions.
+
+Source: https://www.allrecipes.com/recipe/233892/simple-watermelon-sorbet/
+
+## Cherry pineapple gelatin dessert
+
+ar-760d6cabfbdb | Cold / chilled
+
+- 1 (16.5 ounce) can pitted Bing cherries, drained, juice reserved
+- 1 (15 ounce) can crushed pineapple, drained with juice reserved
+- 1 (6 ounce) package cherry Jell-O®
+- 1 (3 ounce) package cream cheese
+- 6 fluid ounces cola-flavored carbonated beverage
+- 1 cup chopped pecans
+
+1. Measure one cup of the reserved cherry and pineapple juices together. Bring to a boil and whisk in the gelatin mix, then take off the heat and blend in cream cheese.
+2. Beat in the cola, fold in the drained fruit and pecans, transfer to a mould and refrigerate for six to eight hours until set.
+
+Source: https://www.allrecipes.com/recipe/13700/bing-cherry-congealed-salad/
+
+## Strawberry kiwi walnut spinach bowl
+
+ar-e7d81d9c73b3 | Room temperature
+
+- 2 tablespoons raspberry vinegar
+- 2 ½ tablespoons raspberry jam
+- ⅓ cup vegetable oil
+- 8 cups spinach, rinsed and torn into bite-size pieces
+- ½ cup chopped walnuts
+- 8 strawberries, quartered
+- 2 kiwis, peeled and sliced
+
+1. Mix raspberry vinegar, jam and oil to make the dressing.
+2. Combine the spinach, walnuts, strawberries and kiwi, then fold through the dressing.
+
+Source: https://www.allrecipes.com/recipe/14170/strawberry-kiwi-and-spinach-salad/
+
+## Avocado yogurt ice smoothie
+
+ar-7d5c3af4e9d6 | Cold / chilled
+
+- 1 cup milk
+- 1 ripe avocado, halved and pitted
+- ½ cup vanilla yogurt
+- 3 tablespoons honey
+- 8 ice cubes
+
+1. Add the milk, prepared avocado, yogurt and honey to a blender.
+2. Add ice, process evenly and pour into a glass.
+
+Source: https://www.allrecipes.com/recipe/199931/avocado-smoothie/
+
+## Mango lime frozen dessert
+
+ar-0e155bb3c484 | Cold / chilled
+
+- 4 mangos - peeled, seeded, and cubed
+- 1 cup simple syrup
+- 3 tablespoons fresh lime juice
+
+1. Blend the mango flesh with ready-made simple syrup and lime juice.
+2. Transfer to an ice-cream maker and freeze using the machine instructions.
+
+Source: https://www.allrecipes.com/recipe/86396/mango-sorbet/
+
+## Strawberry peach apple milk blend
+
+ar-a68a1ef9a5ba | Cold / chilled
+
+- 1 cup fresh strawberries
+- 1 banana, sliced
+- 1 cup fresh peaches
+- 1 cup apples
+- 1 ½ cups vanilla ice cream
+- 1 ½ cups ice cubes
+- ½ cup milk
+
+1. Blend the prepared fruit and vanilla ice cream together.
+2. Add ice and milk, process again and serve promptly.
+
+Source: https://www.allrecipes.com/recipe/20126/bananerberry-smoothie/
+
+## Cocoa coconut oat drops
+
+ar-b014b32aa604 | Room temperature
+
+- 3 cups quick cooking oats
+- 1 cup sweetened flaked coconut
+- 2 cups white sugar
+- ½ cup unsweetened cocoa powder
+- ½ cup milk
+- ½ cup margarine
+
+1. Line a tray with waxed paper and mix the oats with coconut in a bowl.
+2. Heat sugar, cocoa, milk and margarine, stirring until mixed. Bring to a boil and keep stirring for two minutes.
+3. Mix the hot mixture through the oats and coconut, portion by tablespoons onto the tray, and leave to cool and firm.
+
+Source: https://www.allrecipes.com/recipe/231731/no-bake-chocolate-coconut-cookies/
+
+## Strawberry vanilla yogurt ice blend
+
+ar-d30d319539b3 | Cold / chilled
+
+- 8 strawberries, hulled
+- ½ cup skim milk
+- ½ cup plain yogurt
+- 3 tablespoons white sugar
+- 2 teaspoons vanilla extract
+- 6 cubes ice, crushed
+
+1. Blend the strawberries with the milk, yogurt, sugar and vanilla.
+2. Add the ice, process until evenly incorporated and divide into glasses.
+
+Source: https://www.allrecipes.com/recipe/20792/b-and-ls-strawberry-smoothie/
+
+## Chilled cocoa peanut oat drops
+
+ar-cb21d610c38f | Cold / chilled
+
+- ½ cup milk
+- 2 cups white sugar
+- ½ cup butter
+- ½ cup cocoa powder
+- 3 cups quick oats
+- ½ cup shredded coconut
+- ½ cup peanut butter
+- 1 teaspoon vanilla extract
+
+1. Heat milk, sugar, butter and cocoa to a rolling boil, stirring frequently. Boil for about one minute.
+2. Take off the heat and mix in oats, coconut, peanut butter and vanilla. Portion onto waxed paper and refrigerate for at least one hour.
+
+Source: https://www.allrecipes.com/recipe/274285/no-bake-chocolate-oatmeal-drop-cookies/
+
+## Chicken egg bacon salad plate
+
+ar-0ba7a77270fb | Room temperature
+
+- 6 slices bacon
+- 3 eggs
+- 1 head iceberg lettuce, shredded
+- 3 cups chopped, cooked chicken meat
+- 2 tomatoes, seeded and chopped
+- ¾ cup blue cheese, crumbled
+- 3 green onions, chopped
+- 1 avocado - peeled, pitted and diced
+- 1 (8 ounce) bottle Ranch-style salad dressing
+
+1. Cover the eggs with cold water in a saucepan, bring to a boil, then cover and remove from the heat. Rest for 10–12 minutes before cooling, peeling and chopping.
+2. Cook the bacon in a skillet for about 7–10 minutes until evenly browned. Drain and crumble.
+3. Arrange lettuce, bacon, egg, already cooked chicken, tomatoes, cheese, onions and avocado on plates. Finish with the dressing.
+
+Source: https://www.allrecipes.com/recipe/14415/cobb-salad/
+
+## Watermelon lemon iced drink
+
+ar-044c3a912038 | Cold / chilled
+
+- ½ cup white sugar
+- ½ cup water
+- 4 cups cubed watermelon
+- 3 cups cold water
+- ½ cup fresh lemon juice
+- 6 cups ice cubes
+
+1. Blend and sieve the watermelon.
+2. Heat the sugar with half a cup of water until dissolved, about five minutes. Take off the heat and add the remaining cold water and lemon juice.
+3. Distribute ice and a few tablespoons of watermelon puree between glasses, then add the lemon mixture and stir.
+
+Source: https://www.allrecipes.com/recipe/214907/watermelon-lemonade/
+
+## Refrigerated cherry coconut fruit loaf
+
+ar-b628f88556dd | Cold / chilled
+
+- 1 pound halved candied cherries
+- 4 cups chopped pecans
+- 1 (14 ounce) can sweetened condensed milk
+- 1 (14 ounce) can coconut milk
+- 1 cup flaked coconut
+- 1 cup raisins
+- 1 teaspoon vanilla extract
+- 1 (12 ounce) package vanilla wafers, crushed
+
+1. Combine the candied cherries, pecans, both milks, coconut, raisins, vanilla and crushed wafers into a stiff mixture.
+2. Press into a pan and refrigerate until ready to portion.
+
+Source: https://www.allrecipes.com/recipe/7605/no-bake-fruitcake/
+
+## Chilled pineapple pasta dessert
+
+ar-8fee9737f89d | Cold / chilled
+
+- 1 ¾ cups unsweetened pineapple juice
+- 1 cup white sugar
+- 2 eggs, beaten
+- 2 tablespoons all-purpose flour
+- 2 ½ teaspoons salt, divided
+- 1 tablespoon lemon juice
+- 1 tablespoon vegetable oil
+- 1 (16 ounce) package acini di pepe pasta
+- 3 (11 ounce) cans mandarin oranges, drained
+- 2 (20 ounce) cans pineapple tidbits, drained
+- 1 (20 ounce) can crushed pineapple, drained
+- 1 (8 ounce) container frozen whipped topping, thawed
+- 1 cup miniature marshmallows
+- 1 cup shredded coconut
+
+1. Stir pineapple juice, sugar, eggs, flour and half a teaspoon of salt in a saucepan over medium heat until thickened. Take off the heat, add lemon juice and cool for about one hour.
+2. Boil water with the oil and remaining salt, then cook the pasta for 5–7 minutes until al dente. Drain and rinse cold.
+3. Combine the pasta, cooled sauce, drained fruit and topping. Refrigerate for eight hours or overnight, then fold in marshmallows and coconut before serving.
+
+Source: https://www.allrecipes.com/recipe/14439/frog-eye-salad/
+
+## Orange pineapple cottage cheese bowl
+
+ar-b868a04c0b68 | Cold / chilled
+
+- 1 (11 ounce) can mandarin oranges, drained
+- 1 (8 ounce) can crushed pineapple, drained
+- 1 (6 ounce) package orange flavored Jell-O® mix
+- 16 ounces cottage cheese
+- 8 ounces frozen whipped topping, thawed
+
+1. Mix the drained orange and pineapple with the gelatin powder and refrigerate for 30 minutes.
+2. Stir in cottage cheese, gently fold in the thawed ready-to-use topping and keep chilled until serving.
+
+Source: https://www.allrecipes.com/recipe/14465/orange-gelatin-salad/
+
+## Mango vanilla yogurt ice blend
+
+ar-a8f7c2504c56 | Cold / chilled
+
+- ¾ cup cold milk
+- ¼ cup vanilla yogurt
+- ¾ teaspoon vanilla extract
+- 1 ½ cups chopped fresh mango
+- 3 ice cubes
+
+1. Measure the milk, yogurt and vanilla into a blender and add the prepared mango.
+2. Add ice and blend to an even consistency.
+
+Source: https://www.allrecipes.com/recipe/215171/creamy-mango-smoothie/
+
+## Pear blue cheese pecan salad
+
+ar-c622f071faaf | Room temperature
+
+- 1 (10 ounce) bag mixed field greens
+- ½ cup sliced red onion (Optional)
+- 1 Bosc pear, cored and sliced
+- ½ cup chopped candied pecans
+- ½ cup crumbled blue cheese
+- ¼ cup maple syrup
+- ⅓ cup apple cider vinegar
+- ½ cup mayonnaise
+- 2 tablespoons packed brown sugar
+- ¾ teaspoon salt
+- ¼ teaspoon freshly ground black pepper
+- ¼ cup walnut oil
+
+1. Combine the greens, optional onion, pear, candied pecans and blue cheese.
+2. Blend maple syrup, vinegar, mayonnaise, brown sugar, salt and pepper. Gradually add walnut oil while blending, then fold the dressing through the salad.
+
+Source: https://www.allrecipes.com/recipe/147395/pear-and-blue-cheese-salad/
+
+## Strawberry banana yogurt juice blend
+
+ar-2503c0cfcf07 | Cold / chilled
+
+- 1 cup strawberries
+- 1 banana
+- ½ cup yogurt
+- ¼ cup pineapple juice
+- 1 ½ teaspoons white sugar
+- 1 teaspoon orange juice
+- 1 teaspoon milk
+
+1. Put the prepared fruit, yogurt, juices, sugar and milk into a blender.
+2. Process evenly and pour into a glass.
+
+Source: https://www.allrecipes.com/recipe/215189/fruit-and-yogurt-smoothie/
+
+## Chilled pear lime gelatin dessert
+
+ar-9c6b5d6018d1 | Cold / chilled
+
+- 1 (.6 ounce) package sugar-free lime Jell-O®
+- 1 cup boiling water
+- 1 (15.25 ounce) can pear halves in juice
+- 1 (3 ounce) package reduced-fat cream cheese, softened
+- 1 ½ cups reduced-fat frozen whipped topping, thawed
+
+1. Dissolve the gelatin mix in the measured boiling water. Blend with the pears and cream cheese.
+2. Fold in the thawed topping, transfer to a mould, cover and refrigerate for at least four hours. Briefly warm the outside of the mould with tap water if needed for release.
+
+Source: https://www.allrecipes.com/recipe/156739/lime-pear-gelatin-salad/
+
+## Coconut tropical fruit ice blend
+
+ar-670e1c58c157 | Cold / chilled
+
+- 1 ½ cups crushed ice
+- 1 banana, chopped
+- 1 kiwi, peeled and chopped
+- ½ cup chopped strawberries
+- ½ cup chopped pineapple
+- ¼ cup cream of coconut
+- 1 tablespoon coconut flakes for garnish
+
+1. Blend the ice, prepared banana, kiwi, strawberries, pineapple and cream of coconut together.
+2. Pour into a glass and finish with the coconut flakes.
+
+Source: https://www.allrecipes.com/recipe/215196/crazy-fruit-smoothie/
+
+## Chilled chicken cherry pecan bowl
+
+ar-f2233fbbdb35 | Cold / chilled
+
+- 3 cooked, boneless chicken breast halves, diced
+- ⅓ cup dried cherries
+- ⅓ cup diced celery
+- ⅓ cup toasted, chopped pecans
+- ⅓ cup low-fat mayonnaise
+- 1 tablespoon buttermilk
+- ½ teaspoon salt
+- ½ teaspoon ground black pepper
+- ⅓ cup cubed apples (Optional)
+
+1. Use already cooked chicken and toasted pecans. Mix them with the cherries, celery, mayonnaise, buttermilk, salt and pepper, adding the optional apple if wanted.
+2. Refrigerate until chilled and serve as a salad. The source bread accompaniment is omitted.
+
+Source: https://www.allrecipes.com/recipe/16225/cherry-chicken-salad/
+
+## Watermelon milk blend
+
+ar-d816e3ce9217 | Room temperature
+
+- 1 ½ cups diced watermelon
+- 2 ¼ cups milk
+- 2 teaspoons white sugar
+
+1. Blend the watermelon with the milk first.
+2. Add the sugar and process briefly again, then pour into glasses.
+
+Source: https://www.allrecipes.com/recipe/215579/watermelon-milkshake/
+
+## Chilled apple celery walnut bowl
+
+ar-e98ff50d6f4a | Cold / chilled
+
+- ½ cup mayonnaise
+- 1 tablespoon white sugar
+- 1 teaspoon lemon juice
+- ⅛ teaspoon salt
+- 3 apples -- peeled, cored, and chopped
+- 1 cup thinly sliced celery
+- ½ cup chopped walnuts
+- ½ cup raisins (Optional)
+
+1. Mix mayonnaise, sugar, lemon juice and salt in a serving bowl.
+2. Fold through the apples, celery, walnuts and optional raisins. Cover and refrigerate until serving.
+
+Source: https://www.allrecipes.com/recipe/16800/waldorf-salad-ii/
+
+## Banana peanut butter milk smoothie
+
+ar-37ef5d9280dc | Cold / chilled
+
+- 2 bananas, broken into chunks
+- 2 cups milk
+- ½ cup peanut butter
+- 2 tablespoons honey, or to taste
+- 2 cups ice cubes
+
+1. Put the banana, milk, peanut butter and honey in a blender with the ice.
+2. Blend for approximately 30 seconds until evenly mixed, then serve.
+
+Source: https://www.allrecipes.com/recipe/221261/peanut-butter-banana-smoothie/
+
+## Warm beef bean salad
+
+ar-d89d2a8fba6b | Warm
+
+- 16 ounces lean ground beef
+- 1 (1.25 ounce) package taco seasoning mix
+- 1 head iceberg lettuce, shredded
+- 1 red onion, sliced
+- 1 bunch green onions, chopped
+- 1 (15 ounce) can pinto beans, drained
+- 1 (15 ounce) can kidney beans, drained
+- 2 large tomatoes, chopped
+- 1 avocados - peeled, pitted, and cubed
+- 8 ounces shredded Cheddar cheese
+- 1 (16 ounce) package corn chips
+- 1 (16 ounce) bottle Catalina salad dressing
+
+1. Cook the ground beef following the taco seasoning package preparation instructions.
+2. Combine with lettuce, onions, drained canned beans, tomatoes, avocado and cheese. Add corn chips and dressing immediately before serving.
+
+Source: https://www.allrecipes.com/recipe/16848/taco-salad-iii/
+
+## Ready-cooked egg avocado bowl
+
+ar-76976698136a | Room temperature
+
+- 6 hard-boiled eggs, peeled
+- 2 avocados - peeled, pitted, and cubed
+- ½ cup minced red onion
+- 3 tablespoons chopped sweet pickles
+- 1 tablespoon prepared yellow mustard
+- ⅓ cup mayonnaise
+- salt and pepper to taste
+
+1. Break up the already hard-boiled eggs with a fork.
+2. Fold in the avocado, onion, chopped pickles, mustard and mayonnaise. Season with salt and pepper.
+
+Source: https://www.allrecipes.com/recipe/170446/avocado-egg-salad/
+
+## Banana cinnamon ice milk
+
+ar-07ebb7b2096f | Cold / chilled
+
+- 3 ice cubes
+- 1 cup milk
+- 1 banana
+- 1 tablespoon white sugar, or to taste
+- 1 pinch ground cinnamon
+
+1. Put the ice, milk, banana, sugar and cinnamon in a blender.
+2. Process evenly and pour into a glass.
+
+Source: https://www.allrecipes.com/recipe/231180/quick-banana-milkshake-ice-cream-free/
+
+## Apple pear cranberry leaf salad
+
+ar-2a14d45a0937 | Room temperature
+
+- 1 teaspoon stone-ground mustard
+- 2 tablespoons balsamic vinegar
+- ¼ cup olive oil
+- 1 apple, diced
+- 1 pear, diced
+- ¼ cup dried cranberries
+- 1 (10 ounce) package mixed baby greens
+- ¼ cup crumbled blue cheese
+- 2 tablespoons chopped walnuts
+
+1. Whisk mustard with vinegar and gradually incorporate the olive oil.
+2. Combine the prepared fruit, cranberries, greens, cheese and walnuts. Fold in the dressing to serve.
+
+Source: https://www.allrecipes.com/recipe/171402/apple-cranberry-salad/
+
+## Mango banana yogurt milk
+
+ar-846a0296ecbb | Cold / chilled
+
+- 2 mangos - peeled, seeded, and sliced
+- 2 bananas
+- 2 cups vanilla yogurt
+- 2 cups milk
+
+1. Put the prepared mango and banana in a blender with vanilla yogurt and milk.
+2. Blend evenly and divide into glasses.
+
+Source: https://www.allrecipes.com/recipe/231851/easy-mango-banana-smoothie/
+
+## Cranberry pineapple gelatin cups
+
+ar-981961db7b80 | Cold / chilled
+
+- 2 cups boiling water
+- 2 (0.3 ounce) packages sugar-free cherry-flavored gelatin mix (such as Jell-O®)
+- 1 (16 ounce) can jellied cranberry sauce
+- 1 (20 ounce) can crushed pineapple, drained
+- ½ cup chopped pecans
+
+1. Dissolve the gelatin mix in boiling water, then stir in cranberry sauce and drained pineapple.
+2. Divide into individual dishes or one serving dish, scatter pecans on top and refrigerate until set: about 3–4 hours for small dishes, or four hours to overnight for a large dish.
+
+Source: https://www.allrecipes.com/recipe/17265/cranberry-gelatin-salad-i/
+
+## Peach banana yogurt ice blend
+
+ar-e177f89718f5 | Cold / chilled
+
+- 1 cup plain yogurt
+- 1 (15.25 ounce) can peaches
+- 2 bananas, sliced
+- ¼ cup orange juice
+- ¼ cup white sugar, or to taste
+- 2 cubes ice
+
+1. Put the yogurt, canned peaches, banana, juice and sugar in a blender.
+2. Add ice and process until evenly blended.
+
+Source: https://www.allrecipes.com/recipe/232903/peach-banana-smoothie/
+
+## Chilled watermelon syrup drink
+
+ar-de6f9e589a23 | Cold / chilled
+
+- ½ seedless watermelon
+- 2 cups cold water
+- ½ cup white sugar, or to taste
+- ½ cup water
+- Ice, for serving
+
+1. Blend the watermelon flesh with two cups of cold water and sieve out the pulp.
+2. Heat the sugar with the remaining half cup of water until dissolved, then cool. Stir the syrup into the strained juice to taste.
+3. Refrigerate for at least 30 minutes and serve over ice.
+
+Source: https://www.allrecipes.com/recipe/233795/chef-johns-watermelon-agua-fresca/
+
+## Chilled strawberry pretzel layers
+
+ar-aa9182eb9568 | Cold / chilled
+
+- 2 cups crushed pretzels
+- ¾ cup butter, melted
+- 3 tablespoons white sugar
+- 1 (8 ounce) package cream cheese, softened
+- 1 cup white sugar
+- 1 (8 ounce) container frozen whipped topping, thawed
+- 2 (3 ounce) packages strawberry flavored Jell-O®
+- 2 cups boiling water
+- 2 (10 ounce) packages frozen strawberries
+
+1. Heat the oven to 200 C. Combine crushed pretzels, already melted butter and three tablespoons of sugar, press into a 9-by-13-inch dish and bake for 8–10 minutes. Cool the base.
+2. Beat cream cheese with the remaining sugar, fold in the topping and spread over the base.
+3. Dissolve the gelatin in boiling water and stir in strawberries suitable for this preparation. Once slightly thickened, spread over the cream layer and refrigerate for at least two hours until set.
+
+Source: https://www.allrecipes.com/recipe/20338/strawberry-pretzel-salad/
+
+## Blueberry pomegranate oat blend
+
+ar-0a72226e388d | Cold / chilled
+
+- 1 cup blueberries
+- ¾ cup pomegranate juice
+- ½ cup low-fat plain Greek-style yogurt
+- ½ cup skim milk
+- ½ cup rolled oats
+- ¼ cup granular sucralose sweetener (such as Splenda®)
+- 1 teaspoon ground cinnamon
+
+1. Measure the juice, yogurt, milk, oats, sweetener and cinnamon into a blender, then add the blueberries.
+2. Process until evenly blended, approximately two minutes.
+
+Source: https://www.allrecipes.com/recipe/235261/heart-healthy-blueberry-smoothie/
+
+## Pear pomegranate lettuce with warm dressing
+
+ar-42b88718fa9e | Room temperature
+
+- 3 cups green leaf lettuce, rinsed and torn
+- 1 Bartlett or Anjou pear
+- ⅓ cup pomegranate seeds
+- 1 tablespoon vegetable oil
+- 2 tablespoons pomegranate juice
+- 1 tablespoon lemon juice
+- 1 teaspoon prepared Dijon-style mustard
+- ½ tablespoon honey
+- ground black pepper to taste
+
+1. Divide the lettuce, sliced pear and pomegranate seeds between two bowls.
+2. Heat oil, pomegranate juice, lemon juice, mustard, honey and pepper to a boil, then simmer for about two minutes while stirring. Pour over the salad and serve.
+
+Source: https://www.allrecipes.com/recipe/213165/pear-and-pomegranate-salad/
+
+## Spinach rocket orange bowl
+
+ar-0105245496a5 | Room temperature
+
+- 10 ounces fresh baby spinach leaves
+- 10 ounces arugula leaves
+- ½ red onion, thinly sliced
+- 1 (10 ounce) can mandarin oranges, drained
+- 1 pomegranate, peeled and seeds separated
+
+1. Put the washed spinach and rocket into a mixing bowl.
+2. Fold in the sliced onion, drained mandarin oranges and pomegranate seeds.
+
+Source: https://www.allrecipes.com/recipe/214633/pretty-pomegranate-salad/
+
+## Strawberry peach mixed juice smoothie
+
+ar-178e6e3eb849 | Cold / chilled
+
+- 1 quart strawberries, hulled
+- 2 fresh peaches - peeled, pitted, and sliced
+- 1 banana, broken into chunks
+- 2 cups ice
+- 1 cup orange-peach-mango juice
+
+1. Blend the prepared strawberries, peaches and banana first.
+2. Add ice and the mixed fruit juice, then blend again to an even texture.
+
+Source: https://www.allrecipes.com/recipe/23553/basic-fruit-smoothie/
+
+## Watermelon rocket tomato feta bowl
+
+ar-569c3df78382 | Room temperature
+
+- 3 tablespoons olive oil
+- 2 teaspoons white balsamic vinegar
+- ½ teaspoon kosher salt
+- 8 ounces grape tomatoes, halved
+- 3 cups arugula
+- 1 cup sliced red onion
+- 2 pounds watermelon, cubed
+- 4 ounces feta cheese, cut into 1/4-inch cubes
+
+1. Whisk oil, vinegar and salt in a bowl, then turn the tomatoes, rocket and onion through it.
+2. Fold in the prepared watermelon and feta to serve.
+
+Source: https://www.allrecipes.com/recipe/215044/watermelon-feta-salad/
+
+## Mint lime chilled fruit bowl
+
+ar-eb8c1ffa65f6 | Cold / chilled
+
+- 1 cup cubed seeded watermelon
+- 1 cup seedless grapes
+- 1 cup cubed cantaloupe
+- 1 cup hulled and quartered strawberries
+- 1 cup peeled and quartered kiwi
+- 1 cup fresh blueberries
+- 3 sprigs fresh mint
+- 2 teaspoons white sugar
+- 3 tablespoons fresh lime juice
+
+1. Combine the prepared watermelon, grapes, cantaloupe, strawberries, kiwi and blueberries in a covered container.
+2. Crush the mint into the sugar and lime juice, pour over the fruit and refrigerate for at least one hour. Gently turn the container before serving.
+
+Source: https://www.allrecipes.com/recipe/215576/mojito-fruit-salad/
+
+## Avocado banana honey milk
+
+ar-3c73a91baaf9 | Room temperature
+
+- 1 cup milk
+- 1 ripe avocado, peeled and pitted
+- 1 banana, cut into chunks
+- 3 tablespoons honey
+
+1. Put the milk, avocado flesh, banana and honey into a blender.
+2. Process evenly and pour into glasses.
+
+Source: https://www.allrecipes.com/recipe/237804/simple-avocado-milkshake/
+
+## Watermelon spinach rocket feta bowl
+
+ar-f86031b20cae | Room temperature
+
+- 3 tablespoons extra-virgin olive oil
+- 2 teaspoons white balsamic vinegar
+- ½ teaspoon kosher salt
+- 2 cups arugula
+- 2 cups baby spinach leaves
+- 1 cup thinly sliced red onion
+- 1 cup grape tomatoes, halved
+- ½ cup crumbled feta cheese
+- 2 cups bite sized watermelon chunks
+
+1. Whisk oil, vinegar and salt to make a dressing.
+2. Mix the rocket, spinach, onion and tomatoes with the dressing, then add feta and watermelon.
+
+Source: https://www.allrecipes.com/recipe/218557/watermelon-and-feta-salad-with-arugula-and-spinach/
+
+## Mango watermelon drink over ice
+
+ar-c53526312687 | Cold / chilled
+
+- 5 cups cubed seeded watermelon
+- 1 mango - peeled, seeded, and diced
+- ½ cup water
+- 1 tablespoon white sugar
+- 4 cubes ice cubes
+
+1. Blend the prepared watermelon, mango, water and sugar.
+2. Put ice into serving glasses and pour the fruit mixture over it.
+
+Source: https://www.allrecipes.com/recipe/238068/mango-watermelon-smoothie/
+
+## Tomato pepper avocado salad
+
+ar-68d8d583dd5f | Room temperature
+
+- 4 large ripe tomatoes, cut into bite-size pieces
+- 1 bunch cilantro, stems cut off and leaves coarsely chopped
+- 1 large green bell pepper, cut into bite-size pieces
+- 1 large red bell pepper, cut into bite-size pieces
+- 2 jalapeno peppers, finely chopped
+- 3 green onions, chopped
+- ½ sweet red onion, chopped
+- 2 large avocados, pitted and cut into bite-sized pieces
+- 1 lime, juiced
+- ½ teaspoon salt, or to taste
+
+1. Combine the prepared tomatoes, coriander, bell peppers, jalapenos and onions in a bowl.
+2. Gently fold in avocado, lime juice and salt just before serving.
+
+Source: https://www.allrecipes.com/recipe/218645/salsa-salad/
+
+## Fig rocket pine nut bowl
+
+ar-8bc12144bd4b | Room temperature
+
+- 4 cups arugula
+- 8 fresh figs, quartered
+- ¼ cup grated Parmesan cheese
+- 2 tablespoons toasted pine nuts
+- 2 tablespoons honey
+- 2 tablespoons balsamic vinegar
+
+1. Combine rocket, prepared figs, Parmesan and already toasted pine nuts.
+2. Drizzle with honey and balsamic vinegar to serve.
+
+Source: https://www.allrecipes.com/recipe/220468/fig-and-arugula-salad/
+
+## Chilled watermelon herb feta bowl
+
+ar-eef80b688473 | Cold / chilled
+
+- ½ large chilled seedless watermelon, cut into 1-inch cubes
+- 1 small red onion, sliced
+- 1 cup thinly sliced fresh basil leaves
+- 1 cup chopped fresh cilantro
+- ½ cup minced fresh mint leaves
+- 2 limes, juiced
+- 1 (4 ounce) package crumbled feta cheese
+- 3 tablespoons olive oil
+- 2 tablespoons balsamic vinegar, or more to taste
+- salt and ground black pepper to taste
+
+1. Use the already chilled watermelon specified in the ingredients. Combine it with onion, basil, coriander and mint.
+2. Gently fold in lime juice, feta, oil and vinegar, then season with salt and pepper.
+
+Source: https://www.allrecipes.com/recipe/222512/herb-watermelon-feta-salad/
+
+## Mango banana peanut yogurt blend
+
+ar-063dace319f9 | Cold / chilled
+
+- 1 cup vanilla yogurt
+- 1 banana, broken into chunks
+- ½ cup frozen mango chunks
+- 2 tablespoons peanut butter, or to taste
+
+1. Put the yogurt, banana, prepared frozen mango and peanut butter in a blender.
+2. Blend evenly and pour into a glass.
+
+Source: https://www.allrecipes.com/recipe/238642/peanut-butter-mango-smoothie/
+
+## Pineapple mango papaya banana bowl
+
+ar-50cfe1fd85f1 | Room temperature
+
+- 1 pineapple - peeled, cored, and cut into 1/2-inch cubes
+- 2 mangos - peeled, pitted, and cut into small cubes
+- 2 papayas - halved lengthwise, seeded, peeled, and cut into 1/2-inch cubes
+- 3 bananas, sliced
+
+1. Peel, seed or core the fruits as appropriate and cut them into the listed pieces.
+2. Combine gently in a serving bowl.
+
+Source: https://www.allrecipes.com/recipe/222534/tropical-island-fruit-salad/
+
+## Mango almond whey yogurt blend
+
+ar-f5d11d59851f | Cold / chilled
+
+- ½ mango, chopped, or more to taste
+- ½ cup low-fat vanilla yogurt
+- ½ cup almond milk
+- ½ cup ice
+- 1 scoop vanilla whey protein powder
+- 1 teaspoon honey, or to taste (Optional)
+
+1. Add the mango, yogurt, almond milk, ice and whey powder to a blender.
+2. Add honey if wanted, then process evenly.
+
+Source: https://www.allrecipes.com/recipe/238647/lelas-protein-mango-smoothie/
+
+## Tomato watermelon mint bowl
+
+ar-92e519563857 | Room temperature
+
+- 1 large seedless watermelon, cut into 1-inch cubes
+- 4 tomatoes, cut into 1-inch dice
+- 1 cup crumbled feta cheese
+- 1 large sweet onion, thinly sliced
+- 12 mint leaves, sliced thinly
+- ¼ cup olive oil
+- 2 tablespoons white balsamic vinegar
+- 1 pinch coarse salt, or to taste
+- 1 pinch ground black pepper, or to taste
+
+1. Combine watermelon, tomatoes, feta, onion and mint in a large bowl.
+2. Whisk oil, vinegar, salt and pepper separately, then gently fold the dressing through the salad.
+
+Source: https://www.allrecipes.com/recipe/228277/tomato-watermelon-salad/
+
+## Mango banana oat yogurt blend
+
+ar-00ba071ca5c3 | Cold / chilled
+
+- ½ cup orange juice
+- ½ cup frozen mango chunks
+- ½ banana, cut into chunks
+- ⅓ cup plain yogurt
+- ¼ cup oats
+
+1. Put orange juice, prepared frozen mango, banana, yogurt and oats into a blender.
+2. Process evenly and pour into a glass.
+
+Source: https://www.allrecipes.com/recipe/241023/mango-oatmeal-breakfast-smoothie/
+
+## Chilled coconut orange pineapple dessert
+
+ar-e8b4e0563a84 | Cold / chilled
+
+- 1 cup mini marshmallows
+- 1 cup shredded coconut
+- 1 cup drained mandarin oranges
+- 1 cup drained pineapple chunks
+- 1 cup sour cream
+
+1. Combine the marshmallows, coconut, drained oranges and pineapple with sour cream.
+2. Cover and refrigerate for five to six hours before serving.
+
+Source: https://www.allrecipes.com/recipe/230038/5-cup-salad/
+
+## Banana avocado spinach ice blend
+
+ar-0313b46be932 | Cold / chilled
+
+- 1 banana, sliced
+- ½ avocado, peeled and sliced
+- ½ cup fresh spinach
+- ½ cup 1% milk
+- 6 ice cubes
+- 2 teaspoons honey
+- 1 teaspoon vanilla extract
+
+1. Put the prepared banana, avocado and washed spinach into a blender.
+2. Add milk, ice, honey and vanilla, then process evenly.
+
+Source: https://www.allrecipes.com/recipe/241365/banana-avocado-and-spinach-smoothie/
+
+## Strawberry kiwi grape slush
+
+ar-d0dddda60129 | Cold / chilled
+
+- 2 cups crushed ice
+- ¾ pint fresh strawberries, hulled
+- ¾ cup grape juice (such as Welch's®)
+- 1 large kiwi fruit, peeled
+- ¼ cup water
+- ¼ cup lemon juice
+
+1. Put the ice, prepared strawberries and kiwi into a blender with grape juice, water and lemon juice.
+2. Blend to a slushy consistency, approximately 25–35 seconds.
+
+Source: https://www.allrecipes.com/recipe/242220/strawberry-kiwi-slush/
+
+## Banana cocoa peanut milk blend
+
+ar-09f214ecdc83 | Cold / chilled
+
+- 2 very ripe bananas
+- 1 cup milk
+- 6 ice cubes
+- 1 ½ tablespoons unsweetened cocoa powder
+- 1 tablespoon peanut butter
+- 1 teaspoon vanilla extract
+
+1. Put the bananas, milk, ice, cocoa, peanut butter and vanilla in a blender.
+2. Process evenly and divide between two glasses.
+
+Source: https://www.allrecipes.com/recipe/245061/healthy-chocolate-smoothie/
+
+## Chilled citrus pineapple orzo dessert
+
+ar-fd05062b0588 | Cold / chilled
+
+- 1 (16 ounce) package Rosa Marina (orzo) pasta
+- 2 (15 ounce) cans mandarin oranges, drained and juice reserved
+- 1 (16 ounce) can pineapple chunks, drained with juice reserved
+- 1 (16 ounce) can crushed pineapple, drained and juice reserved
+- 1 (4 ounce) jar maraschino cherries, drained and halved
+- ¾ cup white sugar
+- 2 large eggs
+- 3 tablespoons all-purpose flour
+- 1 (16 ounce) container whipped topping (such as Cool Whip®)
+
+1. Cook orzo in boiling lightly salted water for about 11 minutes until al dente. Drain and combine with the drained fruit and cherries.
+2. Heat the reserved fruit juices, sugar, eggs and flour over low heat, stirring for 5–7 minutes until thick. Cool for about 30 minutes.
+3. Mix the cooled sauce through the pasta and fruit. Refrigerate for eight hours or overnight and fold in the topping before serving.
+
+Source: https://www.allrecipes.com/recipe/233943/rosa-marina-fruit-salad/
+
+## Chilled watermelon lime jug
+
+ar-a0572b47c934 | Cold / chilled
+
+- 8 cups water, divided
+- 5 cups peeled, cubed, and seeded watermelon
+- ½ cup white sugar, or more to taste
+- ⅓ cup lime juice, or more to taste
+
+1. Blend the watermelon and sugar with one cup of water.
+2. Transfer to a jug, add lime juice and the remaining seven cups of water. Adjust to taste and refrigerate for about one hour.
+
+Source: https://www.allrecipes.com/recipe/246117/watermelon-lime-agua-fresca/
+
+## Orange fig blue cheese leaf bowl
+
+ar-bc5723a3444b | Room temperature
+
+- 2 heads romaine lettuce, chopped
+- 2 oranges - peeled, pith removed, and cut into segments
+- ½ cup crumbled Gorgonzola cheese
+- 2 fresh figs, cut into 1-inch cubes
+- ¼ cup vinaigrette dressing, or to taste
+
+1. Combine the prepared lettuce, orange segments, Gorgonzola and figs.
+2. Add the vinaigrette and gently turn the salad together.
+
+Source: https://www.allrecipes.com/recipe/234219/orange-fig-and-gorgonzola-salad/
+
+## Mango pineapple berry yogurt blend
+
+ar-3360860f4a47 | Cold / chilled
+
+- 1 mango - peeled, seeded, and diced
+- 1 cup frozen strawberries
+- 1 cup low-fat vanilla yogurt
+- 6 ounces pineapple juice
+- ½ cup frozen blueberries
+
+1. Put the prepared mango and frozen berries into a blender with yogurt and pineapple juice.
+2. Blend evenly and divide into glasses.
+
+Source: https://www.allrecipes.com/recipe/270865/tropical-mango-pineapple-berry-smoothie/
+
+## Green mango lime peanut salad
+
+ar-db9ecda540cb | Room temperature
+
+- 2 firm green mangoes - peeled, pitted, and cut into matchsticks
+- ¼ purple onion, thinly sliced
+- ¼ red bell pepper, thinly sliced
+- 3 sprigs cilantro, or more to taste, leaves removed and stems discarded
+- 2 tablespoons lime juice
+- 2 tablespoons fish sauce
+- 1 tablespoon brown sugar
+- 1 tablespoon crushed peanuts
+
+1. Combine the prepared mango, onion, red pepper and coriander.
+2. Dissolve the sugar into the lime juice and fish sauce. Fold through the salad and scatter the peanuts over the top.
+
+Source: https://www.allrecipes.com/recipe/238047/easy-mango-salad/
+
+## Watermelon cucumber lime cooler
+
+ar-71297fabb49d | Cold / chilled
+
+- 4 cups cubed seeded watermelon
+- 2 ½ cups water, divided
+- 1 cup peeled, chopped cucumber
+- ¼ cup freshly squeezed lime juice
+- 1 tablespoon white sugar
+- 1 teaspoon chili-lime seasoning (such as Tajin®)
+- 1 wedge fresh lime
+- ice as needed
+- 4 slices watermelon
+- 4 slices lime
+
+1. Blend watermelon with one and a half cups of water, then add cucumber, lime juice and sugar. Sieve, pressing gently to extract the liquid.
+2. Stir in the remaining water and refrigerate for at least one hour.
+3. Moisten the glass rim with the lime wedge and dip in the seasoning. Add ice, pour in the drink and garnish with the listed watermelon and lime slices.
+
+Source: https://www.allrecipes.com/recipe/285328/watermelon-cucumber-agua-fresca/
+
+## Watermelon mint blue cheese bowl
+
+ar-bddf78aac3f9 | Room temperature
+
+- ½ cup light olive oil
+- ¼ cup white balsamic vinegar
+- salt and ground black pepper to taste
+- 5 pounds watermelon, cut into bite-size cubes
+- 1 small sweet onion (such as Vidalia®), thinly sliced
+- 2 tablespoons chopped fresh mint, or more to taste
+- 6 ounces crumbled blue cheese
+
+1. Whisk oil, vinegar, salt and pepper separately.
+2. Combine watermelon, onion and mint, then fold through the dressing and blue cheese.
+
+Source: https://www.allrecipes.com/recipe/238093/watermelon-and-blue-cheese-salad/
+
+## Peach mango soy juice blend
+
+ar-59539950f01c | Room temperature
+
+- 1 peach, sliced
+- 1 mango, peeled and diced
+- ½ cup vanilla soy milk
+- ½ cup orange juice, or as needed
+
+1. Put the prepared peach and mango in a blender.
+2. Add vanilla soy milk and orange juice, then process evenly.
+
+Source: https://www.allrecipes.com/recipe/66224/mango-peach-smoothie/
+
+## Watermelon avocado spinach bowl
+
+ar-71f39a802613 | Room temperature
+
+- 4 cups cubed watermelon
+- 4 cups fresh baby spinach, torn
+- 2 large avocados - peeled, pitted, and diced
+- ¼ cup walnut oil
+- ¼ cup olive oil
+- 1 lime, juiced
+- ½ teaspoon sweet paprika
+
+1. Combine the watermelon, spinach and avocado.
+2. Whisk walnut oil, olive oil, lime juice and paprika, then fold through the salad.
+
+Source: https://www.allrecipes.com/recipe/242175/avocado-watermelon-salad/
+
+## Papaya strawberry banana ice milk
+
+ar-d6a80f314112 | Cold / chilled
+
+- 1 papaya - peeled, seeded and diced
+- 1 banana, peeled and sliced
+- ½ cup sliced fresh strawberries
+- ⅓ cup milk
+- ¼ cup sugar
+- 15 ice cubes
+
+1. Put the prepared fruit into a blender with milk and sugar.
+2. Add ice, process evenly and pour into glasses.
+
+Source: https://www.allrecipes.com/recipe/72701/papaya-surprise-smoothie/
+
+## Strawberry lemon soda ice blend
+
+ar-c362694cf8e2 | Cold / chilled
+
+- 2 large strawberries, hulled
+- ¼ cup white sugar
+- ¾ cup chilled lemon-lime soda
+- 1 tablespoon lemon juice
+- 4 cubes ice
+
+1. Combine the strawberries, sugar, chilled soda and lemon juice in a blender.
+2. Add ice and process to an even slush.
+
+Source: https://www.allrecipes.com/recipe/107945/virgin-strawberry-daiquiri/
+
+## Chilled pineapple cabbage slaw
+
+ar-9c106af7e0b4 | Cold / chilled
+
+- 1 (8.5 ounce) package coleslaw mix
+- 1 (15 ounce) can crushed pineapple, drained
+- ½ cup finely chopped onion
+- ½ cup mayonnaise
+- ¼ cup apple cider vinegar
+- 2 tablespoons brown sugar
+- 1 teaspoon dried cilantro
+- ½ teaspoon salt
+- ¼ teaspoon ground black pepper
+
+1. Mix the ready-to-use coleslaw vegetables with drained pineapple and onion.
+2. Whisk mayonnaise, vinegar, sugar, coriander, salt and pepper, then fold through the vegetables and refrigerate.
+
+Source: https://www.allrecipes.com/recipe/244615/hawaiian-cole-slaw/
+
+## Nectarine buttermilk blend
+
+ar-8b6f7e38c251 | Room temperature
+
+- 2 nectarines, pitted and chopped
+- 2 tablespoons brown sugar
+- 1 cup buttermilk
+
+1. Put the prepared nectarines in a blender with brown sugar and buttermilk.
+2. Process evenly and serve.
+
+Source: https://www.allrecipes.com/recipe/142435/nectarine-blush/
+
+## Papaya mango citrus punch
+
+ar-9a0d7ae79f44 | Cold / chilled
+
+- 1 cup sliced mango
+- 1 cup diced, peeled papaya
+- 1 cup orange juice
+- ¼ cup lime juice
+- ¼ cup white sugar, or to taste
+- 1 teaspoon grated orange zest
+- 4 cups water
+- Ice, for serving
+
+1. Blend mango and papaya first.
+2. Add both juices, sugar, zest and water and blend again. Pour over crushed ice.
+
+Source: https://www.allrecipes.com/recipe/173746/pawpaw-papaya-and-mango-punch/
+
+## Chilled basil watermelon bowl
+
+ar-be139bf8618d | Cold / chilled
+
+- ¼ cup basil leaves
+- 4 cups 1/2-inch cubes watermelon
+- 2 teaspoons lemon juice
+- ¼ teaspoon kosher salt
+- ¼ teaspoon chili powder
+
+1. Finely slice the basil and combine it with the watermelon and lemon juice.
+2. Mix salt with chili powder, fold through the fruit and refrigerate for at least 30 minutes.
+
+Source: https://www.allrecipes.com/recipe/254422/watermelon-basil-salad/
+
+## Apricot pineapple lime punch
+
+ar-bb16abb3d19c | Cold / chilled
+
+- 1 (46 fluid ounce) can pineapple juice
+- 1 (46 fluid ounce) can apricot nectar
+- 1 (6 ounce) can frozen limeade concentrate
+- 2 liters lemon-lime flavored carbonated beverage
+
+1. Combine pineapple juice, apricot nectar and frozen limeade concentrate in a punch bowl.
+2. Gently stir in the lemon-lime soda just before serving.
+
+Source: https://www.allrecipes.com/recipe/20310/aileens-punch/
+
+## Cooled potato pomegranate slaw
+
+ar-0b4aaf8f0138 | Room temperature
+
+- 1 small potato, cut into cubes
+- ½ cup finely chopped cabbage
+- ¼ cup fresh pomegranate seeds
+- ½ carrot, cut into matchsticks
+- 1 tablespoon extra-virgin olive oil
+- 1 teaspoon lemon juice
+- 1 clove garlic, minced
+- ½ teaspoon salt
+- ¼ teaspoon brown sugar
+- ¼ teaspoon red pepper flakes
+
+1. Cover the potato cubes with salted water, bring to a boil, then simmer for 5–10 minutes until tender. Drain and cool for about ten minutes.
+2. Combine with cabbage, pomegranate and carrot. Mix the remaining dressing ingredients separately and fold through the salad.
+
+Source: https://www.allrecipes.com/recipe/254539/zesty-salad/
+
+## Watermelon cucumber lime juice
+
+ar-d8c9fc8ee94c | Room temperature
+
+- ½ (4 pound) watermelon, seeded and cubed
+- 4 cucumbers, trimmed and cut into chunks
+- 2 limes, juiced
+
+1. Feed the prepared watermelon and cucumber through a juicer following its instructions.
+2. Collect the juice in a jug and stir in lime juice.
+
+Source: https://www.allrecipes.com/recipe/215519/watermelon-and-cucumber-juice-with-a-spritz-of-lime/
+
+## Peach tomato mozzarella plate
+
+ar-22ed782b0d3d | Room temperature
+
+- 2 tablespoons extra-virgin olive oil
+- 1 tablespoon balsamic vinegar
+- 1 teaspoon flaked salt, divided
+- 2 large heirloom tomatoes, thinly sliced
+- 2 ripe peaches - halved, pitted, and sliced into half moons
+- 6 leaves fresh basil
+- 1 (8 ounce) ball fresh mozzarella, thinly sliced
+
+1. Whisk olive oil, vinegar and a pinch of the salt.
+2. Arrange tomato, peach, basil and mozzarella in alternating layers. Add the dressing and remaining salt.
+
+Source: https://www.allrecipes.com/recipe/258123/peach-and-tomato-caprese-salad/
+
+## Watermelon pineapple coconut milk drink
+
+ar-fc0485d84e82 | Cold / chilled
+
+- 1 seedless watermelon, halved and sliced
+- 3 cups water
+- 1 (15.25 ounce) can crushed pineapple
+- 1 (12 fluid ounce) can evaporated milk
+- ½ cup shredded coconut
+- 2 tablespoons white sugar, or to taste
+- ½ lime, juiced
+
+1. Use a fork to break the watermelon flesh into small pieces, leaving the rind behind.
+2. Stir in water, pineapple, evaporated milk and coconut, followed by sugar and lime juice.
+
+Source: https://www.allrecipes.com/recipe/222172/polynesian-watermelon-drink-otai/
+
+## Quinoa broccoli Brazil nut bowl
+
+ar-818e18072654 | Room temperature
+
+- 2 cups water
+- 1 cup quinoa
+- 1 cube vegetable bouillon
+- 2 cups broccoli florets
+- ½ cup finely diced red onion
+- ½ cup finely chopped Brazil nuts
+- 1 large pomegranate, seeded
+- 2 tablespoons olive oil, or to taste
+- 1 tablespoon balsamic vinegar, or to taste
+- 1 teaspoon honey, or to taste
+- salt and ground black pepper to taste
+
+1. Bring quinoa, water and bouillon to a boil. Cover and simmer for 25–30 minutes until the grains are expanded.
+2. In a separate pan, boil the broccoli for 5–10 minutes until tender. Drain and rinse both the broccoli and cooked quinoa with cold water.
+3. Combine with onion, Brazil nuts and pomegranate, then add oil, vinegar, honey, salt and pepper.
+
+Source: https://www.allrecipes.com/recipe/263464/quinoa-salad-with-broccoli-nuts-and-pomegranate/
+
+## Simple watermelon water blend
+
+ar-8c35abb15e50 | Room temperature
+
+- 2 cups diced seedless watermelon
+- 2 cups water
+- 1 tablespoon white sugar, or more to taste
+
+1. Put the prepared watermelon into a blender with water and sugar.
+2. Process evenly and pour into glasses.
+
+Source: https://www.allrecipes.com/recipe/228280/watermelon-juice/
+
+## Cantaloupe milk drink
+
+ar-3327b7b5e587 | Room temperature
+
+- ½ cantaloupe - peeled, seeded, and cubed
+- ¾ cup milk
+- 1 tablespoon white sugar
+
+1. Put the peeled, seeded melon in a blender with milk and sugar.
+2. Process evenly and divide between glasses.
+
+Source: https://www.allrecipes.com/recipe/234301/quick-cantaloupe-juice/
+
+## Halloumi mixed bean bowl
+
+ar-dcf6b008abfb | Room temperature
+
+- 7 ounces halloumi cheese, cut into 1-inch slabs
+- 2 tablespoons pomegranate vinegar
+- 1 tablespoon honey
+- 1 ½ teaspoons harissa, or more to taste
+- 3 tablespoons olive oil
+- 1 pinch freshly ground black pepper
+- 1 cup cooked or canned black beans, drained and rinsed
+- 1 cup cooked or canned kidney beans, drained and rinsed
+- 1 cup cooked or canned white beans, drained and rinsed
+- ⅓ cup chopped red onion
+- 2 tablespoons chopped fresh mint
+- 2 tablespoons chopped fresh cilantro
+
+1. Use drained, already cooked beans. Cook the halloumi slabs in a nonstick pan over medium-high heat, turning through the sides, for about five minutes total. Cool slightly and dice.
+2. Whisk vinegar, honey, harissa, oil and pepper. Combine the beans, onion and herbs with the cheese and dressing.
+3. Cover and let the mixture stand for at least 15 minutes before serving.
+
+Source: https://www.allrecipes.com/recipe/266602/halloumi-three-bean-salad-with-pomegranate-harissa-vinaigrette/
+
+## Papaya cinnamon ice milk
+
+ar-1dd89be1956c | Cold / chilled
+
+- 1 (12 fluid ounce) can evaporated milk
+- 1 cup chopped papaya
+- ¼ cup white sugar, or more to taste
+- 1 teaspoon vanilla extract
+- 1 pinch ground cinnamon
+- 1 tray ice cubes
+
+1. Blend the evaporated milk, papaya, sugar, vanilla and cinnamon.
+2. Add ice and process again to a slushy texture.
+
+Source: https://www.allrecipes.com/recipe/238624/fruit-batido/
+
+## Ready-cooked rice smoked salmon bowl
+
+ar-765482577942 | Room temperature
+
+- ¼ cup soy sauce
+- 3 green onions, thinly sliced
+- 1 tablespoon black sesame oil
+- 1 tablespoon rice vinegar
+- 1 teaspoon grated ginger
+- ½ teaspoon garlic, minced
+- 12 ounces smoked salmon, chopped
+- 2 cups cooked brown rice
+- ¼ cup diced mango
+- ¼ cup diced cucumber
+- ¼ cup diced avocado
+- ¼ cup sliced fresh strawberries
+- 1 teaspoon black sesame seeds, or to taste
+
+1. Mix soy sauce, green onions, sesame oil, vinegar, ginger and garlic. Add the ready-to-eat smoked salmon and refrigerate for 30–60 minutes.
+2. Divide already cooked brown rice into four bowls and top with the salmon, fruit and vegetables. Add sesame seeds to finish.
+
+Source: https://www.allrecipes.com/recipe/268086/smoked-salmon-poke-bowl/
+
+## Banana peanut cocoa protein blend
+
+ar-dfd97f2d5f85 | Cold / chilled
+
+- 6 ice cubes
+- 1 cup milk
+- 1 banana
+- 1 scoop chocolate-flavored protein powder
+- 2 tablespoons peanut butter
+- 1 tablespoon honey
+- 1 teaspoon unsweetened cocoa powder, or more to taste
+
+1. Put the milk, banana, protein powder, peanut butter, honey and cocoa into a blender.
+2. Add ice and process evenly.
+
+Source: https://www.allrecipes.com/recipe/244959/chocolate-banana-peanut-butter-protein-shake/
+
+## Pomegranate walnut blue cheese leaves
+
+ar-d72ea2dc9b92 | Room temperature
+
+- 3 cups leafy salad green mix
+- ½ cup pomegranate seeds
+- ⅓ cup crumbled blue cheese
+- ¼ cup crushed walnuts
+- ¼ cup cranberry vinaigrette
+
+1. Combine the salad leaves, pomegranate, blue cheese and walnuts.
+2. Fold in the cranberry vinaigrette just before serving.
+
+Source: https://www.allrecipes.com/recipe/268727/christmas-pomegranate-salad/
+
+## Hot lemon honey ginger infusion
+
+ar-db42b4c0fce8 | Hot
+
+- ¼ cup honey, or to taste
+- 1 lemon, juiced
+- 1 tablespoon finely grated ginger root
+- ¼ teaspoon ground cinnamon
+- 3 ½ cups boiling water
+
+1. Put the honey, lemon juice, ginger and cinnamon into a heatproof teapot or jug. Boil the measured water and pour it over them, stirring to dissolve the honey.
+2. Cover for five minutes to infuse, then strain if preferred and pour into mugs.
+
+Source: https://www.allrecipes.com/recipe/256236/warm-lemon-honey-and-ginger-soother/
+
+## Chilled freekeh tahini nut salad
+
+ar-7b38d0e0d6a5 | Cold / chilled
+
+- 1 cup freekeh
+- 2 cups chicken broth
+- 3 tablespoons apple cider vinegar
+- 1 tablespoon tahini
+- 1 teaspoon honey
+- 2 tablespoons olive oil
+- salt and ground black pepper to taste
+- ½ cup pomegranate seeds
+- ¼ cup red onion, minced
+- 2 tablespoons minced fresh mint
+- 2 tablespoons minced fresh parsley
+- ½ cup crushed pistachios
+
+1. Dry-toast the freekeh in a saucepan for about three minutes. Add broth, bring to a simmer, cover and cook for about 20 minutes until absorbed. Rest off the heat for five minutes, then transfer to a bowl to cool.
+2. Whisk vinegar, tahini and honey, then gradually add oil and season. Mix the cooked grain with pomegranate, onion and herbs and fold through the dressing.
+3. Refrigerate for 30 minutes and add pistachios just before serving.
+
+Source: https://www.allrecipes.com/recipe/270199/freekeh-salad-with-tahini-dressing/
+
+## Warm honey lemon mug
+
+ar-8a48978d592e | Hot
+
+- 1 cup water
+- 2 teaspoons honey
+- 1 teaspoon fresh lemon juice
+- 1 teaspoon white sugar, or to taste
+
+1. Put water and honey in a microwave-safe mug and heat for 90 seconds.
+2. Stir in the lemon juice and sugar until dissolved.
+
+Source: https://www.allrecipes.com/recipe/56445/honey-lemon-tea/
+
+## Chilled mango papaya lime bowl
+
+ar-8e45c2b340d7 | Cold / chilled
+
+- ¼ cup freshly squeezed lime juice
+- ¼ cup honey
+- 1 tablespoon finely grated lime zest
+- 1 tablespoon balsamic vinegar
+- 1 tablespoon brown sugar
+- 2 mangos, peeled and diced, or to taste
+- 1 large papaya, peeled and diced
+
+1. Whisk lime juice, honey, lime zest, vinegar and brown sugar.
+2. Fold the dressing through prepared mango and papaya. Cover and refrigerate for one hour.
+
+Source: https://www.allrecipes.com/recipe/270424/mango-papaya-fruit-salad/
