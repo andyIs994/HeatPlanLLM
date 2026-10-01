@@ -6,6 +6,20 @@ import {handleTurn,newConversation} from './chat-engine.mjs';
 import {validateState,createServer} from './server.mjs';
 const rows=JSON.parse(fs.readFileSync(new URL('../data/recipes.json',import.meta.url)));
 const catalog=JSON.parse(fs.readFileSync(new URL('../data/ingredient_catalog.json',import.meta.url)));
+
+test('oats and dairy allergy retain both constraints and explain label blockers',()=>{
+ for(const text of ['我有燕麦，对牛奶过敏','I have oats and I am allergic to milk']){
+  const r=handleTurn(text,newConversation(),rows);
+  assert.deepEqual(r.state.preferredIngredients,['oats']);
+  assert.deepEqual(r.state.allergens,['milk']);
+  assert.equal(r.selected,null);
+  assert.match(r.reply,/Strawberry soy oat smoothie/);
+  assert.match(r.reply,/not cleared for recommendation/);
+  assert.match(r.reply,/soy milk/);
+ }
+ const r=handleTurn('I have oats, allergic to milk and soy',newConversation(),rows);
+ assert.doesNotMatch(r.reply,/A relevant recipe is Strawberry/);
+});
 test('every displayed ingredient retrieves a standalone dish and index agrees with runtime',()=>{
  const options=ingredientOptions(rows);assert.equal(options.length,catalog.selectable_ingredients);
  for(const o of options){const r=recommend(rows,{preferredIngredients:[o.id]});assert.equal(r.status,'ok',o.id);assert.ok(recipeContains(r.selected.recipe,o.id));assert.deepEqual(o.recipe_ids,catalog.ingredients.find(x=>x.id===o.id).recipe_ids);}

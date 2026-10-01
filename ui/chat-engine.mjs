@@ -39,7 +39,8 @@ export function parseTurn(text,previous=newConversation(),records=[]){
   else if(/主菜|main dish/u.test(value))patch.dishType='main';
   else if(/酱汁|醬汁|\bsauce\b/u.test(value))patch.dishType='sauce';
   if(/类型不限|類型不限|不要限制类型|any dish type/u.test(value))patch.dishType=null;
-  for(const clause of value.split(/[，,;；。!?！？]/u)){
+  const clauses=value.replace(/\s+(?:and|but)\s+(?=(?:i\s+(?:am|'m)\s+)?(?:not\s+)?allergic\b)/gu,',');
+  for(const clause of clauses.split(/[，,;；。!?！？]/u)){
     const allergy=/过敏|過敏|allerg|di ung/u.test(clause);
     if(allergy){
       const isRemoval=/不过敏|不過敏|没有.*过敏|沒有.*過敏|去掉.*过敏限制|取消.*过敏限制|not allergic/u.test(clause);
@@ -129,6 +130,16 @@ export function handleTurn(text,previous,records,modelPatch=null){
   }
   const result=recommend(records,{...state,excludeIds:p.another?state.shownIds:[]});
   if(!result.selected){
+    // Explain viable label-check candidates without treating unknown labels as safe.
+    if(result.status==='no_match'&&state.allergens.length){
+      const blocked=new Set(result.excluded.filter(x=>x.reason==='compound_label_unverified').map(x=>x.recipe_id));
+      const preview=recommend(records.filter(r=>blocked.has(r.recipe_id)).map(r=>({...r,unresolved_compound_ingredients:[]})),{...state,excludeIds:p.another?state.shownIds:[]});
+      if(preview.selected){
+        const original=records.find(r=>r.recipe_id===preview.selected.recipe.recipe_id);
+        const reply='A relevant recipe is '+original.standard_recipe_label+'. Its listed ingredients are: '+original.ingredients.map(i=>i.text).join('; ')+'. No declared '+state.allergens.map(foodLabel).join(', ')+' conflict was found, but it is not cleared for recommendation. Check these package/preparation details first: '+original.unresolved_compound_ingredients.join('; ')+'. Check for your allergens and cross-contact warnings; follow any cooking instructions on frozen produce. The recipe remains unverified until these details are checked.';
+        return {...base,...result,reply,state,conditions,allergyNote};
+      }
+    }
     const reply=result.message||(p.another?"There are no more standard recipes matching these preferences. Try \"Make it room temperature\" or \"Any cuisine\"; I will keep your allergy restrictions.":"The collection has no standard recipe matching all these preferences. Change the temperature, cuisine or dish type here; I will keep your allergy restrictions.");
     return {...base,...result,reply,state,conditions,allergyNote};
   }
