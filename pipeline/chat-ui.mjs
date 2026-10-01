@@ -1,4 +1,4 @@
-import {handleTurn,newConversation} from './chat-engine.mjs';
+import {handleTurn,newConversation,usageHelp} from './chat-engine.mjs';
 import {heatExplanation,ingredientOptions} from './recommendation.mjs';
 function node(tag,text,cls){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;}
 export function mountChat(host,{records,endpoint='/api/chat'}){
@@ -7,22 +7,23 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
   host.replaceChildren();
   const top=node('div',undefined,'chat-top'),label=node('span',"Local chat preview",'mode');
   const reset=node('button',"New chat",'reset');reset.type='button';top.append(label,reset);
+  const helpButton=node('button','?','help-button');helpButton.type='button';helpButton.setAttribute('aria-label','How to use HeatPlan');helpButton.setAttribute('aria-expanded','false');helpButton.setAttribute('aria-controls','chat-help');top.append(helpButton);
   const messages=node('div',undefined,'messages');messages.setAttribute('role','log');messages.setAttribute('aria-live','polite');messages.setAttribute('aria-label',"Recipe conversation");
   const context=node('div',undefined,'context');context.setAttribute('aria-label',"Current preferences");
   const form=node('form',undefined,'composer');
-  const input=node('textarea');input.rows=2;input.maxLength=4000;input.placeholder="Tell me which ingredients you have, hot or cold, and any allergies";input.setAttribute('aria-label',"Message HeatPlan");input.setAttribute('aria-describedby','chat-help');input.id='chat-message';
+  const input=node('textarea');input.rows=2;input.maxLength=4000;input.placeholder="今天想吃点什么";input.setAttribute('aria-label',"Message HeatPlan");input.id='chat-message';
   const send=node('button',"Send",'send');send.type='submit';
-  const help=node('p',"Try: \"I have blueberries and yogurt, cold.\" Mention any allergies. Cuisine is optional. Ask for \"Another one\" to keep exploring.",'composer-help');help.id='chat-help';
+  const help=node('section',undefined,'help-panel');help.id='chat-help';help.hidden=true;help.setAttribute('aria-label','How to use HeatPlan');help.append(node('h2','How to use HeatPlan'),node('p',usageHelp()),node('p','You can also ask “How do I use this?” in the chat.'));
+  helpButton.addEventListener('click',()=>{help.hidden=!help.hidden;helpButton.setAttribute('aria-expanded',String(!help.hidden));});
+  help.addEventListener('keydown',event=>{if(event.key==='Escape'){help.hidden=true;helpButton.setAttribute('aria-expanded','false');helpButton.focus();}});
   form.append(input,send);
-  host.append(top,messages,context,form,help);
+  host.append(top,help,messages,context,form);
   const options=ingredientOptions(records),browse=node('details',undefined,'ingredient-browser');
   browse.append(node('summary',`Explore ${options.length} available ingredients`));
   const search=node('input');search.type='search';search.placeholder='Find an ingredient';search.setAttribute('aria-label','Search available ingredients');
   const list=node('div',undefined,'ingredient-options');
   const refresh=()=>{const filtered=options.filter(o=>o.label.includes(search.value.toLowerCase()));list.replaceChildren(...filtered.map(o=>{const b=node('button',`${o.label} (${o.recipe_ids.length})`);b.type='button';b.addEventListener('click',()=>{input.value='I have '+o.label;input.focus();});return b;}));if(!filtered.length)list.append(node('p','No ingredient matches this search. You can still describe your request in the chat.'));};
   search.addEventListener('input',refresh);browse.append(node('p','Each ingredient has a recipe in the collection. Additional restrictions may reduce the matches.'),search,list);host.append(browse);refresh();
-  const welcome=()=>{const row=node('section',undefined,'message assistant welcome');row.append(node('span','HeatPlan','speaker'),node('p',"What ingredients do you have? Tell me your serving-temperature preference and any allergies. Cuisine is optional."),node('p',"Keep chatting — I will remember your preferences during this conversation.",'muted'));messages.append(row);};
-  welcome();
   function renderResult(result){
     const row=node('section',undefined,'message assistant');row.dataset.status=result.status;
     row.append(node('span','HeatPlan','speaker'),node('p',result.reply,'reply'));
@@ -46,7 +47,7 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
       explain.append(node('p',"Allergy and ingredient restrictions are applied first, followed by cold, room-temperature and hot groups, then cooking heat."));
       card.append(explain);row.append(card);
     }
-    row.append(node('p',result.allergyNote,'allergy-followup'));
+    if(result.allergyNote)row.append(node('p',result.allergyNote,'allergy-followup'));
     messages.append(row);context.replaceChildren(...result.conditions.map(c=>node('span',c,'condition')));
     row.scrollIntoView({behavior:'smooth',block:'start'});
   }
@@ -75,7 +76,7 @@ export function mountChat(host,{records,endpoint='/api/chat'}){
   }
   form.addEventListener('submit',submit);
   input.addEventListener('keydown',event=>{if(event.key==='Enter'&&!event.shiftKey&&!event.isComposing){event.preventDefault();form.requestSubmit();}});
-  reset.addEventListener('click',()=>{if(busy)return;state=newConversation();messages.replaceChildren();context.replaceChildren();input.value='';welcome();input.focus();});
+  reset.addEventListener('click',()=>{if(busy)return;state=newConversation();messages.replaceChildren();context.replaceChildren();input.value='';input.focus();});
   // Only a same-origin server can offer model services; local-file preview stays entirely offline.
   if(/^https?:$/.test(location.protocol))fetch('/api/status',{signal:controller.signal}).then(r=>r.ok?r.json():null).then(status=>{
     if(!disposed&&status?.app==='heatplan-chat-en'){apiAvailable=true;label.textContent=status.nvidia_configured?"NVIDIA configured" : status.groq_configured?"Groq configured":"Local chat preview";}

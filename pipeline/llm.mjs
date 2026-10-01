@@ -17,11 +17,12 @@ const properties={
   cuisine:{type:['string','null'],enum:cuisine},temperature:{type:['string','null'],enum:['cold','room','hot',null]},
   dishType:{type:['string','null'],enum:['main','side','salad','dessert','beverage','sauce','base',null]},
   allergy_terms:{type:'array',items:{type:'string'}},exclude_terms:{type:'array',items:{type:'string'}},
-  prefer_terms:{type:'array',items:{type:'string'}},wants_another:{type:'boolean'}
+  prefer_terms:{type:'array',items:{type:'string'}},wants_another:{type:'boolean'},wants_help:{type:'boolean'}
 };
 export const intentSchema={type:'object',properties,required:Object.keys(properties),additionalProperties:false};
 export function validateIntent(value){
-  if(!value||typeof value!=='object'||Array.isArray(value)||Object.keys(value).sort().join()!==Object.keys(properties).sort().join())throw Error('Invalid model intent');
+  if(!value||typeof value!=='object'||Array.isArray(value)||Object.keys(value).some(k=>!Object.hasOwn(properties,k))||Object.keys(properties).filter(k=>k!=='wants_help').some(k=>!Object.hasOwn(value,k)))throw Error('Invalid model intent');
+  if(value.wants_help!==undefined&&typeof value.wants_help!=='boolean')throw Error('Invalid help intent');
   for(const key of ['cuisine','temperature','dishType'])if(!properties[key].enum.includes(value[key]))throw Error('Invalid intent enum');
   for(const key of ['allergy_terms','exclude_terms','prefer_terms'])if(!Array.isArray(value[key])||value[key].length>20||value[key].some(s=>typeof s!=='string'||s.length>100))throw Error('Invalid food terms');
   if(typeof value.wants_another!=='boolean')throw Error('Invalid intent action');
@@ -66,7 +67,7 @@ export async function extractIntent(message,state,options={},fetcher=fetch){
   ];
   // NVIDIA model endpoints differ in structured-output support. Request JSON in
   // the prompt and validate it locally; do not assume Groq's strict mode exists.
-  messages[0].content+=' Return one JSON object only, without Markdown. All keys are required. Schema: '+JSON.stringify(intentSchema);
+  messages[0].content+=' Set wants_help=true when the user asks how to use this recipe chat or what this feature can do; do not set it for cooking instructions. The application will return its maintained usage guide. Return one JSON object only, without Markdown. All keys are required. Schema: '+JSON.stringify(intentSchema);
   const body=options.provider==='nvidia'?{}:{response_format:{type:'json_schema',json_schema:{name:'recipe_intent',strict:true,schema:intentSchema}}};
   const content=await completion(messages,{...options,body},fetcher);
   return validateIntent(JSON.parse(content));

@@ -12,6 +12,17 @@ const answer=(content,finish_reason='stop')=>new Response(JSON.stringify({choice
 const getProvider=url=>url.includes('nvidia.com')?'nvidia':'groq';
 const getStage=options=>JSON.parse(options.body).messages[0].content.startsWith('Extract')?'intent':'reply';
 const success=async(url,options)=>answer(getStage(options)==='intent'?good:'Here is a standard recipe matching your preferences.');
+test('help preserves constraints and ignores incidental model recipe preferences',()=>{
+ const state={...newConversation(),allergens:['milk'],preferredIngredients:['oats'],turn:3};
+ for(const text of ['我该怎么使用这个功能？','How do I use this?']){
+  const r=handleTurn(text,state,rows);assert.equal(r.status,'help');assert.deepEqual(r.state,state);assert.equal(r.selected,null);
+ }
+ const r=handleTurn('Could you walk me through getting started?',state,rows,{...good,wants_help:true});
+ assert.equal(r.status,'help');assert.deepEqual(r.state,state);assert.match(r.reply,/reviewed recipes/);
+});
+test('model help intent returns maintained guide without a generated recipe reply',()=>withServer({fetcher:async(url,o)=>{
+ assert.equal(getStage(o),'intent');return answer({...good,wants_help:true});
+}},async({send})=>{const r=await send('Could you walk me through getting started?');assert.equal(r.status,'help');assert.equal(r.llm.intent_provider,'nvidia');assert.equal(r.llm.attempts.length,1);assert.match(r.reply,/reviewed recipes/);}));
 async function withServer(options,fn){
   const server=createServer({records:rows,nvidiaKey:'test-nvidia',groqKey:'test-groq',timeoutMs:100,budgetMs:1000,...options});
   await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));

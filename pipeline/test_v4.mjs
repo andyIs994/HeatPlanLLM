@@ -95,7 +95,7 @@ await test('fish sauce source wording is still unchanged',()=>{
   for(const section of ['ingredients','steps'])assert.deepEqual(get('wb-014')[section].map(x=>x.text),original[section].map(x=>x.text));
 });
 await test('chat preview has a single composer and no select elements',()=>{
-  const html=fs.readFileSync(path.join(pkg,'ui/preview.html'),'utf8');assert.doesNotMatch(html,/<select\b/);assert.ok(html.includes('Tell me which ingredients you have, hot or cold, and any allergies'));assert.ok(html.includes("node('textarea')"));assert.ok(!/__RULES__|__ENGINE__|__UI__|__RECIPES__/.test(html));
+  const html=fs.readFileSync(path.join(pkg,'ui/preview.html'),'utf8');assert.doesNotMatch(html,/<select\b/);assert.ok(html.includes('今天想吃点什么'));assert.ok(html.includes("node('textarea')"));assert.ok(!/__RULES__|__ENGINE__|__UI__|__RECIPES__/.test(html));
 });
 const goodIntent={cuisine:'chinese',temperature:'cold',dishType:null,allergy_terms:['mango'],exclude_terms:[],prefer_terms:[],wants_another:false};
 await test('malformed Groq structured intents rejected',()=>{assert.throws(()=>validateIntent({...goodIntent,cuisine:'random'}));assert.throws(()=>validateIntent({...goodIntent,allergy_terms:'mango'}));assert.throws(()=>validateIntent({...goodIntent,unsafe_extra:true}));});

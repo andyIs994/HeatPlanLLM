@@ -1,5 +1,11 @@
 import {recommend,norm,CUISINES,FOOD_TERMS,extractTerms,contains,foodLabel,RETIRED,cookingHeat,heatExplanation} from './recommendation.mjs';
 export const newConversation=()=>({cuisine:null,temperature:null,dishType:null,allergens:[],excludedIngredients:[],preferredIngredients:[],unrecognizedAllergens:[],shownIds:[],recipeId:null,lastRecipeId:null,avoidHot:false,noActiveHeat:false,turn:0});
+export function usageHelp(chinese=false){
+  return chinese
+    ? '告诉我你有什么食材、想吃冷食还是热食，以及过敏或不吃的食材。例如：“我有燕麦，对牛奶过敏，想要不开火的食物。” 我会从已审核菜谱中筛选，默认优先冷食，并考虑制作时的用火量。你可以继续说“换一道”或修改偏好；点击 New chat 开始新对话。包装成分不确定时会提示核对，不会保证菜谱无过敏风险。目前提供常规菜谱，尚不支持自由改写配方。'
+    : 'Tell me which ingredients you have, whether you want cold or hot food, and any allergies or ingredients to avoid. Try: “I have oats, I am allergic to milk, and I want no cooking.” I search reviewed recipes, favour cold food by default, and consider cooking heat. Say “Another one” or change your preferences to continue. Use New chat to start over. Unverified package ingredients need checking; a match is not a guarantee of allergy safety. This version provides standard recipes, not free-form recipe adaptations.';
+}
+export function isHelpRequest(text){return /怎么用|如何使用|怎么使用|使用方法|使用说明|how (?:do i|can i|to) use|how does (?:this|it) work|what can (?:you|this) do|^(?:help|帮助)[?？!！\s]*$/iu.test(text);}
 const uniq=a=>[...new Set(a)];
 const TEMP={cold:"Cold / chilled",room:"Room temperature",hot:"Hot"};
 const CUISINE_LABEL={vietnamese:"Vietnamese",italian:"Italian",english:"English",indian:"Indian",chinese:"Chinese",malaysian:"Malaysian",greek:"Greek",international:"International"};
@@ -90,6 +96,7 @@ export function conditionLabels(state){
 export function handleTurn(text,previous,records,modelPatch=null){
   if(typeof text!=='string'||!text.trim()||text.length>4000)throw Error("Please send a message between 1 and 4,000 characters.");
   let state=structuredClone(previous||newConversation());
+  if(isHelpRequest(text)||modelPatch?.wants_help===true)return {state,status:'help',reply:usageHelp(/[\u3400-\u9fff]/u.test(text)),selected:null,conditions:conditionLabels(state),allergyNote:'',candidates:[],excluded:[]};
   const p=parseTurn(text,state,records);
   if(p.reset)return {state:newConversation(),status:'reset',reply:"A new chat has started. Tell me what you would like to eat, your serving-temperature preference and any allergies.",selected:null,conditions:[],allergyNote:"Please mention any allergies in the chat."};
   // Model fills interpreted preferences; local explicit preferences win. Allergy terms only accumulate.
