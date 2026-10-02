@@ -13,8 +13,8 @@ export const FOOD_TERMS={
   milk:['奶','牛奶','乳制品','milk','dairy','latte','sữa'],egg:['蛋','鸡蛋','egg','eggs','yolk','uova','trứng'],
   wheat:['小麦','麵粉','面粉','wheat','grano','semolina'],soy:['大豆','黄豆','豆腐','soy','soya','tofu','soia'],
   sesame:['芝麻','sesame','sesamo'],fish:['鱼','魚','fish','pesce','anchovy','salmon','catfish'],
-  crustacean:['虾蟹','虾','蝦','蟹','虾米','shrimp','shrimps','prawn','prawns','crab','gamberi','crustaceans'],
-  mollusc:['软体贝类','贝类','貝類','鱿鱼','squid','clam','mussel','mollusc','mollusk','molluscs'],
+  crustacean:['虾蟹','虾','蝦','蟹','虾米','shrimp','shrimps','prawn','prawns','crab','crabs','gamberi','crustacean','crustaceans','lobster','lobsters','crayfish','crawfish','龙虾','龍蝦','甲壳类','甲殼類','crustacean shellfish','crustaceans shellfish'],
+  mollusc:['软体贝类','軟體貝類','贝类','貝類','鱿鱼','魷魚','squid','clam','clams','mussel','mussels','mollusc','mollusk','molluscs','mollusks','oyster','oysters','scallop','scallops','octopus','abalone','牡蛎','牡蠣','生蚝','生蠔','扇贝','扇貝','mollusc shellfish','mollusk shellfish','molluscan shellfish'],
   almond:['杏仁','almond','almonds','mandorle'],cashew:['腰果','cashew','cashews'],
   walnut:['核桃','walnut','walnuts'],pine_nut:['松子','pine nut','pine nuts','pinoli'],
   hazelnut:['榛子','hazelnut','hazelnuts'],pistachio:['开心果','開心果','pistachio','pistachios'],
@@ -79,8 +79,13 @@ export const FOOD_TERMS={
   smoked_salmon:['烟熏三文鱼','煙燻鮭魚','smoked salmon'],
   condensed_milk:['炼乳','煉乳','condensed milk'],evaporated_milk:['淡奶','evaporated milk'],
   tahini:['芝麻酱','芝麻醬','tahini'],cornstarch:['玉米淀粉','玉米澱粉','cornstarch'],
-  corn_chips:['玉米片','corn chips'],pickles:['腌黄瓜','醃黃瓜','pickles']
+  corn_chips:['玉米片','corn chips'],pickles:['腌黄瓜','醃黃瓜','pickles'],
+  shellfish:['shellfish','shell fish','shell-fish'],
+  seafood:['seafood','sea food','海鲜','海鮮']
 };
+// Category membership is separate from synonyms: a group matches ANY member.
+// https://foodallergycanada.org/allergies/crustaceans-and-molluscs/
+export const FOOD_GROUPS={shellfish:['crustacean','mollusc'],seafood:['fish','crustacean','mollusc']};
 export function contains(text,word){
   text=norm(text);word=norm(word);
   return /[\u3400-\u9fff]/u.test(word)?text.includes(word):new RegExp('(^|[^a-z])'+word+'($|[^a-z])','u').test(text);
@@ -89,7 +94,7 @@ export const foodLabel=id=>({mung_bean:'mung beans',lotus_seed:'lotus seeds',lil
 export const extractTerms=text=>{
   // Plant milks must not accidentally introduce the dairy constraint.
   const withoutPlantMilk=norm(text).replace(/coconut milk|almond ?milk|soy milk|soya milk|椰奶|椰浆|椰漿|杏仁奶|豆奶|豆浆|豆漿/gu,'');
-  const scoped={milk:withoutPlantMilk,grape:norm(text).replace(/grape tomatoes/gu,''),cherry:norm(text).replace(/cherry tomatoes/gu,''),cream:norm(text).replace(/cream of tartar|cream of coconut/gu,'')};
+  const scoped={fish:norm(text).replace(/\bshell[ -]fish\b/gu,''),shellfish:norm(text).replace(/\b(?:crustaceans?|molluscs?|mollusks?|molluscan) shellfish\b/gu,''),milk:withoutPlantMilk,grape:norm(text).replace(/grape tomatoes/gu,''),cherry:norm(text).replace(/cherry tomatoes/gu,''),cream:norm(text).replace(/cream of tartar|cream of coconut/gu,'')};
   return Object.entries(FOOD_TERMS).filter(([id,a])=>a.some(w=>contains(scoped[id]??text,w))).map(([id])=>id);
 };
 export function heatLevel(methods){return [...new Set(methods)].reduce((n,m)=>{if(!(m in HEAT_WEIGHTS))throw Error('Unknown heat method');return n+HEAT_WEIGHTS[m];},0);}
@@ -143,6 +148,7 @@ export function heatExplanation(h){
 }
 const STANDARD=Object.keys(FOOD_TERMS).slice(0,Object.keys(FOOD_TERMS).indexOf('mango'));
 export function recipeContains(recipe,id){
+  if(FOOD_GROUPS[id])return FOOD_GROUPS[id].some(member=>recipeContains(recipe,member));
   if(recipe.allergen_ids.includes(id))return true;
   if(recipe.ingredient_ids)return recipe.ingredient_ids.includes(id);
   // Preserve annotations that distinguish coconut milk from dairy, for example.
@@ -152,7 +158,7 @@ export function recipeContains(recipe,id){
 }
 /** Only expose ingredients that can actually retrieve a standalone active dish. */
 export function ingredientOptions(records){
-  return Object.keys(FOOD_TERMS).map(id=>({id,label:foodLabel(id),recipe_ids:records.filter(r=>r.eligible_for_product_prototype&&r.standalone_dish&&!RETIRED.includes(r.recipe_id)&&recipeContains(r,id)).map(r=>r.recipe_id)})).filter(x=>x.recipe_ids.length).sort((a,b)=>a.label.localeCompare(b.label));
+  return Object.keys(FOOD_TERMS).filter(id=>!FOOD_GROUPS[id]).map(id=>({id,label:foodLabel(id),recipe_ids:records.filter(r=>r.eligible_for_product_prototype&&r.standalone_dish&&!RETIRED.includes(r.recipe_id)&&recipeContains(r,id)).map(r=>r.recipe_id)})).filter(x=>x.recipe_ids.length).sort((a,b)=>a.label.localeCompare(b.label));
 }
 export function recommend(records,request={}){
   const out={selected:null,candidates:[],excluded:[],status:'no_match'};
